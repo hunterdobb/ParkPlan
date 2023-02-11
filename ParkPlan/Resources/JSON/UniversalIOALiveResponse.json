@@ -1,0 +1,330 @@
+{
+    "id": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+    "name": "Universal's Islands of Adventure",
+    "entityType": "PARK",
+    "timezone": "America/New_York",
+    "liveData": [
+        {
+            "id": "578bbd12-1975-4ec3-9879-ea641c780342",
+            "name": "Hagrid's Magical Creatures Motorbike Adventure™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "17097",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 70
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T16:18:42Z"
+        },
+        {
+            "id": "2365495a-790b-4a41-831e-65592c8a4359",
+            "name": "The Cat in The Hat™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10833",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "DOWN",
+            "lastUpdated": "2023-01-30T14:07:25Z"
+        },
+        {
+            "id": "391dea99-303d-42a1-aa86-a846d1c1fa1f",
+            "name": "If I Ran The Zoo™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18163",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T02:05:13Z"
+        },
+        {
+            "id": "8babd50d-c570-423b-bd53-d040cad3e087",
+            "name": "Me Ship, The Olive®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18218",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T02:05:13Z"
+        },
+        {
+            "id": "f6dba1c6-6f5a-4743-8470-f741ecac555d",
+            "name": "Camp Jurassic™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18162",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T02:05:13Z"
+        },
+        {
+            "id": "d1a30d3d-35ee-40fb-8a32-7e7ede23fa3d",
+            "name": "Poseidon's Fury™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18492",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 25
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T15:23:44Z"
+        },
+        {
+            "id": "b694d5a5-155e-4796-af7e-5dbdcf3deba4",
+            "name": "Storm Force Accelatron®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18196",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T16:00:44Z"
+        },
+        {
+            "id": "6af80308-647d-4d8b-bcf6-37517a93bdbc",
+            "name": "Harry Potter and the Forbidden Journey™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10840",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 15
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T12:59:36Z"
+        },
+        {
+            "id": "fa743143-281b-4b5b-b87b-d49fcb006772",
+            "name": "The Incredible Hulk Coaster®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10862",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 25
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T15:23:44Z"
+        },
+        {
+            "id": "370ba4d1-f199-4dc2-be6d-6bb09b442891",
+            "name": "Skull Island: Reign of Kong™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "13799",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "DOWN",
+            "lastUpdated": "2023-01-30T16:06:53Z"
+        },
+        {
+            "id": "db5b2165-15c2-4e51-8bd1-611e9c351866",
+            "name": "Jurassic Park River Adventure™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10842",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "CLOSED",
+            "lastUpdated": "2023-01-26T11:25:47Z"
+        },
+        {
+            "id": "3daca54f-50f0-44e9-a993-d706ce7520a0",
+            "name": "Pteranodon Flyers™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10857",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 45
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T15:30:16Z"
+        },
+        {
+            "id": "61079a31-4165-4fb0-b36f-c01c5971f80a",
+            "name": "Jurassic World VelociCoaster",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18154",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 45
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T16:06:54Z"
+        },
+        {
+            "id": "b73e3256-9ee0-439e-9a3b-ffed287e10bb",
+            "name": "The High in the Sky Seuss Trolley Train Ride!™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10859",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 20
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T16:00:44Z"
+        },
+        {
+            "id": "3cb52134-e9d6-4212-83c8-3ce1321dcb05",
+            "name": "Caro-Seuss-el™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10832",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T13:42:51Z"
+        },
+        {
+            "id": "23b613e0-ae83-455b-9163-231bdbd5c427",
+            "name": "Flight of the Hippogriff™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10839",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 60
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T15:42:35Z"
+        },
+        {
+            "id": "b1e94e05-b360-4e3f-be8a-2a3744a97f97",
+            "name": "One Fish, Two Fish, Red Fish, Blue Fish™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10855",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T13:48:55Z"
+        },
+        {
+            "id": "905d7888-b866-4e74-90d1-07fc6ef6706f",
+            "name": "Dudley Do-Right's Ripsaw Falls®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10837",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T14:07:25Z"
+        },
+        {
+            "id": "6be23178-7d00-4884-9e88-76787da1df86",
+            "name": "The Amazing Adventures of Spider-Man®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10831",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 25
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T16:13:03Z"
+        },
+        {
+            "id": "b4445a1c-4d5c-4fca-a04a-f8867f1b6619",
+            "name": "Popeye & Bluto's Bilge-Rat Barges®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10856",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T15:01:52Z"
+        },
+        {
+            "id": "22dcd29e-d76a-45cd-b44a-dd6350dc3f8a",
+            "name": "Jurassic Park Discovery Center™",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "18219",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T02:52:59Z"
+        },
+        {
+            "id": "144450b9-4574-46be-abdf-4b1ca8974d9d",
+            "name": "Hogwarts™ Express - Hogsmeade™ Station",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "13225",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": null
+                }
+            },
+            "status": "DOWN",
+            "lastUpdated": "2023-01-30T14:01:09Z"
+        },
+        {
+            "id": "2f95b213-daaa-4370-8349-c2cd57be470e",
+            "name": "Doctor Doom's Fearfall®",
+            "entityType": "ATTRACTION",
+            "parkId": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+            "externalId": "10835",
+            "queue": {
+                "STANDBY": {
+                    "waitTime": 5
+                }
+            },
+            "status": "OPERATING",
+            "lastUpdated": "2023-01-30T13:55:00Z"
+        }
+    ]
+}

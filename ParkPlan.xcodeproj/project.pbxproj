@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B554481229969AFA003966F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554481129969AFA003966F3 /* ContentView.swift */; };
+		B554481429969AFB003966F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481329969AFB003966F3 /* Assets.xcassets */; };
+		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
+		B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
+		B595C040299034FC00F80A68 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03F299034FC00F80A68 /* TestView.swift */; };
+		B595C04329903CC900F80A68 /* ParkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDataView.swift */; };
+		B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */; };
+		B595C0472991449C00F80A68 /* ParkDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDataRow.swift */; };
+		B595C0582995358E00F80A68 /* POICardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0572995358E00F80A68 /* POICardView2.swift */; };
+		B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05A2995526A00F80A68 /* ParkOverviewView.swift */; };
+		B595C05D299552AE00F80A68 /* POICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05C299552AE00F80A68 /* POICardView.swift */; };
+		B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05F2995562800F80A68 /* LiveDataTagView.swift */; };
+		B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C06129955E2400F80A68 /* POIScrollView.swift */; };
+		B5B92C582997271D009582BA /* ParkPlanWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */; };
+		B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
+		B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */; };
+		B5B92C5D299729D1009582BA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
+		B5B92C5E299729D3009582BA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
+		B5B92C5F299729D7009582BA /* EntityScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2942986AD47003AE5F1 /* EntityScheduleResponse.swift */; };
+		B5B92C60299729E1009582BA /* ParksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksListView.swift */; };
+		B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
+		B5B92C6229972AED009582BA /* ParkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDataView.swift */; };
+		B5B92C6329972B06009582BA /* ParkDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */; };
+		B5B92C6429972B09009582BA /* ParkDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDataRow.swift */; };
+		B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */; };
+		B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27A2985B265003AE5F1 /* Assets.xcassets */; };
+		B5EFF27F2985B265003AE5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27E2985B265003AE5F1 /* Preview Assets.xcassets */; };
+		B5EFF2882985B32F003AE5F1 /* DestinationsStaticData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF2872985B32F003AE5F1 /* DestinationsStaticData.json */; };
+		B5EFF28A2985B4D2003AE5F1 /* SingleDestinationData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF2892985B4D2003AE5F1 /* SingleDestinationData.json */; };
+		B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
+		B5EFF2952986AD47003AE5F1 /* EntityScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2942986AD47003AE5F1 /* EntityScheduleResponse.swift */; };
+		B5EFF29829872413003AE5F1 /* UniversalIOAChildrenResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */; };
+		B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
+		B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
+		B5F24E15298807AC003FE227 /* ParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E14298807AC003FE227 /* ParkView.swift */; };
+		B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */; };
+		B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */; };
+		B5F24E1E29886CBE003FE227 /* RidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */; };
+		B5F24E20298A9EAB003FE227 /* RideWaitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */; };
+		B5F24E22298AA0A9003FE227 /* ParksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksListView.swift */; };
+		B5F24E24298AA9D9003FE227 /* MagicKingLiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */; };
+		B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E25298AB4EF003FE227 /* MapTestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B554481829969AFB003966F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EFF26B2985B263003AE5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B554480C29969AFA003966F3;
+			remoteInfo = "ParkPlanWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B554481B29969AFB003966F3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParkPlanWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B554481129969AFA003966F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B554481329969AFB003966F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B554481629969AFB003966F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B595C03D298FEFDF00F80A68 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B595C03F299034FC00F80A68 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		B595C04229903CC900F80A68 /* ParkDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataView.swift; sourceTree = "<group>"; };
+		B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataViewModel.swift; sourceTree = "<group>"; };
+		B595C0462991449C00F80A68 /* ParkDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataRow.swift; sourceTree = "<group>"; };
+		B595C0572995358E00F80A68 /* POICardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView2.swift; sourceTree = "<group>"; };
+		B595C05A2995526A00F80A68 /* ParkOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewView.swift; sourceTree = "<group>"; };
+		B595C05C299552AE00F80A68 /* POICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView.swift; sourceTree = "<group>"; };
+		B595C05F2995562800F80A68 /* LiveDataTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTagView.swift; sourceTree = "<group>"; };
+		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
+		B5B92C5529972627009582BA /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
+		B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanWatchApp.swift; sourceTree = "<group>"; };
+		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanApp.swift; sourceTree = "<group>"; };
+		B5EFF27A2985B265003AE5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EFF27C2985B265003AE5F1 /* ParkPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParkPlan.entitlements; sourceTree = "<group>"; };
+		B5EFF27E2985B265003AE5F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5EFF2872985B32F003AE5F1 /* DestinationsStaticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DestinationsStaticData.json; sourceTree = "<group>"; };
+		B5EFF2892985B4D2003AE5F1 /* SingleDestinationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleDestinationData.json; sourceTree = "<group>"; };
+		B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
+		B5EFF2942986AD47003AE5F1 /* EntityScheduleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityScheduleResponse.swift; sourceTree = "<group>"; };
+		B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOAChildrenResponse.json; sourceTree = "<group>"; };
+		B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
+		B5F24E14298807AC003FE227 /* ParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkView.swift; sourceTree = "<group>"; };
+		B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOALiveResponse.json; sourceTree = "<group>"; };
+		B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsViewModel.swift; sourceTree = "<group>"; };
+		B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesViewModel.swift; sourceTree = "<group>"; };
+		B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWaitRow.swift; sourceTree = "<group>"; };
+		B5F24E21298AA0A9003FE227 /* ParksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksListView.swift; sourceTree = "<group>"; };
+		B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MagicKingLiveResponse.json; sourceTree = "<group>"; };
+		B5F24E25298AB4EF003FE227 /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B554480A29969AFA003966F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EFF2702985B263003AE5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B554480E29969AFA003966F3 /* ParkPlanWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */,
+				B5B92C5529972627009582BA /* DestinationsView.swift */,
+				B554481129969AFA003966F3 /* ContentView.swift */,
+				B554481329969AFB003966F3 /* Assets.xcassets */,
+				B554481529969AFB003966F3 /* Preview Content */,
+			);
+			path = "ParkPlanWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B554481529969AFB003966F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B554481629969AFB003966F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B595C04129903C9700F80A68 /* ParkData */ = {
+			isa = PBXGroup;
+			children = (
+				B595C04229903CC900F80A68 /* ParkDataView.swift */,
+				B595C0462991449C00F80A68 /* ParkDataRow.swift */,
+				B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */,
+				B595C0572995358E00F80A68 /* POICardView2.swift */,
+			);
+			path = ParkData;
+			sourceTree = "<group>";
+		};
+		B595C0592995524300F80A68 /* ParkOverview */ = {
+			isa = PBXGroup;
+			children = (
+				B595C05A2995526A00F80A68 /* ParkOverviewView.swift */,
+				B595C06129955E2400F80A68 /* POIScrollView.swift */,
+				B595C05C299552AE00F80A68 /* POICardView.swift */,
+			);
+			path = ParkOverview;
+			sourceTree = "<group>";
+		};
+		B595C05E2995560300F80A68 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B595C05F2995562800F80A68 /* LiveDataTagView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5EFF26A2985B263003AE5F1 = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2752985B263003AE5F1 /* ParkPlan */,
+				B554480E29969AFA003966F3 /* ParkPlanWatch Watch App */,
+				B5EFF2742985B263003AE5F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EFF2742985B263003AE5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2732985B263003AE5F1 /* ParkPlan.app */,
+				B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EFF2752985B263003AE5F1 /* ParkPlan */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */,
+				B595C03F299034FC00F80A68 /* TestView.swift */,
+				B5F24E18298832C6003FE227 /* Features */,
+				B5EFF28F2985B862003AE5F1 /* Base */,
+				B5EFF2852985B278003AE5F1 /* Resources */,
+				B5EFF27A2985B265003AE5F1 /* Assets.xcassets */,
+				B5EFF27C2985B265003AE5F1 /* ParkPlan.entitlements */,
+				B5EFF27D2985B265003AE5F1 /* Preview Content */,
+			);
+			path = ParkPlan;
+			sourceTree = "<group>";
+		};
+		B5EFF27D2985B265003AE5F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF27E2985B265003AE5F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5EFF2852985B278003AE5F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2862985B297003AE5F1 /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5EFF2862985B297003AE5F1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2872985B32F003AE5F1 /* DestinationsStaticData.json */,
+				B5EFF2892985B4D2003AE5F1 /* SingleDestinationData.json */,
+				B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */,
+				B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */,
+				B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B5EFF28F2985B862003AE5F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B595C05E2995560300F80A68 /* Components */,
+				B5EFF299298753C1003AE5F1 /* API */,
+				B5EFF2912986A83F003AE5F1 /* Mapper */,
+				B5EFF2902985B872003AE5F1 /* Models */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B5EFF2902985B872003AE5F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2962986B516003AE5F1 /* Responses */,
+				B5EFF2942986AD47003AE5F1 /* EntityScheduleResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5EFF2912986A83F003AE5F1 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		B5EFF2962986B516003AE5F1 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		B5EFF299298753C1003AE5F1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */,
+				B595C03D298FEFDF00F80A68 /* Endpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B5F24E18298832C6003FE227 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B5F24E25298AB4EF003FE227 /* MapTestView.swift */,
+				B595C0592995524300F80A68 /* ParkOverview */,
+				B595C04129903C9700F80A68 /* ParkData */,
+				B5F24E19298832DC003FE227 /* Destinations */,
+				B5F24E1A29883300003FE227 /* Rides */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B5F24E19298832DC003FE227 /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */,
+				B5F24E21298AA0A9003FE227 /* ParksListView.swift */,
+				B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */,
+			);
+			path = Destinations;
+			sourceTree = "<group>";
+		};
+		B5F24E1A29883300003FE227 /* Rides */ = {
+			isa = PBXGroup;
+			children = (
+				B5F24E14298807AC003FE227 /* ParkView.swift */,
+				B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */,
+				B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */,
+			);
+			path = Rides;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B554481E29969AFB003966F3 /* Build configuration list for PBXNativeTarget "ParkPlanWatch Watch App" */;
+			buildPhases = (
+				B554480929969AFA003966F3 /* Sources */,
+				B554480A29969AFA003966F3 /* Frameworks */,
+				B554480B29969AFA003966F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParkPlanWatch Watch App";
+			productName = "ParkPlanWatch Watch App";
+			productReference = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EFF2722985B263003AE5F1 /* ParkPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EFF2822985B265003AE5F1 /* Build configuration list for PBXNativeTarget "ParkPlan" */;
+			buildPhases = (
+				B5EFF26F2985B263003AE5F1 /* Sources */,
+				B5EFF2702985B263003AE5F1 /* Frameworks */,
+				B5EFF2712985B263003AE5F1 /* Resources */,
+				B554481B29969AFB003966F3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B554481929969AFB003966F3 /* PBXTargetDependency */,
+			);
+			name = ParkPlan;
+			productName = ParkPlan;
+			productReference = B5EFF2732985B263003AE5F1 /* ParkPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EFF26B2985B263003AE5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B554480C29969AFA003966F3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5EFF2722985B263003AE5F1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B5EFF26E2985B263003AE5F1 /* Build configuration list for PBXProject "ParkPlan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EFF26A2985B263003AE5F1;
+			productRefGroup = B5EFF2742985B263003AE5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EFF2722985B263003AE5F1 /* ParkPlan */,
+				B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B554480B29969AFA003966F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */,
+				B554481429969AFB003966F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EFF2712985B263003AE5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F24E24298AA9D9003FE227 /* MagicKingLiveResponse.json in Resources */,
+				B5EFF29829872413003AE5F1 /* UniversalIOAChildrenResponse.json in Resources */,
+				B5EFF28A2985B4D2003AE5F1 /* SingleDestinationData.json in Resources */,
+				B5EFF27F2985B265003AE5F1 /* Preview Assets.xcassets in Resources */,
+				B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */,
+				B5EFF2882985B32F003AE5F1 /* DestinationsStaticData.json in Resources */,
+				B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B554480929969AFA003966F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B92C6429972B09009582BA /* ParkDataRow.swift in Sources */,
+				B5B92C5F299729D7009582BA /* EntityScheduleResponse.swift in Sources */,
+				B5B92C5E299729D3009582BA /* Endpoint.swift in Sources */,
+				B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */,
+				B5B92C60299729E1009582BA /* ParksListView.swift in Sources */,
+				B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */,
+				B554481229969AFA003966F3 /* ContentView.swift in Sources */,
+				B5B92C5D299729D1009582BA /* NetworkingManager.swift in Sources */,
+				B5B92C6229972AED009582BA /* ParkDataView.swift in Sources */,
+				B5B92C582997271D009582BA /* ParkPlanWatchApp.swift in Sources */,
+				B5B92C6329972B06009582BA /* ParkDataViewModel.swift in Sources */,
+				B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EFF26F2985B263003AE5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */,
+				B5EFF2952986AD47003AE5F1 /* EntityScheduleResponse.swift in Sources */,
+				B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */,
+				B595C0582995358E00F80A68 /* POICardView2.swift in Sources */,
+				B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */,
+				B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */,
+				B5F24E1E29886CBE003FE227 /* RidesViewModel.swift in Sources */,
+				B595C04329903CC900F80A68 /* ParkDataView.swift in Sources */,
+				B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */,
+				B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */,
+				B595C040299034FC00F80A68 /* TestView.swift in Sources */,
+				B5F24E15298807AC003FE227 /* ParkView.swift in Sources */,
+				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
+				B595C05D299552AE00F80A68 /* POICardView.swift in Sources */,
+				B5F24E22298AA0A9003FE227 /* ParksListView.swift in Sources */,
+				B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */,
+				B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */,
+				B595C0472991449C00F80A68 /* ParkDataRow.swift in Sources */,
+				B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */,
+				B5F24E20298A9EAB003FE227 /* RideWaitRow.swift in Sources */,
+				B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B554481929969AFB003966F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */;
+			targetProxy = B554481829969AFB003966F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B554481C29969AFB003966F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPlanWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParkPlanWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.hunterdobbapps.ParkPlan;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B554481D29969AFB003966F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPlanWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParkPlanWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.hunterdobbapps.ParkPlan;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B5EFF2802985B265003AE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EFF2812985B265003AE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5EFF2832985B265003AE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ParkPlan/ParkPlan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5EFF2842985B265003AE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ParkPlan/ParkPlan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkPlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B554481E29969AFB003966F3 /* Build configuration list for PBXNativeTarget "ParkPlanWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B554481C29969AFB003966F3 /* Debug */,
+				B554481D29969AFB003966F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EFF26E2985B263003AE5F1 /* Build configuration list for PBXProject "ParkPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EFF2802985B265003AE5F1 /* Debug */,
+				B5EFF2812985B265003AE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EFF2822985B265003AE5F1 /* Build configuration list for PBXNativeTarget "ParkPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EFF2832985B265003AE5F1 /* Debug */,
+				B5EFF2842985B265003AE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EFF26B2985B263003AE5F1 /* Project object */;
+}

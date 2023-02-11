@@ -1,0 +1,14 @@
+{
+    "id": "267615cc-8943-4c2a-ae2c-5da728ca591f",
+    "name": "Universal's Islands of Adventure",
+    "slug": "universalsislandsofadventure",
+    "location": {
+        "latitude": 28,
+        "longitude": -81
+    },
+    "parentId": "89db5d43-c434-4097-b71f-f6869f495a22",
+    "timezone": "America/New_York",
+    "entityType": "PARK",
+    "destinationId": "89db5d43-c434-4097-b71f-f6869f495a22",
+    "externalId": "10000"
+}
