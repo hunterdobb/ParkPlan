@@ -12,24 +12,30 @@ struct ParkOverviewView: View {
 	let parkId: String
 	let parkName: String
 
+	@State private var hasAppeared = false
+
     var body: some View {
 		ScrollView {
 			POIScrollView(title: "Favorites", symbolName: "heart.fill", vm: vm, parkID: parkId,
-						  data: [], typeColor: .red).padding(.top)
+						  data: [], typeColor: .red, entityType: .attraction).padding(.top)
 
 			POIScrollView(title: "Attractions", symbolName: "seal.fill", vm: vm, parkID: parkId,
-						  data: Array(vm.operatingAttractions.prefix(5)), typeColor: .blue)
+						  data: Array(vm.operatingAttractions.prefix(5)), typeColor: .blue, entityType: .attraction)
 
 			POIScrollView(title: "Shows", symbolName: "theatermasks.fill", vm: vm, parkID: parkId,
-						  data: Array(vm.operatingShows.prefix(5)), typeColor: .orange)
+						  data: Array(vm.operatingShows.prefix(5)), typeColor: .orange, entityType: .show)
 			
 			POIScrollView(title: "Restaurants", symbolName: "fork.knife", vm: vm, parkID: parkId,
-						  data: Array(vm.restaurants.prefix(5)), typeColor: .indigo)
+						  data: Array(vm.restaurants.prefix(5)), typeColor: .indigo, entityType: .restaurant)
 		}
 		.navigationTitle(parkName)
 		.task {
-			await vm.fetchLiveData(for: parkId)
-			await vm.fetchChildren(for: parkId)
+			if !hasAppeared {
+				print("Overview RUN")
+				await vm.fetchLiveData(for: parkId)
+				await vm.fetchChildren(for: parkId)
+				hasAppeared = true
+			}
 		}
     }
 }

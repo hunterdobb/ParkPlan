@@ -19,7 +19,7 @@ struct ParksListView: View {
 					#if os(iOS)
 					ParkOverviewView(parkId: park.id, parkName: park.name)
 					#elseif os(watchOS)
-					ParkDataView(parkId: park.id)
+					ParkDataView(parkId: park.id, entityType: .attraction)
 					#endif
                 }
             }

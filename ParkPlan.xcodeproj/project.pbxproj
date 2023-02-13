@@ -12,11 +12,9 @@
 		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
 		B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
-		B595C040299034FC00F80A68 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03F299034FC00F80A68 /* TestView.swift */; };
 		B595C04329903CC900F80A68 /* ParkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDataView.swift */; };
 		B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */; };
 		B595C0472991449C00F80A68 /* ParkDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDataRow.swift */; };
-		B595C0582995358E00F80A68 /* POICardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0572995358E00F80A68 /* POICardView2.swift */; };
 		B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05A2995526A00F80A68 /* ParkOverviewView.swift */; };
 		B595C05D299552AE00F80A68 /* POICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05C299552AE00F80A68 /* POICardView.swift */; };
 		B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05F2995562800F80A68 /* LiveDataTagView.swift */; };
@@ -96,16 +94,13 @@
 		B554481329969AFB003966F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B554481629969AFB003966F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B595C03D298FEFDF00F80A68 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		B595C03F299034FC00F80A68 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		B595C04229903CC900F80A68 /* ParkDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataView.swift; sourceTree = "<group>"; };
 		B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataViewModel.swift; sourceTree = "<group>"; };
 		B595C0462991449C00F80A68 /* ParkDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataRow.swift; sourceTree = "<group>"; };
-		B595C0572995358E00F80A68 /* POICardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView2.swift; sourceTree = "<group>"; };
 		B595C05A2995526A00F80A68 /* ParkOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewView.swift; sourceTree = "<group>"; };
 		B595C05C299552AE00F80A68 /* POICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView.swift; sourceTree = "<group>"; };
 		B595C05F2995562800F80A68 /* LiveDataTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTagView.swift; sourceTree = "<group>"; };
 		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
-		B5B92C5529972627009582BA /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
 		B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanWatchApp.swift; sourceTree = "<group>"; };
 		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanApp.swift; sourceTree = "<group>"; };
@@ -158,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */,
-				B5B92C5529972627009582BA /* DestinationsView.swift */,
 				B554481129969AFA003966F3 /* ContentView.swift */,
 				B554481329969AFB003966F3 /* Assets.xcassets */,
 				B554481529969AFB003966F3 /* Preview Content */,
@@ -180,7 +174,6 @@
 				B595C04229903CC900F80A68 /* ParkDataView.swift */,
 				B595C0462991449C00F80A68 /* ParkDataRow.swift */,
 				B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */,
-				B595C0572995358E00F80A68 /* POICardView2.swift */,
 			);
 			path = ParkData;
 			sourceTree = "<group>";
@@ -201,6 +194,39 @@
 				B595C05F2995562800F80A68 /* LiveDataTagView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B5A14377299A8F280022B074 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */,
+				B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */,
+				B595C03D298FEFDF00F80A68 /* Endpoint.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B5A14378299A8FA00022B074 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5A14379299A8FC10022B074 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFF2862985B297003AE5F1 /* Example JSON */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5A1437A299AA9430022B074 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				B5F24E25298AB4EF003FE227 /* MapTestView.swift */,
+			);
+			path = Testing;
 			sourceTree = "<group>";
 		};
 		B5EFF26A2985B263003AE5F1 = {
@@ -225,13 +251,14 @@
 			isa = PBXGroup;
 			children = (
 				B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */,
-				B595C03F299034FC00F80A68 /* TestView.swift */,
-				B5F24E18298832C6003FE227 /* Features */,
-				B5EFF28F2985B862003AE5F1 /* Base */,
-				B5EFF2852985B278003AE5F1 /* Resources */,
-				B5EFF27D2985B265003AE5F1 /* Preview Content */,
+				B5A14377299A8F280022B074 /* Utilities */,
+				B5A14378299A8FA00022B074 /* Extensions */,
+				B5A14379299A8FC10022B074 /* Services */,
+				B5EFF2902985B872003AE5F1 /* Models */,
+				B5F24E18298832C6003FE227 /* Core */,
 				B5EFF27C2985B265003AE5F1 /* ParkPlan.entitlements */,
 				B5EFF27A2985B265003AE5F1 /* Assets.xcassets */,
+				B5EFF27D2985B265003AE5F1 /* Preview Content */,
 			);
 			path = ParkPlan;
 			sourceTree = "<group>";
@@ -244,15 +271,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B5EFF2852985B278003AE5F1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B5EFF2862985B297003AE5F1 /* JSON */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		B5EFF2862985B297003AE5F1 /* JSON */ = {
+		B5EFF2862985B297003AE5F1 /* Example JSON */ = {
 			isa = PBXGroup;
 			children = (
 				B5EFF2872985B32F003AE5F1 /* DestinationsStaticData.json */,
@@ -261,17 +280,7 @@
 				B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */,
 				B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */,
 			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		B5EFF28F2985B862003AE5F1 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				B5EFF299298753C1003AE5F1 /* API */,
-				B5EFF2912986A83F003AE5F1 /* Mapper */,
-				B5EFF2902985B872003AE5F1 /* Models */,
-			);
-			path = Base;
+			path = "Example JSON";
 			sourceTree = "<group>";
 		};
 		B5EFF2902985B872003AE5F1 /* Models */ = {
@@ -286,14 +295,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B5EFF2912986A83F003AE5F1 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */,
-			);
-			path = Mapper;
-			sourceTree = "<group>";
-		};
 		B5EFF2962986B516003AE5F1 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,26 +306,17 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		B5EFF299298753C1003AE5F1 /* API */ = {
+		B5F24E18298832C6003FE227 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */,
-				B595C03D298FEFDF00F80A68 /* Endpoint.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		B5F24E18298832C6003FE227 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				B5F24E25298AB4EF003FE227 /* MapTestView.swift */,
+				B5F24E19298832DC003FE227 /* Destinations */,
 				B595C0592995524300F80A68 /* ParkOverview */,
 				B595C04129903C9700F80A68 /* ParkData */,
-				B5F24E19298832DC003FE227 /* Destinations */,
 				B5F24E1A29883300003FE227 /* Rides */,
 				B595C05E2995560300F80A68 /* Components */,
+				B5A1437A299AA9430022B074 /* Testing */,
 			);
-			path = Features;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		B5F24E19298832DC003FE227 /* Destinations */ = {
@@ -482,7 +474,6 @@
 			files = (
 				B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */,
 				B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */,
-				B595C0582995358E00F80A68 /* POICardView2.swift in Sources */,
 				B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */,
 				B5F3E07B29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
 				B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */,
@@ -491,7 +482,6 @@
 				B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */,
 				B5F3E07829983B0F00E67EF3 /* DestinationsResponse.swift in Sources */,
 				B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */,
-				B595C040299034FC00F80A68 /* TestView.swift in Sources */,
 				B5F24E15298807AC003FE227 /* ParkView.swift in Sources */,
 				B5F3E0882998403A00E67EF3 /* LiveQueue.swift in Sources */,
 				B5F3E08E2998441300E67EF3 /* TagData.swift in Sources */,
@@ -549,7 +539,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -581,7 +571,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -635,11 +625,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -687,10 +680,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -718,10 +714,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -757,10 +753,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";

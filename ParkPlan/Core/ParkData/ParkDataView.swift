@@ -10,9 +10,75 @@ import SwiftUI
 struct ParkDataView: View {
 	@StateObject private var vm = ParkDataViewModel()
 	let parkId: String
+	let entityType: EntityType
+
+	@State private var hasAppeared = false
 
     var body: some View {
 		List {
+			#if os(watchOS)
+			Picker(selection: $vm.selection) {
+				ForEach(EntityType.allCases, id: \.self) { type in
+					if vm.hasType(type) {
+						Text("\(type.rawValue.capitalized)s")
+							.tag(type)
+					}
+				}
+			} label: {
+				Text("Viewing")
+					.foregroundColor(.cyan)
+			}
+			#endif
+
+			if let children = vm.children {
+				ForEach(children) { poi in
+					if poi.entityType == vm.selection,
+					   vm.dataIsUpdated(for: poi)
+					{
+						HStack {
+							Text(poi.name)
+							Spacer()
+							let liveData = vm.standbyWaitText(for: poi)
+							Text(liveData)
+								.foregroundColor(.white)
+								.font(.headline)
+								.padding(.vertical, 8)
+								.padding(.horizontal)
+								.background(vm.getColorForLiveData(text: liveData), in: RoundedRectangle(cornerRadius: 5))
+
+						}
+						.swipeActions(allowsFullSwipe: false) {
+							Button {} label: {
+								if let dateLastUpdated = vm.dateLastUpdated(id: poi.id) {
+									Text(dateLastUpdated, format: .relative(presentation: .numeric, unitsStyle: .wide))
+								}
+							}
+						}
+					}
+				}
+
+
+				if !vm.attractionsWithNoLiveData.isEmpty {
+					NavigationLink {
+						List {
+							ForEach(vm.attractionsWithNoLiveData) { attraction in
+								HStack {
+									Text(attraction.name)
+								}
+							}
+						}
+						.navigationTitle("No Live Data")
+					} label: {
+						Text("View Attractions With No Live Data")
+							.foregroundColor(.blue)
+					}
+				}
+			} else {
+				ProgressView()
+			}
+			
+
+			/*
 			Section("Attractions") {
 				ForEach(vm.updatedAttractions) { attraction in
 					HStack {
@@ -52,8 +118,6 @@ struct ParkDataView: View {
 				}
 			}
 
-
-
 			if !vm.shows.isEmpty {
 				Section("Shows") {
 					ForEach(vm.shows) { show in
@@ -82,12 +146,36 @@ struct ParkDataView: View {
 					}
 				}
 			}
+			 */
 		}
 		.navigationTitle("Park Data")
 		.task {
-			await vm.fetchLiveData(for: parkId)
-			await vm.fetchChildren(for: parkId)
+			if !hasAppeared {
+				print("ParkData RUN")
+				await vm.fetchLiveData(for: parkId)
+				await vm.fetchChildren(for: parkId)
+			}
 		}
+		.refreshable {
+			await vm.fetchLiveData(for: parkId)
+		}
+		.onAppear {
+			vm.selection = entityType
+		}
+		#if !os(watchOS)
+		.toolbar {
+			ToolbarItem {
+				Picker("Type", selection: $vm.selection) {
+					ForEach(EntityType.allCases, id: \.self) { type in
+						if vm.hasType(type) {
+							Text("\(type.rawValue.capitalized)s")
+								.tag(type)
+						}
+					}
+				}
+			}
+		}
+		#endif
     }
 }
 
@@ -98,6 +186,8 @@ struct ParkDataView_Previews: PreviewProvider {
 //			let epcot = "47f90d2c-e191-4239-a466-5892ef59a88b"
 			let buschGardTampa = "fc40c99a-be0a-42f4-a483-1e939db275c2"
 
-        ParkDataView(parkId: buschGardTampa)
+        NavigationStack {
+			ParkDataView(parkId: buschGardTampa, entityType: .attraction)
+        }
     }
 }

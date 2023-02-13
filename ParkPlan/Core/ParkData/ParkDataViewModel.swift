@@ -35,16 +35,11 @@ final class ParkDataViewModel: ObservableObject {
 	@Published var hasError = false
 	@Published var isLoading = false
 
+	@Published var selection: EntityType = .attraction
+
 	// MARK: - Attractions Computed Properties
 	var allAttractions: [EntityChild] {
-		var array = [EntityChild]()
-		for child in children {
-			if child.entityType == .attraction {
-				array.append(child)
-			}
-		}
-
-		return array
+		children.filter { $0.entityType == .attraction }
 	}
 
 	var updatedAttractions: [EntityChild] {
@@ -75,6 +70,7 @@ final class ParkDataViewModel: ObservableObject {
 		var array = [EntityChild]()
 		for attraction in allAttractions {
 			if dataIsUpdated(for: attraction) && getLiveData(childId: attraction.id, liveData: liveData) == nil {
+//				print("\(attraction.name) has NO LIVE DATA")
 				array.append(attraction)
 			}
 		}
@@ -83,26 +79,12 @@ final class ParkDataViewModel: ObservableObject {
 
 	// MARK: - Restaurants Computed Properties
 	var restaurants: [EntityChild] {
-		var array = [EntityChild]()
-
-		for child in children {
-			if child.entityType == .restaurant {
-				array.append(child)
-			}
-		}
-
-		return array
+		children.filter { $0.entityType == .restaurant }
 	}
 
 	// MARK: - 'Shows' Computed Properties
 	var shows: [EntityChild] {
-		var array = [EntityChild]()
-		for child in children {
-			if child.entityType == .show {
-				array.append(child)
-			}
-		}
-		return array
+		children.filter { $0.entityType == .show }
 	}
 
 	var operatingShows: [EntityChild] {
@@ -114,6 +96,11 @@ final class ParkDataViewModel: ObservableObject {
 			}
 		}
 		return array
+	}
+
+	// Used to ensure the picker only shows attractions, shows, and restaurants
+	func hasType(_ type: EntityType) -> Bool {
+		return (type != .park) && (type != .destination) && (type != .hotel)
 	}
 
 	@MainActor
@@ -159,7 +146,7 @@ final class ParkDataViewModel: ObservableObject {
 			return liveData.first(where: { $0.id == childId })
 		}
 
-		print("Not contained")
+//		print("Not contained")
 		return nil
 	}
 
@@ -197,10 +184,7 @@ final class ParkDataViewModel: ObservableObject {
 		}
 
 		if let liveData = getLiveData(childId: child.id, liveData: liveData) {
-			print("\(child.name): \(Calendar.current.isDate(.now, equalTo: liveData.lastUpdated, toGranularity: .month))")
 			return Calendar.current.isDate(.now, equalTo: liveData.lastUpdated, toGranularity: .month)
-
-
 		}
 
 		return true
@@ -225,6 +209,4 @@ final class ParkDataViewModel: ObservableObject {
 			}
 		}
 	}
-
-
 }

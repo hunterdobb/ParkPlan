@@ -15,6 +15,7 @@ struct POIScrollView: View {
 	let parkID: String
 	let data: [EntityChild]
 	let typeColor: Color
+	let entityType: EntityType
 
 
 
@@ -30,7 +31,7 @@ struct POIScrollView: View {
 							POICardView(name: poi.name, liveDataString: liveData, color: vm.getColorForLiveData(text: liveData), type: poi.entityType)
 						}
 
-						NavigationLink(destination: ParkDataView(parkId: parkID)) {
+						NavigationLink(destination: ParkDataView(parkId: parkID, entityType: entityType)) {
 							POICardView(name: "View All", liveDataString: "", color: .blue)
 						}
 					} else {
@@ -53,7 +54,7 @@ struct POIScrollView_Previews: PreviewProvider {
     static var previews: some View {
 		let previewVm = ParkDataViewModel()
 		let previewParkId = "buschgardenstampa"
-		POIScrollView(title: "Shows", symbolName: "theatermasks.fill", vm: previewVm, parkID: previewParkId, data: previewVm.updatedAttractions, typeColor: .orange)
+		POIScrollView(title: "Shows", symbolName: "theatermasks.fill", vm: previewVm, parkID: previewParkId, data: previewVm.updatedAttractions, typeColor: .orange, entityType: .attraction)
 			.task {
 				await previewVm.fetchLiveData(for: previewParkId)
 				await previewVm.fetchChildren(for: previewParkId)
@@ -65,7 +66,8 @@ struct POIScrollView_Previews: PreviewProvider {
 private extension POIScrollView {
 	var header: some View {
 		NavigationLink {
-			ParkDataView(parkId: parkID)
+//			vm.selection = entityType
+			ParkDataView(parkId: parkID, entityType: entityType)
 		} label: {
 			HStack(alignment: .center, spacing: 5) {
 				Image(systemName: symbolName)
