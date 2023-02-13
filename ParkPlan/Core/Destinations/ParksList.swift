@@ -1,5 +1,5 @@
 //
-//  ParksListView.swift
+//  ParksList.swift
 //  ParkPlan
 //
 //  Created by Hunter Dobbelmann on 2/1/23.
@@ -7,19 +7,22 @@
 
 import SwiftUI
 
-struct ParksListView: View {
+struct ParksList: View {
     let destination: DestinationEntry
 
     var body: some View {
         Section {
             ForEach(destination.parks) { park in
                 NavigationLink(park.name) {
-//                    ParkView(parkId: park.id)
-//					ParkDataView(parkId: park.id)
 					#if os(iOS)
-					ParkOverviewView(parkId: park.id, parkName: park.name)
+					// Pass in DestinationParkEntry
+					// ParkOverviewView(park: park)
+//					ParkOverviewView(parkId: park.id, parkName: park.name)
+					ParkOverviewView()
+						.environmentObject(ParkOverviewViewModel(park: park))
 					#elseif os(watchOS)
-					ParkDataView(parkId: park.id, entityType: .attraction)
+					ParkDetailView(park: park, entityType: .attraction)
+//					ParkDetailView(parkId: park.id, entityType: .attraction)
 					#endif
                 }
             }
@@ -39,7 +42,7 @@ struct ParksListView_Previews: PreviewProvider {
 
     static var previews: some View {
         List {
-            ParksListView(destination: previewDestination)
+            ParksList(destination: previewDestination)
         }
     }
 }

@@ -9,6 +9,7 @@ import Foundation
 
 final class DestinationsViewModel: ObservableObject {
     @Published private(set) var destinations = [DestinationEntry]()
+
     @Published private(set) var error: NetworkingManager.NetworkingError?
 	@Published private(set) var isLoading = false
     @Published var hasError = false
@@ -17,14 +18,13 @@ final class DestinationsViewModel: ObservableObject {
 	@MainActor
     func fetchDestinations() async {
 		isLoading = true
-		defer { isLoading = false }
+		defer { isLoading = false } // run this last
 
 		do {
 			let response = try await NetworkingManager.shared.request(.destinations, type: DestinationsResponse.self)
 			destinations = response.destinations
 		} catch {
 			hasError = true
-
 			if let networkingError = error as? NetworkingManager.NetworkingError {
 				self.error = networkingError
 			} else {

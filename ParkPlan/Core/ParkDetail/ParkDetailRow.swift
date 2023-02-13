@@ -1,5 +1,5 @@
 //
-//  ParkDataRow.swift
+//  ParkDetailRow.swift
 //  ParkPlan
 //
 //  Created by Hunter Dobbelmann on 2/6/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ParkDataRow: View {
+struct ParkDetailRow: View {
 	let itemId: String
 	let name: String
 
@@ -22,12 +22,12 @@ struct ParkDataRow: View {
 
 struct ParkDataRow_Previews: PreviewProvider {
     static var previews: some View {
-        ParkDataRow(itemId: "1", name: "Hagrid's Motorbike")
+        ParkDetailRow(itemId: "1", name: "Hagrid's Motorbike")
 			.padding()
     }
 }
 
-private extension ParkDataRow {
+private extension ParkDetailRow {
 	var waitTime: some View {
 		Text("80")
 			.foregroundColor(.white)

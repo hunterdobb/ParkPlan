@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct POICardView: View {
-	let name: String
-	let liveDataString: String
-	let liveDataColor: Color
-	let type: EntityType?
+	@EnvironmentObject private var vm: ParkOverviewViewModel
+	let poi: EntityChild
+	// These default values will be overwritten in .onAppear
+	@State private var name: String = ""
+	@State private var liveDataString: String = ""
+	@State private var liveDataColor: Color = .green
+	@State private var type: EntityType? = .attraction
 
-	init(name: String, liveDataString: String, color: Color, type: EntityType? = nil) {
-		self.name = name
-		self.liveDataString = liveDataString
-		self.liveDataColor = color
-		self.type = type
-	}
+
+//	init(poi: EntityChild, liveDataString: String, liveDataColor: Color) {
+//		self.name = poi.name
+//		self.liveDataString = liveDataString
+//		self.liveDataColor = liveDataColor
+//		self.type = poi.entityType
+//	}
+
 
 	var typeColor: Color {
 		switch type {
@@ -64,20 +69,41 @@ struct POICardView: View {
 			}
 		}
 		.cardBackground(liveDataColor)
+		.onAppear {
+			name = poi.name
+			liveDataString = vm.standbyWaitText(for: poi)
+			liveDataColor = vm.getColorForLiveData(text: liveDataString)
+			type = poi.entityType
+		}
 	}
 }
 
 struct POICardView_Previews: PreviewProvider {
 	static var previews: some View {
-		POICardView(name: "Hagrid's Magical Creatures Motorbike Adventure™", liveDataString: "100 min wait", color: .pink)
-			.padding()
-			.previewLayout(.sizeThatFits)
-			.previewDisplayName("Card Long Name")
+		let previewPOI1 = EntityChild(id: "578bbd12-1975-4ec3-9879-ea641c780342",
+									 name: "Hagrid's Magical Creatures Motorbike Adventure™",
+									 entityType: .attraction,
+									 slug: nil,
+									 externalId: "17097")
 
-		POICardView(name: "Hog's Head™", liveDataString: "Open", color: .green, type: EntityType.attraction)
-			.padding()
-			.previewLayout(.sizeThatFits)
-			.previewDisplayName("Card Short Name")
+		let previewPOI2 = EntityChild(id: "7863937e-bb65-408b-9652-c9700c923c9c",
+									 name: "Hog's Head™",
+									 entityType: .restaurant,
+									 slug: nil,
+									 externalId: "11632")
+
+		Group {
+			POICardView(poi: previewPOI1)
+				.padding()
+				.previewLayout(.sizeThatFits)
+				.previewDisplayName("Card Long Name")
+
+			POICardView(poi: previewPOI2)
+				.padding()
+				.previewLayout(.sizeThatFits)
+				.previewDisplayName("Card Short Name")
+		}
+		.environmentObject(ParkOverviewViewModel(park: DestinationParkEntry(id: "267615cc-8943-4c2a-ae2c-5da728ca591f", name: "Universal's Islands of Adventure")))
 	}
 }
 

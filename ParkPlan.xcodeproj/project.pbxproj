@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B554481229969AFA003966F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554481129969AFA003966F3 /* ContentView.swift */; };
+		B554481229969AFA003966F3 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554481129969AFA003966F3 /* InitialView.swift */; };
 		B554481429969AFB003966F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481329969AFB003966F3 /* Assets.xcassets */; };
 		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
 		B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
-		B595C04329903CC900F80A68 /* ParkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDataView.swift */; };
-		B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */; };
-		B595C0472991449C00F80A68 /* ParkDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDataRow.swift */; };
+		B595C04329903CC900F80A68 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
+		B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */; };
+		B595C0472991449C00F80A68 /* ParkDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDetailRow.swift */; };
 		B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05A2995526A00F80A68 /* ParkOverviewView.swift */; };
 		B595C05D299552AE00F80A68 /* POICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05C299552AE00F80A68 /* POICardView.swift */; };
 		B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05F2995562800F80A68 /* LiveDataTagView.swift */; };
 		B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C06129955E2400F80A68 /* POIScrollView.swift */; };
-		B5B92C582997271D009582BA /* ParkPlanWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */; };
+		B5A1437C299AAACB0022B074 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1437B299AAACB0022B074 /* InitialView.swift */; };
+		B5A1437D299AAB430022B074 /* ParkPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */; };
+		B5A14382299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */; };
+		B5A14383299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */; };
 		B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
 		B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */; };
 		B5B92C5D299729D1009582BA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
 		B5B92C5E299729D3009582BA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
-		B5B92C60299729E1009582BA /* ParksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksListView.swift */; };
+		B5B92C60299729E1009582BA /* ParksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksList.swift */; };
 		B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
-		B5B92C6229972AED009582BA /* ParkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDataView.swift */; };
-		B5B92C6329972B06009582BA /* ParkDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */; };
-		B5B92C6429972B09009582BA /* ParkDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDataRow.swift */; };
+		B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
+		B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */; };
+		B5B92C6429972B09009582BA /* ParkDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDetailRow.swift */; };
 		B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */; };
 		B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27A2985B265003AE5F1 /* Assets.xcassets */; };
 		B5EFF27F2985B265003AE5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27E2985B265003AE5F1 /* Preview Assets.xcassets */; };
@@ -38,12 +41,9 @@
 		B5EFF29829872413003AE5F1 /* UniversalIOAChildrenResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */; };
 		B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
 		B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
-		B5F24E15298807AC003FE227 /* ParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E14298807AC003FE227 /* ParkView.swift */; };
 		B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */; };
 		B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */; };
-		B5F24E1E29886CBE003FE227 /* RidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */; };
-		B5F24E20298A9EAB003FE227 /* RideWaitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */; };
-		B5F24E22298AA0A9003FE227 /* ParksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksListView.swift */; };
+		B5F24E22298AA0A9003FE227 /* ParksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksList.swift */; };
 		B5F24E24298AA9D9003FE227 /* MagicKingLiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */; };
 		B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E25298AB4EF003FE227 /* MapTestView.swift */; };
 		B5F3E07529983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3E07429983AD500E67EF3 /* EntityScheduleResponse.swift */; };
@@ -90,18 +90,19 @@
 
 /* Begin PBXFileReference section */
 		B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParkPlanWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B554481129969AFA003966F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B554481129969AFA003966F3 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		B554481329969AFB003966F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B554481629969AFB003966F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B595C03D298FEFDF00F80A68 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		B595C04229903CC900F80A68 /* ParkDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataView.swift; sourceTree = "<group>"; };
-		B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataViewModel.swift; sourceTree = "<group>"; };
-		B595C0462991449C00F80A68 /* ParkDataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDataRow.swift; sourceTree = "<group>"; };
+		B595C04229903CC900F80A68 /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+		B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailViewModel.swift; sourceTree = "<group>"; };
+		B595C0462991449C00F80A68 /* ParkDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailRow.swift; sourceTree = "<group>"; };
 		B595C05A2995526A00F80A68 /* ParkOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewView.swift; sourceTree = "<group>"; };
 		B595C05C299552AE00F80A68 /* POICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView.swift; sourceTree = "<group>"; };
 		B595C05F2995562800F80A68 /* LiveDataTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTagView.swift; sourceTree = "<group>"; };
 		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
-		B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanWatchApp.swift; sourceTree = "<group>"; };
+		B5A1437B299AAACB0022B074 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewViewModel.swift; sourceTree = "<group>"; };
 		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanApp.swift; sourceTree = "<group>"; };
 		B5EFF27A2985B265003AE5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,12 +114,9 @@
 		B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOAChildrenResponse.json; sourceTree = "<group>"; };
 		B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
-		B5F24E14298807AC003FE227 /* ParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkView.swift; sourceTree = "<group>"; };
 		B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOALiveResponse.json; sourceTree = "<group>"; };
 		B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsViewModel.swift; sourceTree = "<group>"; };
-		B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesViewModel.swift; sourceTree = "<group>"; };
-		B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWaitRow.swift; sourceTree = "<group>"; };
-		B5F24E21298AA0A9003FE227 /* ParksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksListView.swift; sourceTree = "<group>"; };
+		B5F24E21298AA0A9003FE227 /* ParksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksList.swift; sourceTree = "<group>"; };
 		B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MagicKingLiveResponse.json; sourceTree = "<group>"; };
 		B5F24E25298AB4EF003FE227 /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
 		B5F3E07429983AD500E67EF3 /* EntityScheduleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityScheduleResponse.swift; sourceTree = "<group>"; };
@@ -152,8 +150,7 @@
 		B554480E29969AFA003966F3 /* ParkPlanWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				B5B92C572997271D009582BA /* ParkPlanWatchApp.swift */,
-				B554481129969AFA003966F3 /* ContentView.swift */,
+				B554481129969AFA003966F3 /* InitialView.swift */,
 				B554481329969AFB003966F3 /* Assets.xcassets */,
 				B554481529969AFB003966F3 /* Preview Content */,
 			);
@@ -168,14 +165,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B595C04129903C9700F80A68 /* ParkData */ = {
+		B595C04129903C9700F80A68 /* ParkDetail */ = {
 			isa = PBXGroup;
 			children = (
-				B595C04229903CC900F80A68 /* ParkDataView.swift */,
-				B595C0462991449C00F80A68 /* ParkDataRow.swift */,
-				B595C04429903D0E00F80A68 /* ParkDataViewModel.swift */,
+				B595C04229903CC900F80A68 /* ParkDetailView.swift */,
+				B595C0462991449C00F80A68 /* ParkDetailRow.swift */,
+				B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */,
 			);
-			path = ParkData;
+			path = ParkDetail;
 			sourceTree = "<group>";
 		};
 		B595C0592995524300F80A68 /* ParkOverview */ = {
@@ -184,6 +181,7 @@
 				B595C05A2995526A00F80A68 /* ParkOverviewView.swift */,
 				B595C06129955E2400F80A68 /* POIScrollView.swift */,
 				B595C05C299552AE00F80A68 /* POICardView.swift */,
+				B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */,
 			);
 			path = ParkOverview;
 			sourceTree = "<group>";
@@ -251,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */,
+				B5A1437B299AAACB0022B074 /* InitialView.swift */,
 				B5A14377299A8F280022B074 /* Utilities */,
 				B5A14378299A8FA00022B074 /* Extensions */,
 				B5A14379299A8FC10022B074 /* Services */,
@@ -309,11 +308,10 @@
 		B5F24E18298832C6003FE227 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B595C05E2995560300F80A68 /* Components */,
 				B5F24E19298832DC003FE227 /* Destinations */,
 				B595C0592995524300F80A68 /* ParkOverview */,
-				B595C04129903C9700F80A68 /* ParkData */,
-				B5F24E1A29883300003FE227 /* Rides */,
-				B595C05E2995560300F80A68 /* Components */,
+				B595C04129903C9700F80A68 /* ParkDetail */,
 				B5A1437A299AA9430022B074 /* Testing */,
 			);
 			path = Core;
@@ -323,20 +321,10 @@
 			isa = PBXGroup;
 			children = (
 				B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */,
-				B5F24E21298AA0A9003FE227 /* ParksListView.swift */,
+				B5F24E21298AA0A9003FE227 /* ParksList.swift */,
 				B5F24E1B29883330003FE227 /* DestinationsViewModel.swift */,
 			);
 			path = Destinations;
-			sourceTree = "<group>";
-		};
-		B5F24E1A29883300003FE227 /* Rides */ = {
-			isa = PBXGroup;
-			children = (
-				B5F24E14298807AC003FE227 /* ParkView.swift */,
-				B5F24E1F298A9EAB003FE227 /* RideWaitRow.swift */,
-				B5F24E1D29886CBE003FE227 /* RidesViewModel.swift */,
-			);
-			path = Rides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,23 +434,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B92C6429972B09009582BA /* ParkDataRow.swift in Sources */,
+				B5B92C6429972B09009582BA /* ParkDetailRow.swift in Sources */,
 				B5B92C5E299729D3009582BA /* Endpoint.swift in Sources */,
 				B5F3E07929983B0F00E67EF3 /* DestinationsResponse.swift in Sources */,
 				B5F3E07629983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5F3E08329983BE500E67EF3 /* EntityType.swift in Sources */,
 				B5F3E0892998403A00E67EF3 /* LiveQueue.swift in Sources */,
 				B5F3E07C29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
+				B5A14383299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */,
-				B5B92C60299729E1009582BA /* ParksListView.swift in Sources */,
+				B5B92C60299729E1009582BA /* ParksList.swift in Sources */,
 				B5F3E08C2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */,
-				B554481229969AFA003966F3 /* ContentView.swift in Sources */,
+				B554481229969AFA003966F3 /* InitialView.swift in Sources */,
 				B5B92C5D299729D1009582BA /* NetworkingManager.swift in Sources */,
-				B5B92C6229972AED009582BA /* ParkDataView.swift in Sources */,
+				B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */,
 				B5F3E07F29983B8E00E67EF3 /* EntityChildrenResponse.swift in Sources */,
-				B5B92C582997271D009582BA /* ParkPlanWatchApp.swift in Sources */,
-				B5B92C6329972B06009582BA /* ParkDataViewModel.swift in Sources */,
+				B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */,
+				B5A1437D299AAB430022B074 /* ParkPlanApp.swift in Sources */,
 				B5F3E08F2998441300E67EF3 /* TagData.swift in Sources */,
 				B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */,
 			);
@@ -474,28 +463,27 @@
 			files = (
 				B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */,
 				B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */,
-				B595C04529903D0E00F80A68 /* ParkDataViewModel.swift in Sources */,
+				B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */,
+				B5A14382299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5F3E07B29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
 				B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */,
-				B5F24E1E29886CBE003FE227 /* RidesViewModel.swift in Sources */,
-				B595C04329903CC900F80A68 /* ParkDataView.swift in Sources */,
+				B595C04329903CC900F80A68 /* ParkDetailView.swift in Sources */,
 				B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */,
 				B5F3E07829983B0F00E67EF3 /* DestinationsResponse.swift in Sources */,
 				B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */,
-				B5F24E15298807AC003FE227 /* ParkView.swift in Sources */,
 				B5F3E0882998403A00E67EF3 /* LiveQueue.swift in Sources */,
 				B5F3E08E2998441300E67EF3 /* TagData.swift in Sources */,
 				B5F3E08229983BE500E67EF3 /* EntityType.swift in Sources */,
+				B5A1437C299AAACB0022B074 /* InitialView.swift in Sources */,
 				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
 				B5F3E08B2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B595C05D299552AE00F80A68 /* POICardView.swift in Sources */,
-				B5F24E22298AA0A9003FE227 /* ParksListView.swift in Sources */,
+				B5F24E22298AA0A9003FE227 /* ParksList.swift in Sources */,
 				B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */,
 				B5F3E07529983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */,
-				B595C0472991449C00F80A68 /* ParkDataRow.swift in Sources */,
+				B595C0472991449C00F80A68 /* ParkDetailRow.swift in Sources */,
 				B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */,
-				B5F24E20298A9EAB003FE227 /* RideWaitRow.swift in Sources */,
 				B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */,
 				B5F3E07E29983B8E00E67EF3 /* EntityChildrenResponse.swift in Sources */,
 			);

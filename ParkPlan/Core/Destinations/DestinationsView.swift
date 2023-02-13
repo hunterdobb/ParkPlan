@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct DestinationsView: View {
-    @StateObject private var vm = DestinationsViewModel()
+	// Uses @EnvironmentObject to easily pass vm to child views
+	@EnvironmentObject private var vm: DestinationsViewModel
+
+//    @StateObject private var vm = DestinationsViewModel()
 
 	@State private var hasAppeared = false
 
@@ -21,7 +24,7 @@ struct DestinationsView: View {
 			} else {
 				List {
 					ForEach(vm.searchResults) { destination in
-						ParksListView(destination: destination)
+						ParksList(destination: destination)
 					}
 
 				}
@@ -51,6 +54,8 @@ struct DestinationsView: View {
 struct DestinationsView_Previews: PreviewProvider {
     static var previews: some View {
         DestinationsView()
+		// TODO: Improve preview code to match SwiftfulCrypto code
+			.environmentObject(DestinationsViewModel())
     }
 }
 

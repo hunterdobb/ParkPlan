@@ -11,21 +11,7 @@ import SwiftUI
 struct ParkPlanApp: App {
     var body: some Scene {
         WindowGroup {
-            TabView {
-				DestinationsView()
-                    .tabItem {
-                        Image(systemName: "globe.americas.fill")
-                        Text("Destinations")
-                    }
-
-//				#if os(iOS)
-				Text("Settings")
-					.tabItem {
-						Image(systemName: "gear")
-						Text("Test")
-					}
-//				#endif
-            }
+            InitialView()
         }
     }
 }

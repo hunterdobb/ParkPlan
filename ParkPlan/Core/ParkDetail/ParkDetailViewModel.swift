@@ -1,5 +1,5 @@
 //
-//  ParkDataViewModel.swift
+//  ParkDeatilViewModel.swift
 //  ParkPlan
 //
 //  Created by Hunter Dobbelmann on 2/5/23.
@@ -7,27 +7,7 @@
 
 import SwiftUI
 
-/*
- // MARK: - Entity Child
- struct EntityChild: Codable, Identifiable {
-	 let id: String
-	 let name: String
-	 let entityType: EntityType
-	 let slug: String?
-	 let externalId: String?
- }
-
- // MARK: - Entity Children Response
- struct EntityChildrenResponse: Codable {
-	 let id: String
-	 let name: String
-	 let entityType: EntityType
-	 let timezone: String?
-	 let children: [EntityChild]
- }
- */
-
-final class ParkDataViewModel: ObservableObject {
+final class ParkDetailViewModel: ObservableObject {
 	@Published private(set) var children = [EntityChild]()
 	@Published private(set) var liveData: [EntityLiveData]?
 
@@ -36,6 +16,11 @@ final class ParkDataViewModel: ObservableObject {
 	@Published var isLoading = false
 
 	@Published var selection: EntityType = .attraction
+
+//	init(children: [EntityChild], liveData: [EntityLiveData]?) {
+//		self.children = children
+//		self.liveData = liveData
+//	}
 
 	// MARK: - Attractions Computed Properties
 	var allAttractions: [EntityChild] {
