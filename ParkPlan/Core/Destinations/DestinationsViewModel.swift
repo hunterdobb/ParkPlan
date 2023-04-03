@@ -5,11 +5,12 @@
 //  Created by Hunter Dobbelmann on 1/30/23.
 //
 
-import Foundation
+import SwiftUI
 
 final class DestinationsViewModel: ObservableObject {
     @Published private(set) var destinations = [DestinationEntry]()
-
+//	@EnvironmentObject var fetcher: DataFetcher
+//	@EnvironmentObject var testType: TestType
     @Published private(set) var error: NetworkingManager.NetworkingError?
 	@Published private(set) var isLoading = false
     @Published var hasError = false
@@ -20,9 +21,13 @@ final class DestinationsViewModel: ObservableObject {
 		isLoading = true
 		defer { isLoading = false } // run this last
 
+//		await fetcher.fetchDestinations()
+//		destinations =  fetcher.allDestinations
+
 		do {
 			let response = try await NetworkingManager.shared.request(.destinations, type: DestinationsResponse.self)
 			destinations = response.destinations
+			print("\(destinations.count)")
 		} catch {
 			hasError = true
 			if let networkingError = error as? NetworkingManager.NetworkingError {

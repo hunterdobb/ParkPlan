@@ -113,11 +113,13 @@ final class ParkOverviewViewModel: ObservableObject {
 		defer { isLoading = false }
 
 		do {
+			dump(try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self))
 			let response = try await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self)
+
 			liveData = response.liveData
 		} catch {
+			print(error)
 			hasError = true
-
 			if let networkingError = error as? NetworkingManager.NetworkingError {
 				self.error = networkingError
 			} else {

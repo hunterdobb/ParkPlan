@@ -12,24 +12,14 @@ struct ParkOverviewView: View {
 
 	@State private var hasAppeared = false
 
-//	init(park: DestinationParkEntry) {
-//		_vm = StateObject(wrappedValue: ParkOverviewViewModel(park: park))
-//		_vm = EnvironmentObject(ParkOverviewViewModel(park: park))
-//	}
-
     var body: some View {
 		ScrollView {
-			POIScrollView(title: "Favorites", symbolName: "heart.fill",
-						  data: [], typeColor: .red, entityType: .attraction).padding(.top)
-
-			let attractions = Array(vm.operatingAttractions.prefix(5))
-			POIScrollView(title: "Attractions", symbolName: "seal.fill", data: attractions, typeColor: .blue, entityType: .attraction)
-
-			let shows = Array(vm.operatingShows.prefix(5))
-			POIScrollView(title: "Shows", symbolName: "theatermasks.fill", data: shows, typeColor: .orange, entityType: .show)
-
-			let restaurants = Array(vm.restaurants.prefix(5))
-			POIScrollView(title: "Restaurants", symbolName: "fork.knife", data: restaurants, typeColor: .indigo, entityType: .restaurant)
+			Text("Open until 10:00 PM").frame(maxWidth: .infinity, alignment: .leading)
+				.padding(.leading)
+			favoriteSection
+			attractionSection
+			showSection
+			restaurantSection
 		}
 		.navigationTitle(vm.park.name)
 		.task {
@@ -38,6 +28,14 @@ struct ParkOverviewView: View {
 				await vm.fetchLiveData(for: vm.park.id)
 				await vm.fetchChildren(for: vm.park.id)
 				hasAppeared = true
+			}
+		}
+		.alert(isPresented: $vm.hasError, error: vm.error) {
+			Button("Retry") {
+				Task {
+					await vm.fetchLiveData(for: vm.park.id)
+					await vm.fetchChildren(for: vm.park.id)
+				}
 			}
 		}
     }
@@ -55,5 +53,39 @@ struct ParkOverviewView_Previews: PreviewProvider {
 }
 
 private extension ParkOverviewView {
+	var favoriteSection: some View {
+		POIScrollView(title: "Favorites",
+					  symbolName: "heart.fill",
+					  data: [],
+					  typeColor: .red,
+					  entityType: .attraction)
+		.padding(.top)
+	}
 
+	var attractionSection: some View {
+		let attractions = Array(vm.operatingAttractions.prefix(5))
+		return POIScrollView(title: "Attractions",
+							 symbolName: "seal.fill",
+							 data: attractions,
+							 typeColor: .blue,
+							 entityType: .attraction)
+	}
+
+	var showSection: some View {
+		let shows = Array(vm.operatingShows.prefix(5))
+		return POIScrollView(title: "Shows",
+							 symbolName: "theatermasks.fill",
+							 data: shows,
+							 typeColor: .orange,
+							 entityType: .show)
+	}
+
+	var restaurantSection: some View {
+		let restaurants = Array(vm.restaurants.prefix(5))
+		return POIScrollView(title: "Restaurants",
+							 symbolName: "fork.knife",
+							 data: restaurants,
+							 typeColor: .indigo,
+							 entityType: .restaurant)
+	}
 }

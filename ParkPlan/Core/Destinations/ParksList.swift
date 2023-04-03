@@ -9,26 +9,25 @@ import SwiftUI
 
 struct ParksList: View {
     let destination: DestinationEntry
+	@EnvironmentObject var testType: TestType
 
     var body: some View {
         Section {
             ForEach(destination.parks) { park in
                 NavigationLink(park.name) {
 					#if os(iOS)
-					// Pass in DestinationParkEntry
-					// ParkOverviewView(park: park)
-//					ParkOverviewView(parkId: park.id, parkName: park.name)
 					ParkOverviewView()
 						.environmentObject(ParkOverviewViewModel(park: park))
 					#elseif os(watchOS)
 					ParkDetailView(park: park, entityType: .attraction)
-//					ParkDetailView(parkId: park.id, entityType: .attraction)
 					#endif
                 }
             }
         } header: {
             if destination.parks.count > 1 {
-                Text(destination.name)
+                VStack {
+                	Text(destination.name)
+                }
             }
         }
     }

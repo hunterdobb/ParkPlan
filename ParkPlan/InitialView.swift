@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct InitialView: View {
+//	@StateObject private var fetcher = DataFetcher()
 	@StateObject private var vm = DestinationsViewModel()
 
     var body: some View {
 		TabView {
 			DestinationsView()
 				.environmentObject(vm)
+//				.environmentObject(fetcher)
 				.tabItem {
 					Image(systemName: "globe.americas.fill")
 					Text("Destinations")

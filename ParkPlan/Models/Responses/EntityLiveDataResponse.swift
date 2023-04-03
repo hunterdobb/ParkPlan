@@ -8,9 +8,9 @@
 import Foundation
 
 struct EntityLiveDataResponse: Codable {
-	let id: String?
-	let name: String?
-	let entityType: EntityType?
+	let id: String
+	let name: String
+	let entityType: EntityType
 	let timezone: String?
 	let liveData: [EntityLiveData]?
 }
@@ -24,15 +24,23 @@ struct EntityLiveData: Codable, Identifiable {
 	let externalId: String?
 	let queue: LiveQueue?
 	let status: LiveStatusType?
+	let forecast: [Forecast]?
 	let lastUpdated: Date //($date-time)
 	let showTimes: [LiveShowTime]?
 }
 
+// MARK: - Forecast
+struct Forecast: Codable, Hashable {
+	let time: Date
+	let waitTime: Int
+	let percentage: Int
+}
+
 // MARK: - Live Show Time
-struct LiveShowTime: Codable {
+struct LiveShowTime: Codable, Hashable {
 	let type: String?
-	let startTime: String? //($date-time)
-	let endTime: String? //($date-time)
+	let startTime: Date? //($date-time)
+	let endTime: Date? //($date-time)
 }
 
 enum LiveStatusType: String, Codable {

@@ -19,7 +19,7 @@ enum Endpoint {
 
 // Not used. Only here for example purposes
 extension Endpoint {
-	enum MethodType {
+	enum MethodType: Equatable {
 		case GET
 		case POST(data: Data?)
 	}

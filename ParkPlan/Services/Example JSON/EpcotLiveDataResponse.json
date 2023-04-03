@@ -1,0 +1,2070 @@
+{
+	"id": "47f90d2c-e191-4239-a466-5892ef59a88b",
+	"name": "EPCOT",
+	"entityType": "PARK",
+	"timezone": "America/New_York",
+	"liveData": [
+		{
+			"id": "17d51899-7d6d-4cd7-93bb-4064a47d501b",
+			"name": "Teppan Edo",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "221625;entityType=restaurant",
+			"status": "OPERATING",
+			"lastUpdated": "2022-05-30T08:29:49Z"
+		},
+		{
+			"id": "1f542745-cda1-4786-a536-5fff373e5964",
+			"name": "The American Adventure",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010200;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-12-24T05:05:24Z"
+		},
+		{
+			"id": "4d34dd80-4042-4ada-a74f-ef35a0887b4f",
+			"name": "Sharks and Rays - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17883691;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:54Z"
+		},
+		{
+			"id": "37bb0aca-0dcf-4fa0-bc03-81d1b4ef9ac0",
+			"name": "Manatees - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19440020;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:57Z"
+		},
+		{
+			"id": "7969166f-feef-4350-b26e-6a6c745528f4",
+			"name": "SeaBase",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010184;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:06:01Z"
+		},
+		{
+			"id": "64f25dcf-66cb-4b07-b081-6c3f77d46b65",
+			"name": "Epcot Forever",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19258170;entityType=Entertainment",
+			"status": "CLOSED",
+			"showtimes": [],
+			"lastUpdated": "2021-09-29T04:11:22Z"
+		},
+		{
+			"id": "3e5f26ee-c02d-47fd-891e-5e4479073444",
+			"name": "ImageWorks - The \"What If\" Labs",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010144;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:06:01Z"
+		},
+		{
+			"id": "66ff36de-9cb3-4d9a-b891-1665d19ffb3e",
+			"name": "Stave Church Gallery",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "61525;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:52Z"
+		},
+		{
+			"id": "0f40274d-420a-425a-9377-29fd6e49484f",
+			"name": "House of the Whispering Willows",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "160914;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:53Z"
+		},
+		{
+			"id": "4f0df9e7-d4c1-45b5-93e2-4a7bc92547b0",
+			"name": "American Heritage Gallery",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "26421;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:52Z"
+		},
+		{
+			"id": "3d8f8f8f-f984-4d2e-8dea-5a79432bdf05",
+			"name": "Advanced Training Lab",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "3831;entityType=Attraction",
+			"status": "CLOSED",
+			"lastUpdated": "2022-05-11T11:26:18Z"
+		},
+		{
+			"id": "2ecc4fff-2994-476f-9926-24a4af173838",
+			"name": "Bruce's Shark World",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "56404;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:52Z"
+		},
+		{
+			"id": "9053240b-7f7f-44fe-970b-bd7956cd5d4f",
+			"name": "Project Tomorrow: Inventing the Wonders of the Future",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "220239;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:53Z"
+		},
+		{
+			"id": "9244365a-ffad-4ea1-ad8d-a36ac3a0e383",
+			"name": "Reef Fish - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "18672355;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:55Z"
+		},
+		{
+			"id": "86ea784f-eed1-4696-ac01-ebb65589bf0e",
+			"name": "Invertebrates at EPCOT - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "18673469;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:56Z"
+		},
+		{
+			"id": "3ace01d1-15fc-4fbb-99e4-81a696cb2d05",
+			"name": "Kidcot Fun Stops",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "91245;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:52Z"
+		},
+		{
+			"id": "329c91db-3b4f-40e5-adaa-f902e6f450f9",
+			"name": "Coral Reefs - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17883690;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:54Z"
+		},
+		{
+			"id": "ade9aa6d-2eb0-4046-b04d-a0f98d0682d9",
+			"name": "Sea Turtles - Disney Animals",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17883692;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:54Z"
+		},
+		{
+			"id": "18c533d6-a395-4ae4-9488-80fce9c497fe",
+			"name": "Palais du Cinéma",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19503896;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:05:57Z"
+		},
+		{
+			"id": "6f1d3b25-42c9-4e99-9dce-6c20d7a5deea",
+			"name": "Bijutsu-kan Gallery",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80069745;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:06:02Z"
+		},
+		{
+			"id": "8f8746cb-c714-4c60-848d-e2dc4e6f586b",
+			"name": "Mexico Folk Art Gallery",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80069743;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-09-30T04:06:02Z"
+		},
+		{
+			"id": "07dbeaea-85fa-45f2-872f-02f9e7510419",
+			"name": "Gallery of Arts and History",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010137;entityType=Attraction",
+			"status": "OPERATING",
+			"lastUpdated": "2022-11-08T05:06:12Z"
+		},
+		{
+			"id": "09120193-f2db-4073-8ea8-be994e61e5b3",
+			"name": "Spaceship Earth: A Beacon of Magic",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "411500814;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2021-10-31T19:15:00-04:00",
+					"startTime": "2021-10-31T19:15:00-04:00"
+				}
+			],
+			"lastUpdated": "2021-10-31T04:10:34Z"
+		},
+		{
+			"id": "41aba635-48e4-43bf-9bb1-3b811b5705d0",
+			"name": "Rose & Crown Pub Musician",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17490262;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T13:30:00-05:00",
+					"startTime": "2023-02-15T13:30:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T14:30:00-05:00",
+					"startTime": "2023-02-15T14:30:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T16:00:00-05:00",
+					"startTime": "2023-02-15T16:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T17:00:00-05:00",
+					"startTime": "2023-02-15T17:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T18:00:00-05:00",
+					"startTime": "2023-02-15T18:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T19:00:00-05:00",
+					"startTime": "2023-02-15T19:00:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:05:59Z"
+		},
+		{
+			"id": "9d3adf0b-f0bf-43c6-b92f-90236880d3db",
+			"name": "Groovin' Alps",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "18923661;entityType=Entertainment",
+			"status": "CLOSED",
+			"showtimes": [],
+			"lastUpdated": "2022-09-28T04:06:31Z"
+		},
+		{
+			"id": "33bd3bad-6803-4c5e-97ac-f7e31261a604",
+			"name": "Meet Anna and Elsa at Royal Sommerhus",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17564219;entityType=Entertainment",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 35
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 45,
+					"percentage": 37
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 0,
+					"percentage": 0
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 0,
+					"percentage": 0
+				}
+			],
+			"showtimes": [
+				{
+					"type": "Operating",
+					"endTime": "2023-02-15T18:30:00-05:00",
+					"startTime": "2023-02-15T09:15:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T15:40:26Z"
+		},
+		{
+			"id": "38892221-f69c-4913-97c9-7473c88854fa",
+			"name": "Coral Reef Restaurant",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90001416;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-15T01:17:25Z"
+		},
+		{
+			"id": "001b099f-4db8-4843-8c1e-852e0e8fc2df",
+			"name": "Viva Mexico",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "209984;entityType=Entertainment",
+			"status": "CLOSED",
+			"showtimes": [],
+			"lastUpdated": "2022-11-14T05:08:56Z"
+		},
+		{
+			"id": "3beaa9a5-6404-4446-bfd1-e0d0eea65e85",
+			"name": "JAMMitors",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "13507;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T09:15:00-05:00",
+					"startTime": "2023-02-15T09:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T10:15:00-05:00",
+					"startTime": "2023-02-15T10:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T11:15:00-05:00",
+					"startTime": "2023-02-15T11:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:15:00-05:00",
+					"startTime": "2023-02-15T12:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T14:15:00-05:00",
+					"startTime": "2023-02-15T14:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:15:00-05:00",
+					"startTime": "2023-02-15T15:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T16:15:00-05:00",
+					"startTime": "2023-02-15T16:15:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:05:58Z"
+		},
+		{
+			"id": "22f48b73-01df-460e-8969-9eb2b4ae836c",
+			"name": "Gran Fiesta Tour Starring The Three Caballeros",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "207395;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 5
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T14:13:21Z"
+		},
+		{
+			"id": "76eadac1-cdfa-45e5-a25c-54ed4c3a604f",
+			"name": "Marimba de las Américas",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19277873;entityType=Entertainment",
+			"status": "CLOSED",
+			"showtimes": [],
+			"lastUpdated": "2023-02-12T05:11:05Z"
+		},
+		{
+			"id": "c49ec22b-b529-4d25-bafa-e222b22ddc3c",
+			"name": "Harmonious",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19622841;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T21:00:00-05:00",
+					"startTime": "2023-02-15T21:00:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:06:01Z"
+		},
+		{
+			"id": "d4179c4c-eb08-4559-aa7c-f9802fda641b",
+			"name": "Garden Grill Restaurant",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90002237;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-15T00:50:08Z"
+		},
+		{
+			"id": "5b7cf10a-763b-45ba-9049-87140270826f",
+			"name": "La Hacienda de San Angel",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "15525573;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-14T22:56:01Z"
+		},
+		{
+			"id": "61fb49f8-e62f-4e1c-ae0e-8ab9929037bc",
+			"name": "Canada Far and Wide in Circle-Vision 360",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010174;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T14:01:21Z"
+		},
+		{
+			"id": "dbf4a977-a7b5-41db-a9b7-ecad65f9aa0f",
+			"name": "Spice Road Table",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "17720675;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-15T00:05:10Z"
+		},
+		{
+			"id": "35ed719b-f7f0-488f-8346-4fbf8055d373",
+			"name": "Disney and Pixar Short Film Festival",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "18269694;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				}
+			],
+			"lastUpdated": "2023-02-15T15:51:17Z"
+		},
+		{
+			"id": "57acb522-a6fc-4aa4-a80e-21f21f317250",
+			"name": "Turtle Talk With Crush",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "62992;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 15
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				}
+			],
+			"lastUpdated": "2023-02-15T15:51:18Z"
+		},
+		{
+			"id": "37ae57c5-feaf-4e47-8f27-4b385be200f0",
+			"name": "Test Track",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010199;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 55
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T15:25:00-05:00"
+				},
+				"SINGLE_RIDER": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 60,
+					"percentage": 50
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 60,
+					"percentage": 50
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 60,
+					"percentage": 50
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:59Z"
+		},
+		{
+			"id": "6ecdbfc8-85c2-436d-893b-6db0f437b74a",
+			"name": "Rose & Crown Dining Room",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90002084;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-14T23:44:03Z"
+		},
+		{
+			"id": "e3549451-b284-453d-9c31-e3b1207abd79",
+			"name": "Guardians of the Galaxy: Cosmic Rewind - New!",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "411499845;entityType=Attraction",
+			"queue": {
+				"BOARDING_GROUP": {
+					"estimatedWait": null,
+					"currentGroupEnd": 52,
+					"allocationStatus": "PAUSED",
+					"currentGroupStart": 38,
+					"nextAllocationTime": "2023-02-15T13:00:00-05:00"
+				},
+				"PAID_RETURN_TIME": {
+					"price": {
+						"amount": 1400,
+						"currency": "USD"
+					},
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T13:40:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-15T15:55:57Z"
+		},
+		{
+			"id": "fb076275-0570-4d62-b2a9-4d6515130fa3",
+			"name": "The Seas with Nemo & Friends",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "107785;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 5
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:57Z"
+		},
+		{
+			"id": "8f353879-d6ac-4211-9352-4029efb47c18",
+			"name": "Living with the Land",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010161;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 10
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:58Z"
+		},
+		{
+			"id": "75449e85-c410-4cef-a368-9d2ea5d52b58",
+			"name": "Journey Into Imagination With Figment",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010152;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 5
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 10,
+					"percentage": 8
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:58Z"
+		},
+		{
+			"id": "5b6475ad-4e9a-4793-b841-501aa382c9c0",
+			"name": "Mission: SPACE",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010173;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 20
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 30,
+					"percentage": 25
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:58Z"
+		},
+		{
+			"id": "81b15dfd-cf6a-466f-be59-3dd65d2a2807",
+			"name": "Soarin' Around the World",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "20194;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 30
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 45,
+					"percentage": 37
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 50,
+					"percentage": 41
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 35,
+					"percentage": 29
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:59Z"
+		},
+		{
+			"id": "8d7ccdb1-a22b-4e26-8dc8-65b1938ed5f0",
+			"name": "Frozen Ever After",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "18375495;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 60
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T14:55:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 70,
+					"percentage": 58
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 75,
+					"percentage": 62
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 70,
+					"percentage": 58
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 55,
+					"percentage": 45
+				}
+			],
+			"lastUpdated": "2023-02-15T15:55:59Z"
+		},
+		{
+			"id": "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0",
+			"name": "Remy's Ratatouille Adventure",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19497835;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 30
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T19:25:00-05:00"
+				},
+				"SINGLE_RIDER": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-15T15:56:00Z"
+		},
+		{
+			"id": "480fde8f-fe58-4bfb-b3ab-052a39d4db7c",
+			"name": "Spaceship Earth",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010191;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 20
+				},
+				"RETURN_TIME": {
+					"state": "AVAILABLE",
+					"returnEnd": null,
+					"returnStart": "2023-02-15T11:00:00-05:00"
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 25,
+					"percentage": 20
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T15:56:00Z"
+		},
+		{
+			"id": "8c8cd77d-97f6-4309-b285-42aad90e9f15",
+			"name": "Beauty and the Beast Sing-Along",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19463785;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 0,
+					"percentage": 0
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 0,
+					"percentage": 0
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 0,
+					"percentage": 0
+				}
+			],
+			"lastUpdated": "2023-02-15T13:31:27Z"
+		},
+		{
+			"id": "c9e1d1f6-021f-43f2-a14b-3e67f65adbc4",
+			"name": "Biergarten Restaurant",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90001292;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-14T20:59:27Z"
+		},
+		{
+			"id": "482169b9-2889-4747-8aef-f9d13a37d940",
+			"name": "Awesome Planet",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19473173;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": 10
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T14:01:24Z"
+		},
+		{
+			"id": "ee070d46-6a64-41c0-9f12-69dcfcca10a0",
+			"name": "Reflections of China",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010180;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"forecast": [
+				{
+					"time": "2023-02-15T09:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T10:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T11:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T12:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T13:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T14:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T15:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T16:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T17:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 20,
+					"percentage": 16
+				}
+			],
+			"lastUpdated": "2023-02-15T14:01:22Z"
+		},
+		{
+			"id": "81e6f8fc-068c-4d20-9433-2353992cec7a",
+			"name": "Disney® Visa® Cardmember Photo Opportunity at EPCOT",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "15958368;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Operating",
+					"endTime": "2023-02-15T18:30:00-05:00",
+					"startTime": "2023-02-15T13:00:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:05:59Z"
+		},
+		{
+			"id": "5cd0aeed-2e8a-41c8-9a33-55eb5b121962",
+			"name": "Atlas Fusion",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19496225;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T13:20:00-05:00",
+					"startTime": "2023-02-15T13:20:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T14:20:00-05:00",
+					"startTime": "2023-02-15T14:20:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:20:00-05:00",
+					"startTime": "2023-02-15T15:20:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T16:20:00-05:00",
+					"startTime": "2023-02-15T16:20:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T17:40:00-05:00",
+					"startTime": "2023-02-15T17:40:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T18:40:00-05:00",
+					"startTime": "2023-02-15T18:40:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T19:40:00-05:00",
+					"startTime": "2023-02-15T19:40:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:06:00Z"
+		},
+		{
+			"id": "c5f6c7e4-d5cd-4d71-8e02-57d8bb43b3ba",
+			"name": "Voices of Liberty",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010879;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T11:15:00-05:00",
+					"startTime": "2023-02-15T11:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:00:00-05:00",
+					"startTime": "2023-02-15T12:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:45:00-05:00",
+					"startTime": "2023-02-15T12:45:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T13:30:00-05:00",
+					"startTime": "2023-02-15T13:30:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T14:15:00-05:00",
+					"startTime": "2023-02-15T14:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:00:00-05:00",
+					"startTime": "2023-02-15T15:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:45:00-05:00",
+					"startTime": "2023-02-15T15:45:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:06:01Z"
+		},
+		{
+			"id": "83fed9d1-c25f-497c-ab8e-21e4dd7ce655",
+			"name": "Sergio",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010873;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T11:50:00-05:00",
+					"startTime": "2023-02-15T11:50:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:35:00-05:00",
+					"startTime": "2023-02-15T12:35:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T13:20:00-05:00",
+					"startTime": "2023-02-15T13:20:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T14:15:00-05:00",
+					"startTime": "2023-02-15T14:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:10:00-05:00",
+					"startTime": "2023-02-15T15:10:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:55:00-05:00",
+					"startTime": "2023-02-15T15:55:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T16:40:00-05:00",
+					"startTime": "2023-02-15T16:40:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:06:01Z"
+		},
+		{
+			"id": "296d164a-8b9a-49d3-a285-637b86731260",
+			"name": "Matsuriza",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010865;entityType=Entertainment",
+			"status": "CLOSED",
+			"showtimes": [],
+			"lastUpdated": "2023-02-14T05:03:05Z"
+		},
+		{
+			"id": "5979b17a-4af3-449d-8d9c-3ca312d1f3da",
+			"name": "Alberta Bound",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "78700;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2022-11-19T14:15:00-05:00",
+					"startTime": "2022-11-19T14:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2022-11-19T15:30:00-05:00",
+					"startTime": "2022-11-19T15:30:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2022-11-19T17:00:00-05:00",
+					"startTime": "2022-11-19T17:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2022-11-19T18:15:00-05:00",
+					"startTime": "2022-11-19T18:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2022-11-19T19:30:00-05:00",
+					"startTime": "2022-11-19T19:30:00-05:00"
+				}
+			],
+			"lastUpdated": "2022-11-19T05:07:21Z"
+		},
+		{
+			"id": "ea730d0c-7723-429d-89a4-9e76f053f5ac",
+			"name": "Mariachi Cobre",
+			"entityType": "SHOW",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "19322758;entityType=Entertainment",
+			"status": "OPERATING",
+			"showtimes": [
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T11:15:00-05:00",
+					"startTime": "2023-02-15T11:15:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:00:00-05:00",
+					"startTime": "2023-02-15T12:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T12:45:00-05:00",
+					"startTime": "2023-02-15T12:45:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T13:30:00-05:00",
+					"startTime": "2023-02-15T13:30:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:00:00-05:00",
+					"startTime": "2023-02-15T15:00:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T15:45:00-05:00",
+					"startTime": "2023-02-15T15:45:00-05:00"
+				},
+				{
+					"type": "Performance Time",
+					"endTime": "2023-02-15T16:30:00-05:00",
+					"startTime": "2023-02-15T16:30:00-05:00"
+				}
+			],
+			"lastUpdated": "2023-02-15T05:06:00Z"
+		},
+		{
+			"id": "07263f57-0431-4da2-a8b6-77d2965a6f83",
+			"name": "San Angel Inn Restaurante",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90002100;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-14T23:01:16Z"
+		},
+		{
+			"id": "3206e3a6-cbc3-4960-9700-163764bc47d6",
+			"name": "Le Cellier Steakhouse",
+			"entityType": "RESTAURANT",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "90001798;entityType=restaurant",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "OPERATING",
+			"lastUpdated": "2023-02-14T22:00:13Z"
+		},
+		{
+			"id": "00666fe9-7774-4b53-9fb7-3d333f8aa503",
+			"name": "Impressions de France",
+			"entityType": "ATTRACTION",
+			"parkId": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"externalId": "80010145;entityType=Attraction",
+			"queue": {
+				"STANDBY": {
+					"waitTime": null
+				}
+			},
+			"status": "CLOSED",
+			"forecast": [
+				{
+					"time": "2023-02-15T18:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T19:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				},
+				{
+					"time": "2023-02-15T20:00:00-05:00",
+					"waitTime": 15,
+					"percentage": 12
+				}
+			],
+			"lastUpdated": "2023-02-15T08:11:05Z"
+		}
+	]
+}

@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ParkDetailRow: View {
-	let itemId: String
 	let name: String
+	let liveData: String
+	let color: Color
 
     var body: some View {
         HStack {
-			Text(name).font(.headline)
+			Text(name)
 			Spacer()
 			waitTime
         }
@@ -22,18 +23,18 @@ struct ParkDetailRow: View {
 
 struct ParkDataRow_Previews: PreviewProvider {
     static var previews: some View {
-        ParkDetailRow(itemId: "1", name: "Hagrid's Motorbike")
+		ParkDetailRow(name: "Hagrids", liveData: "80", color: .pink)
 			.padding()
     }
 }
 
 private extension ParkDetailRow {
 	var waitTime: some View {
-		Text("80")
+		Text(liveData)
 			.foregroundColor(.white)
 			.font(.headline)
 			.padding(.horizontal)
 			.padding(.vertical, 8)
-			.background(.pink.gradient, in: RoundedRectangle(cornerRadius: 5))
+			.background(color, in: RoundedRectangle(cornerRadius: 5))
 	}
 }

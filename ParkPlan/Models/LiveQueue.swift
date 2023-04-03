@@ -33,28 +33,28 @@ struct SingleRider: Codable {
 
 struct ReturnTime: Codable {
 	let state: ReturnTimeState?
-	let returnStart: String? //($date-time)
-	let returnEnd: String? //($date-time)
+	let returnStart: Date? //($date-time)
+	let returnEnd: Date? //($date-time)
 }
 
 struct PaidReturnTime: Codable {
 	let state: ReturnTimeState?
-	let returnStart: String? //($date-time)
-	let returnEnd: String? //($date-time)
+	let returnStart: Date? //($date-time)
+	let returnEnd: Date? //($date-time)
 	let price: PriceData?
 }
 
 struct PriceData: Codable {
-	let amount: Double? // says 'number' in docs
+	let amount: Int? // says 'number' in docs
 	let currency: String?
 }
 
 struct BoardingGroup: Codable {
-	let allocationStatus: BoardingGroupState?
-	let currentGroupStart: String? //($date-time)
-	let currentGroupEnd: String? //($date-time)
-	let nextAllocationTime: String? //($date-time)
 	let estimatedWait: Int?
+	let allocationStatus: BoardingGroupState?
+	let currentGroupStart: Int?
+	let currentGroupEnd: Int?
+	let nextAllocationTime: Date? //($date-time)
 }
 
 // MARK: - Enums

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B553CB4D299BD6650056BA32 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */; };
+		B553CB53299BEF380056BA32 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB52299BEF380056BA32 /* NetworkingEndpointTests.swift */; };
+		B553CB55299C47130056BA32 /* DestinationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB54299C47130056BA32 /* DestinationDataService.swift */; };
+		B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */; };
+		B553CB59299DB6490056BA32 /* LiveDataTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB58299DB6490056BA32 /* LiveDataTestView.swift */; };
+		B553CB5A299DC78A0056BA32 /* LiveDataTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB58299DB6490056BA32 /* LiveDataTestView.swift */; };
 		B554481229969AFA003966F3 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554481129969AFA003966F3 /* InitialView.swift */; };
 		B554481429969AFB003966F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481329969AFB003966F3 /* Assets.xcassets */; };
 		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
@@ -19,6 +25,8 @@
 		B595C05D299552AE00F80A68 /* POICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05C299552AE00F80A68 /* POICardView.swift */; };
 		B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C05F2995562800F80A68 /* LiveDataTagView.swift */; };
 		B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C06129955E2400F80A68 /* POIScrollView.swift */; };
+		B59D45E129A17B3700B83537 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D45E029A17B3700B83537 /* DataFetcher.swift */; };
+		B59D45E229A17B3700B83537 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D45E029A17B3700B83537 /* DataFetcher.swift */; };
 		B5A1437C299AAACB0022B074 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1437B299AAACB0022B074 /* InitialView.swift */; };
 		B5A1437D299AAB430022B074 /* ParkPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */; };
 		B5A14382299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */; };
@@ -65,6 +73,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B553CB46299BD6290056BA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EFF26B2985B263003AE5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EFF2722985B263003AE5F1;
+			remoteInfo = ParkPlan;
+		};
 		B554481829969AFB003966F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5EFF26B2985B263003AE5F1 /* Project object */;
@@ -89,6 +104,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B553CB42299BD6290056BA32 /* ParkPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
+		B553CB4F299BE2820056BA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B553CB52299BEF380056BA32 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
+		B553CB54299C47130056BA32 /* DestinationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDataService.swift; sourceTree = "<group>"; };
+		B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EpcotLiveDataResponse.json; sourceTree = "<group>"; };
+		B553CB58299DB6490056BA32 /* LiveDataTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTestView.swift; sourceTree = "<group>"; };
 		B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParkPlanWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554481129969AFA003966F3 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		B554481329969AFB003966F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +123,7 @@
 		B595C05C299552AE00F80A68 /* POICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICardView.swift; sourceTree = "<group>"; };
 		B595C05F2995562800F80A68 /* LiveDataTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTagView.swift; sourceTree = "<group>"; };
 		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
+		B59D45E029A17B3700B83537 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		B5A1437B299AAACB0022B074 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewViewModel.swift; sourceTree = "<group>"; };
 		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +153,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B553CB3F299BD6290056BA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B554480A29969AFA003966F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +177,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B553CB43299BD6290056BA32 /* ParkPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				B553CB50299BEECC0056BA32 /* Networking */,
+				B553CB4B299BD6490056BA32 /* Mapper */,
+			);
+			path = ParkPlanTests;
+			sourceTree = "<group>";
+		};
+		B553CB4B299BD6490056BA32 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		B553CB50299BEECC0056BA32 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B553CB51299BEEE20056BA32 /* Endpoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B553CB51299BEEE20056BA32 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				B553CB52299BEF380056BA32 /* NetworkingEndpointTests.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
 		B554480E29969AFA003966F3 /* ParkPlanWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +277,8 @@
 		B5A14379299A8FC10022B074 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B553CB54299C47130056BA32 /* DestinationDataService.swift */,
+				B59D45E029A17B3700B83537 /* DataFetcher.swift */,
 				B5EFF2862985B297003AE5F1 /* Example JSON */,
 			);
 			path = Services;
@@ -223,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				B5F24E25298AB4EF003FE227 /* MapTestView.swift */,
+				B553CB58299DB6490056BA32 /* LiveDataTestView.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -232,6 +298,7 @@
 			children = (
 				B5EFF2752985B263003AE5F1 /* ParkPlan */,
 				B554480E29969AFA003966F3 /* ParkPlanWatch Watch App */,
+				B553CB43299BD6290056BA32 /* ParkPlanTests */,
 				B5EFF2742985B263003AE5F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -241,6 +308,7 @@
 			children = (
 				B5EFF2732985B263003AE5F1 /* ParkPlan.app */,
 				B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */,
+				B553CB42299BD6290056BA32 /* ParkPlanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +316,7 @@
 		B5EFF2752985B263003AE5F1 /* ParkPlan */ = {
 			isa = PBXGroup;
 			children = (
+				B553CB4F299BE2820056BA32 /* Info.plist */,
 				B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */,
 				B5A1437B299AAACB0022B074 /* InitialView.swift */,
 				B5A14377299A8F280022B074 /* Utilities */,
@@ -278,6 +347,7 @@
 				B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */,
 				B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */,
 				B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */,
+				B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */,
 			);
 			path = "Example JSON";
 			sourceTree = "<group>";
@@ -297,10 +367,10 @@
 		B5EFF2962986B516003AE5F1 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				B5F3E07429983AD500E67EF3 /* EntityScheduleResponse.swift */,
 				B5F3E07729983B0F00E67EF3 /* DestinationsResponse.swift */,
-				B5F3E07A29983B4900E67EF3 /* EntityLiveDataResponse.swift */,
 				B5F3E07D29983B8E00E67EF3 /* EntityChildrenResponse.swift */,
+				B5F3E07A29983B4900E67EF3 /* EntityLiveDataResponse.swift */,
+				B5F3E07429983AD500E67EF3 /* EntityScheduleResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -330,6 +400,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B553CB41299BD6290056BA32 /* ParkPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B553CB4A299BD6290056BA32 /* Build configuration list for PBXNativeTarget "ParkPlanTests" */;
+			buildPhases = (
+				B553CB3E299BD6290056BA32 /* Sources */,
+				B553CB3F299BD6290056BA32 /* Frameworks */,
+				B553CB40299BD6290056BA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B553CB47299BD6290056BA32 /* PBXTargetDependency */,
+			);
+			name = ParkPlanTests;
+			productName = ParkPlanTests;
+			productReference = B553CB42299BD6290056BA32 /* ParkPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B554481E29969AFB003966F3 /* Build configuration list for PBXNativeTarget "ParkPlanWatch Watch App" */;
@@ -376,6 +464,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					B553CB41299BD6290056BA32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5EFF2722985B263003AE5F1;
+					};
 					B554480C29969AFA003966F3 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -399,11 +491,19 @@
 			targets = (
 				B5EFF2722985B263003AE5F1 /* ParkPlan */,
 				B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */,
+				B553CB41299BD6290056BA32 /* ParkPlanTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B553CB40299BD6290056BA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B554480B29969AFA003966F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +523,7 @@
 				B5EFF27F2985B265003AE5F1 /* Preview Assets.xcassets in Resources */,
 				B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */,
 				B5EFF2882985B32F003AE5F1 /* DestinationsStaticData.json in Resources */,
+				B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */,
 				B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,11 +531,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B553CB3E299BD6290056BA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B553CB53299BEF380056BA32 /* NetworkingEndpointTests.swift in Sources */,
+				B553CB4D299BD6650056BA32 /* JSONMapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B554480929969AFA003966F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5B92C6429972B09009582BA /* ParkDetailRow.swift in Sources */,
+				B59D45E229A17B3700B83537 /* DataFetcher.swift in Sources */,
+				B553CB5A299DC78A0056BA32 /* LiveDataTestView.swift in Sources */,
 				B5B92C5E299729D3009582BA /* Endpoint.swift in Sources */,
 				B5F3E07929983B0F00E67EF3 /* DestinationsResponse.swift in Sources */,
 				B5F3E07629983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
@@ -476,15 +588,18 @@
 				B5F3E08229983BE500E67EF3 /* EntityType.swift in Sources */,
 				B5A1437C299AAACB0022B074 /* InitialView.swift in Sources */,
 				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
+				B59D45E129A17B3700B83537 /* DataFetcher.swift in Sources */,
 				B5F3E08B2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B595C05D299552AE00F80A68 /* POICardView.swift in Sources */,
 				B5F24E22298AA0A9003FE227 /* ParksList.swift in Sources */,
+				B553CB55299C47130056BA32 /* DestinationDataService.swift in Sources */,
 				B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */,
 				B5F3E07529983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */,
 				B595C0472991449C00F80A68 /* ParkDetailRow.swift in Sources */,
 				B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */,
 				B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */,
+				B553CB59299DB6490056BA32 /* LiveDataTestView.swift in Sources */,
 				B5F3E07E29983B8E00E67EF3 /* EntityChildrenResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +607,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B553CB47299BD6290056BA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EFF2722985B263003AE5F1 /* ParkPlan */;
+			targetProxy = B553CB46299BD6290056BA32 /* PBXContainerItemProxy */;
+		};
 		B554481929969AFB003966F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B554480C29969AFA003966F3 /* ParkPlanWatch Watch App */;
@@ -500,6 +620,50 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B553CB48299BD6290056BA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkPlan";
+			};
+			name = Debug;
+		};
+		B553CB49299BD6290056BA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M7L7W2WHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunterdobbapps.ParkPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkPlan";
+			};
+			name = Release;
+		};
 		B554481C29969AFB003966F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -692,6 +856,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkPlan/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -731,6 +896,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkPlan/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -759,6 +925,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B553CB4A299BD6290056BA32 /* Build configuration list for PBXNativeTarget "ParkPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B553CB48299BD6290056BA32 /* Debug */,
+				B553CB49299BD6290056BA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B554481E29969AFB003966F3 /* Build configuration list for PBXNativeTarget "ParkPlanWatch Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

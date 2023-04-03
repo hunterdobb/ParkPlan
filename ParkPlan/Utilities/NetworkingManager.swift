@@ -12,8 +12,7 @@ final class NetworkingManager {
 
     private init() {}
 
-	func request<T: Codable>(_ endpoint: Endpoint,
-                             type: T.Type) async throws -> T{
+	func request<T: Codable>(_ endpoint: Endpoint, type: T.Type) async throws -> T {
 		guard let url = endpoint.url else {
 			throw NetworkingError.invalidURL
 		}
@@ -23,10 +22,13 @@ final class NetworkingManager {
 		let (data, response) = try await URLSession.shared.data(for: request)
 
 		// Check response
-		guard let response = response as? HTTPURLResponse,
-		(200...300) ~= response.statusCode else {
-			let statusCode = (response as! HTTPURLResponse).statusCode
-			throw NetworkingError.invalidStatusCode(statusCode: statusCode)
+		guard let response = response as? HTTPURLResponse else {
+			throw NetworkingError.badResponse
+		}
+
+		// Check status code
+		guard response.statusCode == 200 else {
+			throw NetworkingError.invalidStatusCode(statusCode: response.statusCode)
 		}
 
 		let decoder = JSONDecoder()
@@ -35,49 +37,50 @@ final class NetworkingManager {
 
 		return result
     }
-
-	func request(_ endpoint: Endpoint) async throws {
-		guard let url = endpoint.url else {
-			throw NetworkingError.invalidURL
-		}
-
-		let request = buildRequest(from: url, methodType: endpoint.methodType)
-
-		let (_, response) = try await URLSession.shared.data(for: request)
-
-		// Check response
-		guard let response = response as? HTTPURLResponse,
-		(200...300) ~= response.statusCode else {
-			let statusCode = (response as! HTTPURLResponse).statusCode
-			throw NetworkingError.invalidStatusCode(statusCode: statusCode)
-		}
-    }
+// MUST BE FOR POST? (Removing POST in future)
+//	func request(_ endpoint: Endpoint) async throws {
+//		guard let url = endpoint.url else {
+//			throw NetworkingError.invalidURL
+//		}
+//
+//		let request = buildRequest(from: url, methodType: endpoint.methodType)
+//
+//		let (_, response) = try await URLSession.shared.data(for: request)
+//
+//		// Check response
+//		guard let response = response as? HTTPURLResponse,
+//		(200...300) ~= response.statusCode else {
+//			let statusCode = (response as! HTTPURLResponse).statusCode
+//			throw NetworkingError.invalidStatusCode(statusCode: statusCode)
+//		}
+//    }
 }
 
 extension NetworkingManager {
     enum NetworkingError: LocalizedError {
+		case badResponse
         case invalidURL
         case custom(error: Error)
         case invalidStatusCode(statusCode: Int)
         case invalidData
         case failedToDecode(error: Error)
-    }
-}
 
-extension NetworkingManager.NetworkingError {
-    var errorDescription: String? {
-        switch self {
-        case .invalidURL:
-            return "Invalid URL"
-        case .custom(let error):
-            return "Something went wrong. \(error.localizedDescription)"
-        case .invalidStatusCode(let statusCode):
-            return "Error: Status Code (\(statusCode))"
-        case .invalidData:
-            return "Invalid data"
-        case .failedToDecode(let error):
-            return "Failed to decode: \(error.localizedDescription)"
-        }
+		var errorDescription: String? {
+			switch self {
+			case .badResponse:
+				return "The server returned an unrecognized response"
+			case .invalidURL:
+				return "Invalid URL"
+			case .custom(let error):
+				return "Something went wrong. \(error.localizedDescription)"
+			case .invalidStatusCode(let statusCode):
+				return "Error: Status Code (\(statusCode))"
+			case .invalidData:
+				return "Invalid data"
+			case .failedToDecode(let error):
+				return "Failed to decode: \(error.localizedDescription)"
+			}
+		}
     }
 }
 
