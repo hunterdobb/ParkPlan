@@ -20,8 +20,8 @@ struct ParkDetailView: View {
 			typePicker
 			#endif
 
-			if let children = vm.children {
-				ForEach(children) { poi in
+//			if let children = vm.children {
+			ForEach(vm.children) { poi in
 					if poi.entityType == vm.selection,
 					   vm.dataIsUpdated(for: poi)
 					{
@@ -41,9 +41,9 @@ struct ParkDetailView: View {
 				if !vm.attractionsWithNoLiveData.isEmpty {
 					noLiveDataList
 				}
-			} else {
-				ProgressView()
-			}
+//			} else {
+//				ProgressView()
+//			}
 		}
 		.navigationTitle(park.name)
 		.task {
