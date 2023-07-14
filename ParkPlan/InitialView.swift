@@ -21,7 +21,7 @@ struct InitialView: View {
 					Text("Destinations")
 				}
 
-			Text("Settings")
+			LiveDataTestView()
 				.tabItem {
 					Image(systemName: "gear")
 					Text("Test")

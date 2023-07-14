@@ -45,7 +45,7 @@ struct PaidReturnTime: Codable {
 }
 
 struct PriceData: Codable {
-	let amount: Int? // says 'number' in docs
+	let amount: Int?
 	let currency: String?
 }
 
