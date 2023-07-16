@@ -7,33 +7,26 @@
 
 import SwiftUI
 
-class TestType: ObservableObject {
-	@Published var hi = "Hi"
-}
-
-struct TestTypeKey: EnvironmentKey {
-	static var defaultValue = TestType()
-}
-
-extension EnvironmentValues {
-	var testType: TestType {
-		get { self[TestTypeKey.self] }
-		set { self[TestTypeKey.self] = newValue }
-	}
-}
-
 @main
 struct ParkPlanApp: App {
-	@State var testType = TestType()
-	@StateObject var dataFetcher = DataFetcher()
+	@StateObject private var vm = DestinationsViewModel()
 
     var body: some Scene {
         WindowGroup {
-            InitialView()
-				.environment(\.testType, testType)
-				.environmentObject(dataFetcher)
+			TabView {
+				DestinationsView()
+					.environmentObject(vm)
+					.tabItem {
+						Image(systemName: "globe.americas.fill")
+						Text("Destinations")
+					}
 
-//			LiveDataTestView()
+				LiveDataTestView()
+					.tabItem {
+						Image(systemName: "gear")
+						Text("Test")
+					}
+			}
         }
     }
 }

@@ -25,8 +25,10 @@ final class DestinationsViewModel: ObservableObject {
 //		destinations =  fetcher.allDestinations
 
 		do {
-			let response = try await NetworkingManager.shared.request(.destinations, type: DestinationsResponse.self)
-			destinations = response.destinations
+			destinations = try await NetworkingManager.shared.request(
+				.destinations,
+				type: DestinationsResponse.self
+			).destinations
 			print("\(destinations.count)")
 		} catch {
 			hasError = true

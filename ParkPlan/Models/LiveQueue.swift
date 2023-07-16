@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LiveQueue: Codable {
+struct LiveQueue: Decodable {
 	let standby: Standby?
 	let singleRider: SingleRider?
 	let returnTime: ReturnTime?
@@ -23,33 +23,33 @@ struct LiveQueue: Codable {
 	}
 }
 
-struct Standby: Codable {
+struct Standby: Decodable {
 	let waitTime: Int?
 }
 
-struct SingleRider: Codable {
+struct SingleRider: Decodable {
 	let waitTime: Int?
 }
 
-struct ReturnTime: Codable {
+struct ReturnTime: Decodable {
 	let state: ReturnTimeState?
 	let returnStart: Date? //($date-time)
 	let returnEnd: Date? //($date-time)
 }
 
-struct PaidReturnTime: Codable {
+struct PaidReturnTime: Decodable {
 	let state: ReturnTimeState?
 	let returnStart: Date? //($date-time)
 	let returnEnd: Date? //($date-time)
 	let price: PriceData?
 }
 
-struct PriceData: Codable {
+struct PriceData: Decodable {
 	let amount: Int?
 	let currency: String?
 }
 
-struct BoardingGroup: Codable {
+struct BoardingGroup: Decodable {
 	let estimatedWait: Int?
 	let allocationStatus: BoardingGroupState?
 	let currentGroupStart: Int?
@@ -58,13 +58,13 @@ struct BoardingGroup: Codable {
 }
 
 // MARK: - Enums
-enum BoardingGroupState: String, Codable {
+enum BoardingGroupState: String, Decodable {
 	case available = "AVAILABLE"
 	case paused = "PAUSED"
 	case closed = "CLOSED"
 }
 
-enum ReturnTimeState: String, Codable {
+enum ReturnTimeState: String, Decodable {
 	case available = "AVAILABLE"
 	case tempFull = "TEMP_FULL"
 	case finished = "FINISHED"

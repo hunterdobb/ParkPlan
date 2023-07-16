@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ParksList: View {
     let destination: DestinationEntry
-	@EnvironmentObject var testType: TestType
+
+	@Environment(\.managedObjectContext) var moc
 
     var body: some View {
         Section {
@@ -40,8 +41,10 @@ struct ParksListView_Previews: PreviewProvider {
     }
 
     static var previews: some View {
-        List {
-            ParksList(destination: previewDestination)
+        NavigationStack {
+        	List {
+				ParksList(destination: previewDestination)
+			}
         }
     }
 }

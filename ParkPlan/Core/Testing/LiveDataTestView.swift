@@ -67,6 +67,8 @@ struct LiveDataTestView: View {
 	@State private var imageName = "star"
 	@State private var searchText = ""
 
+	var id: String = "magickingdompark"
+
 	func results(response: EntityLiveDataResponse) -> [EntityLiveData] {
 		if searchText.isEmpty {
 			return liveDataResponse?.liveData ?? [EntityLiveData]()
@@ -154,7 +156,7 @@ struct LiveDataTestView: View {
 			}
 		}
 		.task {
-			await fetchLiveData(for: "magickingdompark")
+			await fetchLiveData(for: id)
 		}
     }
 

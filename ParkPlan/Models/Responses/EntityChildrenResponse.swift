@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct EntityChildrenResponse: Codable {
+struct EntityChildrenResponse: Decodable {
 	let id: String
 	let name: String
 	let entityType: EntityType
@@ -16,7 +16,7 @@ struct EntityChildrenResponse: Codable {
 }
 
 // MARK: - Entity Child
-struct EntityChild: Codable, Identifiable {
+struct EntityChild: Decodable, Identifiable {
 	let id: String
 	let name: String
 	let entityType: EntityType

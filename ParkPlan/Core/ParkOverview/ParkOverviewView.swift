@@ -12,6 +12,8 @@ struct ParkOverviewView: View {
 
 	@State private var hasAppeared = false
 
+	@State private var showCharts = false
+
     var body: some View {
 		ScrollView {
 			Text("Open until 10:00 PM").frame(maxWidth: .infinity, alignment: .leading)
@@ -22,6 +24,14 @@ struct ParkOverviewView: View {
 			restaurantSection
 		}
 		.navigationTitle(vm.park.name)
+		.toolbar {
+			Button("Charts") {
+				showCharts.toggle()
+			}
+		}
+		.sheet(isPresented: $showCharts) {
+			LiveDataTestView(id: vm.park.id)
+		}
 		.task {
 			if !hasAppeared {
 				print("Overview RUN")

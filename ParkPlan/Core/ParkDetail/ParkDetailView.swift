@@ -20,30 +20,23 @@ struct ParkDetailView: View {
 			typePicker
 			#endif
 
-//			if let children = vm.children {
 			ForEach(vm.children) { poi in
-					if poi.entityType == vm.selection,
-					   vm.dataIsUpdated(for: poi)
-					{
-						NavigationLink {
-							Text(poi.name)
-						} label: {
-							dataRow(poi: poi)
-								.swipeActions(allowsFullSwipe: false) {
-									lastUpdatedButton(id: poi.id)
-								}
-						}
-
-
+				if poi.entityType == vm.selection,
+				   vm.dataIsUpdated(for: poi) {
+					NavigationLink {
+						DiningView(id: poi.id)
+					} label: {
+						dataRow(poi: poi)
+							.swipeActions(allowsFullSwipe: false) {
+								lastUpdatedButton(id: poi.id)
+							}
 					}
 				}
+			}
 
-				if !vm.attractionsWithNoLiveData.isEmpty {
-					noLiveDataList
-				}
-//			} else {
-//				ProgressView()
-//			}
+			if !vm.attractionsWithNoLiveData.isEmpty {
+				noLiveDataList
+			}
 		}
 		.navigationTitle(park.name)
 		.task {

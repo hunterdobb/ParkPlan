@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22189.1" systemVersion="23A5286g" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AddedPark" representedClassName="AddedPark" syncable="YES" codeGenerationType="class">
+        <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavoritedAttraction" representedClassName="FavoritedAttraction" syncable="YES" codeGenerationType="class">
+        <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dateFavorited" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+    </entity>
+</model>

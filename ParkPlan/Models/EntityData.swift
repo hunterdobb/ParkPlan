@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct EntityData: Codable {
+struct EntityData: Decodable {
 	let id: String
 	let name: String
 	let slug: String
@@ -19,7 +19,7 @@ struct EntityData: Codable {
 	let externalId: String
 	let tags: TagData?
 
-	struct Location: Codable {
+	struct Location: Decodable {
 	  let latitude: Double
 	  let longitude: Double
 	}

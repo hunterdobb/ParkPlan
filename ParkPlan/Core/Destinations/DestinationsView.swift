@@ -80,21 +80,21 @@ private extension DestinationsView {
 	}
 }
 
-extension DestinationsView {
-    func testStaticData() {
-        print("DestinationsResponse")
-        dump(
-            try? StaticJSONMapper.decode(file: "DestinationsStaticData", type: DestinationsResponse.self)
-        )
-
-        print("\n\nSingleDestinationData")
-        dump(
-            try? StaticJSONMapper.decode(file: "SingleDestinationData", type: EntityData.self)
-        )
-
-        print("\n\nUniversalsIOAChildrenResponse")
-        dump(
-            try? StaticJSONMapper.decode(file: "UniversalIOAChildrenResponse", type: EntityChildrenResponse.self)
-        )
-    }
-}
+//extension DestinationsView {
+//    func testStaticData() {
+//        print("DestinationsResponse")
+//        dump(
+//            try? StaticJSONMapper.decode(file: "DestinationsStaticData", type: DestinationsResponse.self)
+//        )
+//
+//        print("\n\nSingleDestinationData")
+//        dump(
+//            try? StaticJSONMapper.decode(file: "SingleDestinationData", type: EntityData.self)
+//        )
+//
+//        print("\n\nUniversalsIOAChildrenResponse")
+//        dump(
+//            try? StaticJSONMapper.decode(file: "UniversalIOAChildrenResponse", type: EntityChildrenResponse.self)
+//        )
+//    }
+//}

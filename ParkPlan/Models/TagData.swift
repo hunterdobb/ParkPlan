@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct TagData: Codable {
+struct TagData: Decodable {
 	let tag: String
 	let tagName: String
 	let id: String?
 	let value: TagValue?
 }
 
-enum TagValue: Codable {
+enum TagValue: Decodable {
 	case string(String)
 	case number(Double)
 	// TODO: I need to figure out how to handle when value is {} type

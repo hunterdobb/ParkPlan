@@ -14,19 +14,6 @@ enum Endpoint {
 	case live(id: String)
 	case schedule(id: String)
 	case scheduleDay(id: String, year: String, month: String)
-//	case create(submissionData: Data?)
-}
-
-// Not used. Only here for example purposes
-extension Endpoint {
-	enum MethodType: Equatable {
-		case GET
-		case POST(data: Data?)
-	}
-}
-
-extension Endpoint {
-	var host: String { "api.themeparks.wiki" }
 
 	var path: String {
 		switch self {
@@ -45,25 +32,11 @@ extension Endpoint {
 		}
 	}
 
-	var methodType: MethodType {
-		switch self {
-		case .destinations,
-				.entity,
-				.children,
-				.live,
-				.schedule,
-				.scheduleDay:
-			return .GET
-		// Any cases that are post would return .POST
-//		case .create(let data):
-//			return .POST(data: data)
-		}
-	}
-}
+	var host: String { "api.themeparks.wiki" }
 
-extension Endpoint {
 	var url: URL? {
 		var urlComponents = URLComponents()
+
 		urlComponents.scheme = "https"
 		urlComponents.host = host
 		urlComponents.path = path

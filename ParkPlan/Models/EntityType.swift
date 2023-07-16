@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EntityType: String, Codable, CaseIterable {
+enum EntityType: String, Decodable, CaseIterable {
 	case destination = "DESTINATION"
 	case park = "PARK"
 	case attraction = "ATTRACTION"

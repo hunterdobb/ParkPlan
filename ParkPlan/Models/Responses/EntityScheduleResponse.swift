@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct EntityScheduleResponse: Codable {
+struct EntityScheduleResponse: Decodable {
 	let id: String
 	let name: String
 	let entityType: EntityType
@@ -16,13 +16,13 @@ struct EntityScheduleResponse: Codable {
 }
 
 // MARK: - Schedule Entry
-struct ScheduleEntry: Codable {
-	let date: String //($YYYY-MM-DD)
-	let openingTime: String //($date-time)
-	let closingTime: String //($date-time)
+struct ScheduleEntry: Decodable {
+	let date: String
+	let openingTime: String
+	let closingTime: String
 	let type: ScheduleType
 
-	enum ScheduleType: String, Codable {
+	enum ScheduleType: String, Decodable {
 		case operating = "OPERATING"
 		case ticketedEvent =  "TICKETED_EVENT"
 		case privateEvent = "PRIVATE_EVENT"

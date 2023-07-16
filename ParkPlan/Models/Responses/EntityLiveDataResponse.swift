@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct EntityLiveDataResponse: Codable {
+struct EntityLiveDataResponse: Decodable {
 	let id: String
 	let name: String
 	let entityType: EntityType
@@ -16,34 +16,41 @@ struct EntityLiveDataResponse: Codable {
 }
 
 // MARK: - Entity Live Data
-struct EntityLiveData: Codable, Identifiable {
+struct EntityLiveData: Decodable, Identifiable {
 	let id: String
 	let name: String
 	let entityType: EntityType
+	let lastUpdated: Date //($date-time)
 	let parkId: String?
 	let externalId: String?
 	let queue: LiveQueue?
 	let status: LiveStatusType?
 	let forecast: [Forecast]?
-	let lastUpdated: Date //($date-time)
 	let showTimes: [LiveShowTime]?
+	let operatingHours: [LiveShowTime]?
+	let diningAvailability: [DiningAvailability]?
 }
 
 // MARK: - Forecast
-struct Forecast: Codable, Hashable {
+struct Forecast: Decodable, Hashable {
 	let time: Date
 	let waitTime: Int
 	let percentage: Int
 }
 
+struct DiningAvailability: Decodable, Hashable {
+	let partySize: Int
+	let waitTime: Int
+}
+
 // MARK: - Live Show Time
-struct LiveShowTime: Codable, Hashable {
+struct LiveShowTime: Decodable, Hashable {
 	let type: String?
 	let startTime: Date? //($date-time)
 	let endTime: Date? //($date-time)
 }
 
-enum LiveStatusType: String, Codable {
+enum LiveStatusType: String, Decodable {
 	case operating = "OPERATING"
 	case down = "DOWN"
 	case closed = "CLOSED"
