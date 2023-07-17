@@ -5,13 +5,13 @@
 //  Created by Hunter Dobbelmann on 1/30/23.
 //
 
+import OSLog
 import SwiftUI
 
 struct DestinationsView: View {
-	// Uses @EnvironmentObject to easily pass vm to child views
 	@EnvironmentObject private var vm: DestinationsViewModel
-
 	@State private var hasAppeared = false
+	let logger = Logger(subsystem: "ParkPlan", category: "DestinationsView")
 
     var body: some View {
         NavigationStack {
@@ -39,7 +39,7 @@ struct DestinationsView: View {
         }
 		.task {
 			if !hasAppeared {
-				print("RUN")
+				logger.log(level: .info, "Fetching destinations")
 				await vm.fetchDestinations()
 				hasAppeared = true
 			}

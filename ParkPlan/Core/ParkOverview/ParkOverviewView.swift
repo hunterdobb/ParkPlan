@@ -5,14 +5,13 @@
 //  Created by Hunter Dobbelmann on 2/9/23.
 //
 
+import OSLog
 import SwiftUI
 
 struct ParkOverviewView: View {
 	@EnvironmentObject private var vm: ParkOverviewViewModel
-
 	@State private var hasAppeared = false
-
-	@State private var showCharts = false
+	let logger = Logger(subsystem: "ParkPlan", category: "ParkOverviewView")
 
     var body: some View {
 		ScrollView {
@@ -24,17 +23,9 @@ struct ParkOverviewView: View {
 			restaurantSection
 		}
 		.navigationTitle(vm.park.name)
-		.toolbar {
-			Button("Charts") {
-				showCharts.toggle()
-			}
-		}
-		.sheet(isPresented: $showCharts) {
-			LiveDataTestView(id: vm.park.id)
-		}
 		.task {
 			if !hasAppeared {
-				print("Overview RUN")
+				logger.log(level: .info, "Fetching live data and children entities")
 				await vm.fetchLiveData(for: vm.park.id)
 				await vm.fetchChildren(for: vm.park.id)
 				hasAppeared = true

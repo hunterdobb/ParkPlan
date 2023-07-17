@@ -26,7 +26,13 @@ struct POIScrollView: View {
 				HStack {
 					if !data.isEmpty {
 						ForEach(data) { poi in
-							POICardView(poi: poi)
+							let poiLiveData = vm.liveData?.first(where: { $0.id == poi.id })
+							NavigationLink {
+								ItemDetailView(name: poi.name, id: poi.id, liveData: poiLiveData)
+							} label: {
+								POICardView(poi: poi)
+									.multilineTextAlignment(.leading)
+							}
 						}
 
 						NavigationLink("View All", destination: ParkDetailView(park: vm.park, entityType: entityType))

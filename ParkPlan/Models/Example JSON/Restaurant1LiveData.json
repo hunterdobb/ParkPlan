@@ -1,0 +1,24 @@
+{
+	"id": "e847a8bd-7d21-432b-a7a1-f483517a22b5",
+	"name": "Be Our Guest Restaurant",
+	"entityType": "RESTAURANT",
+	"parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+	"externalId": "16660079;entityType=restaurant",
+	"queue": {
+		"STANDBY": {
+			"waitTime": 10
+		}
+	},
+	"status": "OPERATING",
+	"diningAvailability": [
+		{
+			"waitTime": 10,
+			"partySize": 1
+		},
+		{
+			"waitTime": 10,
+			"partySize": 2
+		}
+	],
+	"lastUpdated": "2023-07-17T21:01:35Z"
+}

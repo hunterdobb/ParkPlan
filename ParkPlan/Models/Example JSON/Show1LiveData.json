@@ -1,0 +1,98 @@
+{
+	"id": "a2d92647-634d-4eb4-886b-9da858e871f1",
+	"name": "Meet Mickey at Town Square Theater",
+	"entityType": "SHOW",
+	"parkId": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+	"externalId": "15850196;entityType=Entertainment",
+	"queue": {
+		"STANDBY": {
+			"waitTime": 45
+		},
+		"RETURN_TIME": {
+			"state": "AVAILABLE",
+			"returnEnd": null,
+			"returnStart": "2023-07-17T18:10:00-04:00"
+		}
+	},
+	"status": "OPERATING",
+	"forecast": [
+		{
+			"time": "2023-07-17T09:00:00-04:00",
+			"waitTime": 30,
+			"percentage": 25
+		},
+		{
+			"time": "2023-07-17T10:00:00-04:00",
+			"waitTime": 55,
+			"percentage": 47
+		},
+		{
+			"time": "2023-07-17T11:00:00-04:00",
+			"waitTime": 55,
+			"percentage": 47
+		},
+		{
+			"time": "2023-07-17T12:00:00-04:00",
+			"waitTime": 45,
+			"percentage": 38
+		},
+		{
+			"time": "2023-07-17T13:00:00-04:00",
+			"waitTime": 35,
+			"percentage": 30
+		},
+		{
+			"time": "2023-07-17T14:00:00-04:00",
+			"waitTime": 25,
+			"percentage": 21
+		},
+		{
+			"time": "2023-07-17T15:00:00-04:00",
+			"waitTime": 30,
+			"percentage": 25
+		},
+		{
+			"time": "2023-07-17T16:00:00-04:00",
+			"waitTime": 35,
+			"percentage": 30
+		},
+		{
+			"time": "2023-07-17T17:00:00-04:00",
+			"waitTime": 35,
+			"percentage": 30
+		},
+		{
+			"time": "2023-07-17T18:00:00-04:00",
+			"waitTime": 25,
+			"percentage": 21
+		},
+		{
+			"time": "2023-07-17T19:00:00-04:00",
+			"waitTime": 40,
+			"percentage": 34
+		},
+		{
+			"time": "2023-07-17T20:00:00-04:00",
+			"waitTime": 40,
+			"percentage": 34
+		},
+		{
+			"time": "2023-07-17T21:00:00-04:00",
+			"waitTime": 40,
+			"percentage": 34
+		},
+		{
+			"time": "2023-07-17T22:00:00-04:00",
+			"waitTime": 55,
+			"percentage": 47
+		}
+	],
+	"showtimes": [
+		{
+			"type": "Operating",
+			"endTime": "2023-07-17T22:30:00-04:00",
+			"startTime": "2023-07-17T09:00:00-04:00"
+		}
+	],
+	"lastUpdated": "2023-07-17T21:34:09Z"
+}

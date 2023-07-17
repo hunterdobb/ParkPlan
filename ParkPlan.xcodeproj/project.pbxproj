@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50156A62A65E33400FAFCA9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50156A52A65E33400FAFCA9 /* Bundle-Decodable.swift */; };
+		B50156A82A65E4AB00FAFCA9 /* Restaurant1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */; };
+		B50156A92A65E4AB00FAFCA9 /* Restaurant1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */; };
+		B50156AA2A65E57200FAFCA9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50156A52A65E33400FAFCA9 /* Bundle-Decodable.swift */; };
+		B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
+		B50156B02A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
+		B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */; };
 		B553CB4D299BD6650056BA32 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */; };
 		B553CB53299BEF380056BA32 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB52299BEF380056BA32 /* NetworkingEndpointTests.swift */; };
 		B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */; };
@@ -37,6 +44,8 @@
 		B5E4D2C32A6342E100F750A4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
 		B5E4D2C52A6367F600F750A4 /* DiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D2C42A6367F600F750A4 /* DiningView.swift */; };
 		B5E4D2C62A6369CB00F750A4 /* DiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D2C42A6367F600F750A4 /* DiningView.swift */; };
+		B5E4D2C92A6491F900F750A4 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */; };
+		B5E4D2CA2A6495F500F750A4 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */; };
 		B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */; };
 		B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27A2985B265003AE5F1 /* Assets.xcassets */; };
 		B5EFF27F2985B265003AE5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF27E2985B265003AE5F1 /* Preview Assets.xcassets */; };
@@ -101,6 +110,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B50156A52A65E33400FAFCA9 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Restaurant1LiveData.json; sourceTree = "<group>"; };
+		B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Attraction1LiveData.json; sourceTree = "<group>"; };
+		B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Show1LiveData.json; sourceTree = "<group>"; };
 		B553CB42299BD6290056BA32 /* ParkPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
 		B553CB4F299BE2820056BA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +134,7 @@
 		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
 		B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewViewModel.swift; sourceTree = "<group>"; };
 		B5E4D2C42A6367F600F750A4 /* DiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningView.swift; sourceTree = "<group>"; };
+		B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPlanApp.swift; sourceTree = "<group>"; };
 		B5EFF27A2985B265003AE5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,6 +186,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50156A42A65E31C00FAFCA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B50156A52A65E33400FAFCA9 /* Bundle-Decodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B553CB43299BD6290056BA32 /* ParkPlanTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +303,14 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		B5E4D2C72A6491C800F750A4 /* ItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */,
+			);
+			path = ItemDetail;
+			sourceTree = "<group>";
+		};
 		B5EFF26A2985B263003AE5F1 = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +337,7 @@
 				B5EFF2762985B263003AE5F1 /* ParkPlanApp.swift */,
 				B5A14377299A8F280022B074 /* Utilities */,
 				B5EFF2902985B872003AE5F1 /* Models */,
+				B50156A42A65E31C00FAFCA9 /* Extensions */,
 				B5F24E18298832C6003FE227 /* Core */,
 				B5E4D2C12A633CA500F750A4 /* Configuration */,
 				B5EFF27A2985B265003AE5F1 /* Assets.xcassets */,
@@ -332,6 +363,9 @@
 				B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */,
 				B5F24E23298AA9D9003FE227 /* MagicKingLiveResponse.json */,
 				B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */,
+				B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */,
+				B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */,
+				B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */,
 			);
 			path = "Example JSON";
 			sourceTree = "<group>";
@@ -363,6 +397,7 @@
 		B5F24E18298832C6003FE227 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B5E4D2C72A6491C800F750A4 /* ItemDetail */,
 				B595C05E2995560300F80A68 /* Components */,
 				B5F24E19298832DC003FE227 /* Destinations */,
 				B595C0592995524300F80A68 /* ParkOverview */,
@@ -495,6 +530,8 @@
 			files = (
 				B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */,
 				B554481429969AFB003966F3 /* Assets.xcassets in Resources */,
+				B50156A92A65E4AB00FAFCA9 /* Restaurant1LiveData.json in Resources */,
+				B50156B02A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +546,10 @@
 				B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */,
 				B5EFF2882985B32F003AE5F1 /* DestinationsStaticData.json in Resources */,
 				B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */,
+				B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */,
+				B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */,
 				B5EFF27B2985B265003AE5F1 /* Assets.xcassets in Resources */,
+				B50156A82A65E4AB00FAFCA9 /* Restaurant1LiveData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,10 +579,12 @@
 				B5F3E07C29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
 				B5A14383299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */,
+				B50156AA2A65E57200FAFCA9 /* Bundle-Decodable.swift in Sources */,
 				B5B92C60299729E1009582BA /* ParksList.swift in Sources */,
 				B5E4D2C22A6342DF00F750A4 /* NetworkingManager.swift in Sources */,
 				B5F3E08C2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */,
+				B5E4D2CA2A6495F500F750A4 /* ItemDetailView.swift in Sources */,
 				B554481229969AFA003966F3 /* ParkPlanApp.swift in Sources */,
 				B5E4D2C32A6342E100F750A4 /* Endpoint.swift in Sources */,
 				B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */,
@@ -569,12 +611,14 @@
 				B5E4D2C52A6367F600F750A4 /* DiningView.swift in Sources */,
 				B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */,
 				B5F3E0882998403A00E67EF3 /* LiveQueue.swift in Sources */,
+				B5E4D2C92A6491F900F750A4 /* ItemDetailView.swift in Sources */,
 				B5F3E08E2998441300E67EF3 /* TagData.swift in Sources */,
 				B5F3E08229983BE500E67EF3 /* EntityType.swift in Sources */,
 				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
 				B5F3E08B2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B595C05D299552AE00F80A68 /* POICardView.swift in Sources */,
 				B5F24E22298AA0A9003FE227 /* ParksList.swift in Sources */,
+				B50156A62A65E33400FAFCA9 /* Bundle-Decodable.swift in Sources */,
 				B595C05B2995526A00F80A68 /* ParkOverviewView.swift in Sources */,
 				B5F3E07529983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */,

@@ -24,7 +24,8 @@ struct ParkDetailView: View {
 				if poi.entityType == vm.selection,
 				   vm.dataIsUpdated(for: poi) {
 					NavigationLink {
-						DiningView(id: poi.id)
+						let poiLiveData = vm.liveData?.first(where: { $0.id == poi.id })
+						ItemDetailView(name: poi.name, id: poi.id, liveData: poiLiveData)
 					} label: {
 						dataRow(poi: poi)
 							.swipeActions(allowsFullSwipe: false) {

@@ -113,7 +113,7 @@ final class ParkOverviewViewModel: ObservableObject {
 		defer { isLoading = false }
 
 		do {
-			dump(try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self))
+//			dump(try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self))
 			let response = try await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self)
 
 			liveData = response.liveData
@@ -133,7 +133,6 @@ final class ParkOverviewViewModel: ObservableObject {
 			return liveData.first(where: { $0.id == childId })
 		}
 
-//		print("Not contained")
 		return nil
 	}
 

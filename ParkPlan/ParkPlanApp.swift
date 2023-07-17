@@ -23,10 +23,10 @@ struct ParkPlanApp: App {
 						Text("Destinations")
 					}
 
-				LiveDataTestView()
+				Text("Settings")
 					.tabItem {
 						Image(systemName: "gear")
-						Text("Test")
+						Text("Settings")
 					}
 			}
         }

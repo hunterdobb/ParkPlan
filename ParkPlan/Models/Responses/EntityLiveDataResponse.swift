@@ -26,9 +26,13 @@ struct EntityLiveData: Decodable, Identifiable {
 	let queue: LiveQueue?
 	let status: LiveStatusType?
 	let forecast: [Forecast]?
-	let showTimes: [LiveShowTime]?
+	let showtimes: [LiveShowTime]?
 	let operatingHours: [LiveShowTime]?
 	let diningAvailability: [DiningAvailability]?
+
+	static let restaurantPreview: EntityLiveData = Bundle.main.decode("Restaurant1LiveData.json")
+	static let attractionPreview: EntityLiveData = Bundle.main.decode("Attraction1LiveData.json")
+	static let showPreview: EntityLiveData = Bundle.main.decode("Show1LiveData.json")
 }
 
 // MARK: - Forecast
@@ -55,4 +59,14 @@ enum LiveStatusType: String, Decodable {
 	case down = "DOWN"
 	case closed = "CLOSED"
 	case refurbishment = "REFURBISHMENT"
+}
+
+enum OperatingHoursType: String {
+	case earlyEntry = "Early Entry"
+	case operating = "Operating"
+}
+
+enum ShowtimeType: String {
+	case performanceTime = "Performance Time"
+	case operating = "Operating"
 }

@@ -10,7 +10,7 @@ import Foundation
 struct EntityData: Decodable {
 	let id: String
 	let name: String
-	let slug: String
+	let parkId: String
 	let location: Location?
 	let parentId: String?
 	let timezone: String
@@ -18,6 +18,7 @@ struct EntityData: Decodable {
 	let destinationId: String?
 	let externalId: String
 	let tags: TagData?
+	let cuisines: [String]?
 
 	struct Location: Decodable {
 	  let latitude: Double

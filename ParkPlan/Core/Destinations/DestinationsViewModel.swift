@@ -5,31 +5,29 @@
 //  Created by Hunter Dobbelmann on 1/30/23.
 //
 
+import OSLog
 import SwiftUI
 
 final class DestinationsViewModel: ObservableObject {
     @Published private(set) var destinations = [DestinationEntry]()
-//	@EnvironmentObject var fetcher: DataFetcher
-//	@EnvironmentObject var testType: TestType
     @Published private(set) var error: NetworkingManager.NetworkingError?
 	@Published private(set) var isLoading = false
     @Published var hasError = false
 	@Published var searchText = ""
+
+	let logger = Logger(subsystem: "ParkPlan", category: "DestinationsViewModel")
 
 	@MainActor
     func fetchDestinations() async {
 		isLoading = true
 		defer { isLoading = false } // run this last
 
-//		await fetcher.fetchDestinations()
-//		destinations =  fetcher.allDestinations
-
 		do {
 			destinations = try await NetworkingManager.shared.request(
 				.destinations,
 				type: DestinationsResponse.self
 			).destinations
-			print("\(destinations.count)")
+			logger.log(level: .info, "\(self.destinations.count) destinations fetched")
 		} catch {
 			hasError = true
 			if let networkingError = error as? NetworkingManager.NetworkingError {

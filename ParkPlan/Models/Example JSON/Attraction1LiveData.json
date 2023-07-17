@@ -1,0 +1,113 @@
+{
+	"id": "9167db1d-e5e7-46da-a07f-ae30a87bc4c4",
+	"name": "Space Mountain",
+	"entityType": "ATTRACTION",
+	"parkId": "7340550b-c14d-4def-80bb-acdb51d49a66",
+	"externalId": "353435;entityType=Attraction",
+	"queue": {
+		"STANDBY": {
+			"waitTime": 65
+		},
+		"RETURN_TIME": {
+			"state": "AVAILABLE",
+			"returnEnd": null,
+			"returnStart": "2023-07-17T19:45:00-07:00"
+		}
+	},
+	"status": "OPERATING",
+	"forecast": [
+		{
+			"time": "2023-07-17T08:00:00-07:00",
+			"waitTime": 20,
+			"percentage": 16
+		},
+		{
+			"time": "2023-07-17T09:00:00-07:00",
+			"waitTime": 45,
+			"percentage": 37
+		},
+		{
+			"time": "2023-07-17T10:00:00-07:00",
+			"waitTime": 55,
+			"percentage": 45
+		},
+		{
+			"time": "2023-07-17T11:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T12:00:00-07:00",
+			"waitTime": 60,
+			"percentage": 50
+		},
+		{
+			"time": "2023-07-17T13:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T14:00:00-07:00",
+			"waitTime": 70,
+			"percentage": 58
+		},
+		{
+			"time": "2023-07-17T15:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T16:00:00-07:00",
+			"waitTime": 75,
+			"percentage": 62
+		},
+		{
+			"time": "2023-07-17T17:00:00-07:00",
+			"waitTime": 80,
+			"percentage": 66
+		},
+		{
+			"time": "2023-07-17T18:00:00-07:00",
+			"waitTime": 80,
+			"percentage": 66
+		},
+		{
+			"time": "2023-07-17T19:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T20:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T21:00:00-07:00",
+			"waitTime": 60,
+			"percentage": 50
+		},
+		{
+			"time": "2023-07-17T22:00:00-07:00",
+			"waitTime": 65,
+			"percentage": 54
+		},
+		{
+			"time": "2023-07-17T23:00:00-07:00",
+			"waitTime": 55,
+			"percentage": 45
+		}
+	],
+	"operatingHours": [
+		{
+			"type": "Early Entry",
+			"endTime": "2023-07-17T08:00:00-07:00",
+			"startTime": "2023-07-17T07:30:00-07:00"
+		},
+		{
+			"type": "Operating",
+			"endTime": "2023-07-18T00:00:00-07:00",
+			"startTime": "2023-07-17T08:00:00-07:00"
+		}
+	],
+	"lastUpdated": "2023-07-17T21:22:57Z"
+}
