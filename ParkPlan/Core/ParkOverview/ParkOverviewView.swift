@@ -5,19 +5,20 @@
 //  Created by Hunter Dobbelmann on 2/9/23.
 //
 
-import OSLog
+//import OSLog
 import SwiftUI
 
 struct ParkOverviewView: View {
 	@EnvironmentObject private var vm: ParkOverviewViewModel
 	@State private var hasAppeared = false
-	let logger = Logger(subsystem: "ParkPlan", category: "ParkOverviewView")
+	
 
     var body: some View {
 		ScrollView {
-			Text("Open until 10:00 PM").frame(maxWidth: .infinity, alignment: .leading)
-				.padding(.leading)
-			favoriteSection
+			Text("Hours: \(vm.operatingHours ?? "")")
+				.frame(maxWidth: .infinity, alignment: .leading)
+				.padding([.leading, .bottom])
+//			favoriteSection
 			attractionSection
 			showSection
 			restaurantSection
@@ -25,18 +26,13 @@ struct ParkOverviewView: View {
 		.navigationTitle(vm.park.name)
 		.task {
 			if !hasAppeared {
-				logger.log(level: .info, "Fetching live data and children entities")
-				await vm.fetchLiveData(for: vm.park.id)
-				await vm.fetchChildren(for: vm.park.id)
+				await vm.fetchData()
 				hasAppeared = true
 			}
 		}
 		.alert(isPresented: $vm.hasError, error: vm.error) {
 			Button("Retry") {
-				Task {
-					await vm.fetchLiveData(for: vm.park.id)
-					await vm.fetchChildren(for: vm.park.id)
-				}
+				Task { await vm.fetchData() }
 			}
 		}
     }
@@ -45,8 +41,10 @@ struct ParkOverviewView: View {
 struct ParkOverviewView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-			// DestinationParkEntry
-			let previewPark = DestinationParkEntry(id: "75ea578a-adc8-4116-a54d-dccb60765ef9", name: "Magic Kingdom Park")
+			let previewPark = DestinationParkEntry(
+				id: "75ea578a-adc8-4116-a54d-dccb60765ef9",
+				name: "Magic Kingdom Park"
+			)
         	ParkOverviewView()
 				.environmentObject(ParkOverviewViewModel(park: previewPark))
         }
@@ -60,7 +58,7 @@ private extension ParkOverviewView {
 					  data: [],
 					  typeColor: .red,
 					  entityType: .attraction)
-		.padding(.top)
+
 	}
 
 	var attractionSection: some View {

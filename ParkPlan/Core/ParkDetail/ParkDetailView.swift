@@ -5,6 +5,7 @@
 //  Created by Hunter Dobbelmann on 2/5/23.
 //
 
+import OSLog
 import SwiftUI
 
 struct ParkDetailView: View {
@@ -13,6 +14,8 @@ struct ParkDetailView: View {
 	let entityType: EntityType
 
 	@State private var hasAppeared = false
+
+	
 
     var body: some View {
 		List {
@@ -42,7 +45,6 @@ struct ParkDetailView: View {
 		.navigationTitle(park.name)
 		.task {
 			if !hasAppeared {
-				print("ParkData RUN")
 				await vm.fetchLiveData(for: park.id)
 				await vm.fetchChildren(for: park.id)
 				hasAppeared = true

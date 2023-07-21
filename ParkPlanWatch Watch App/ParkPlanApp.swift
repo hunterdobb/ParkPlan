@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct ParkPlanApp: App {
-	@StateObject private var vm = DestinationsViewModel()
+//	@StateObject private var vm = DestinationsViewModel()
 
 	var body: some Scene {
 		WindowGroup {
 			DestinationsView()
-				.environmentObject(vm)
+//				.environmentObject(vm)
 		}
 	}
 }

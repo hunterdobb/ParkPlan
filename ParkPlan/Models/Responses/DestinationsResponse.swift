@@ -23,6 +23,11 @@ struct DestinationsResponse: Decodable {
 struct DestinationEntry: Decodable, Identifiable {
 	let id, name, slug: String
 	let parks: [DestinationParkEntry]
+
+	static var preview: DestinationEntry {
+		let destinations = Bundle.main.decode("DestinationsStaticData.json", as: DestinationsResponse.self).destinations
+		return destinations.first!
+	}
 }
 
 // MARK: - DestinationParkEntry

@@ -15,19 +15,18 @@ final class DestinationsViewModel: ObservableObject {
     @Published var hasError = false
 	@Published var searchText = ""
 
-	let logger = Logger(subsystem: "ParkPlan", category: "DestinationsViewModel")
-
 	@MainActor
     func fetchDestinations() async {
 		isLoading = true
 		defer { isLoading = false } // run this last
 
 		do {
+			Logger.network.info("Fetching destinations")
 			destinations = try await NetworkingManager.shared.request(
 				.destinations,
 				type: DestinationsResponse.self
 			).destinations
-			logger.log(level: .info, "\(self.destinations.count) destinations fetched")
+			Logger.network.info("\(self.destinations.count) destinations fetched")
 		} catch {
 			hasError = true
 			if let networkingError = error as? NetworkingManager.NetworkingError {
@@ -37,8 +36,9 @@ final class DestinationsViewModel: ObservableObject {
 			}
 		}
     }
-
-	var searchResults: [DestinationEntry] {
+	
+	/// Returns either all destinations or destinations based on searchText.
+	var filteredDestinations: [DestinationEntry] {
 		if searchText.isEmpty {
 			return destinations
 		} else {

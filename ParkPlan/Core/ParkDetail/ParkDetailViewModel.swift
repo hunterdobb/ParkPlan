@@ -5,6 +5,7 @@
 //  Created by Hunter Dobbelmann on 2/5/23.
 //
 
+import OSLog
 import SwiftUI
 
 final class ParkDetailViewModel: ObservableObject {
@@ -17,10 +18,7 @@ final class ParkDetailViewModel: ObservableObject {
 
 	@Published var selection: EntityType = .attraction
 
-//	init(children: [EntityChild], liveData: [EntityLiveData]?) {
-//		self.children = children
-//		self.liveData = liveData
-//	}
+	let logger = Logger(subsystem: "ParkPlan", category: "ParkDetailViewModel")
 
 	// MARK: - Attractions Computed Properties
 	var allAttractions: [EntityChild] {
@@ -94,6 +92,7 @@ final class ParkDetailViewModel: ObservableObject {
 		defer { isLoading = false }
 
 		do {
+			logger.log(level: .info, "Fetch ChildEntities")
 			let response = try await NetworkingManager.shared.request(.children(id: id), type: EntityChildrenResponse.self)
 			children = response.children
 		} catch {
@@ -113,6 +112,7 @@ final class ParkDetailViewModel: ObservableObject {
 		defer { isLoading = false }
 
 		do {
+			logger.log(level: .info, "Fetch LiveData")
 			let response = try await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self)
 			liveData = response.liveData
 		} catch {

@@ -10,8 +10,6 @@ import SwiftUI
 struct ParksList: View {
     let destination: DestinationEntry
 
-	@Environment(\.managedObjectContext) var moc
-
     var body: some View {
         Section {
             ForEach(destination.parks) { park in
@@ -34,17 +32,10 @@ struct ParksList: View {
     }
 }
 
-struct ParksListView_Previews: PreviewProvider {
-    static var previewDestination: DestinationEntry {
-       let destination = try! StaticJSONMapper.decode(file: "DestinationsStaticData", type: DestinationsResponse.self)
-        return destination.destinations.first!
-    }
-
-    static var previews: some View {
-        NavigationStack {
-        	List {
-				ParksList(destination: previewDestination)
-			}
-        }
-    }
+#Preview {
+	NavigationStack {
+		List {
+			ParksList(destination: .preview)
+		}
+	}
 }

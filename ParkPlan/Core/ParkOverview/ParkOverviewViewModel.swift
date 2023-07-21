@@ -5,12 +5,14 @@
 //  Created by Hunter Dobbelmann on 2/13/23.
 //
 
+import OSLog
 import SwiftUI
 
 final class ParkOverviewViewModel: ObservableObject {
 	@Published var park: DestinationParkEntry
-	@Published private(set) var children = [EntityChild]()
+	@Published private(set) var children = [EntityChild]() // needed?
 	@Published private(set) var liveData: [EntityLiveData]?
+	@Published private(set) var scheduleData: [ScheduleEntry]?
 
 	@Published private(set) var error: NetworkingManager.NetworkingError?
 	@Published var hasError = false
@@ -25,6 +27,17 @@ final class ParkOverviewViewModel: ObservableObject {
 	// MARK: - Attractions Computed Properties
 	var allAttractions: [EntityChild] {
 		children.filter { $0.entityType == .attraction }
+	}
+
+	var operatingHours: String? {
+		if let scheduleData = scheduleData,
+		   let operating = scheduleData.first(where: { $0.type == .operating }) {
+			let open = operating.openingTime
+			let close = operating.closingTime
+			return "\(open.formatted(date: .omitted, time: .shortened)) - \(close.formatted(date: .omitted, time: .shortened))"
+		} else {
+			return nil
+		}
 	}
 
 	var updatedAttractions: [EntityChild] {
@@ -55,7 +68,6 @@ final class ParkOverviewViewModel: ObservableObject {
 		var array = [EntityChild]()
 		for attraction in allAttractions {
 			if dataIsUpdated(for: attraction) && getLiveData(childId: attraction.id, liveData: liveData) == nil {
-//				print("\(attraction.name) has NO LIVE DATA")
 				array.append(attraction)
 			}
 		}
@@ -89,12 +101,40 @@ final class ParkOverviewViewModel: ObservableObject {
 	}
 
 	@MainActor
-	func fetchChildren(for id: String) async {
+	func fetchData() async {
+		await fetchLiveData()
+		await fetchScheduleData()
+		await fetchChildren()
+	}
+
+	@MainActor
+	func fetchScheduleData() async {
 		isLoading = true
 		defer { isLoading = false }
 
 		do {
-			let response = try await NetworkingManager.shared.request(.children(id: id), type: EntityChildrenResponse.self)
+			Logger.network.info("Fetching schedule data for id: \(self.park.id)")
+			let response = try await NetworkingManager.shared.request(.schedule(id: self.park.id), type: EntityScheduleResponse.self)
+			scheduleData = response.schedule
+		} catch {
+			hasError = true
+
+			if let networkingError = error as? NetworkingManager.NetworkingError {
+				self.error = networkingError
+			} else {
+				self.error = .custom(error: error)
+			}
+		}
+	}
+
+	@MainActor
+	func fetchChildren() async {
+		isLoading = true
+		defer { isLoading = false }
+
+		do {
+			Logger.network.info("Fetching live data for id: \(self.park.id)")
+			let response = try await NetworkingManager.shared.request(.children(id: self.park.id), type: EntityChildrenResponse.self)
 			children = response.children
 		} catch {
 			hasError = true
@@ -108,14 +148,13 @@ final class ParkOverviewViewModel: ObservableObject {
 	}
 
 	@MainActor
-	func fetchLiveData(for id: String) async {
+	func fetchLiveData() async {
 		isLoading = true
 		defer { isLoading = false }
 
 		do {
-//			dump(try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self))
-			let response = try await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self)
-
+			Logger.network.info("Fetching live data for id: \(self.park.id)")
+			let response = try await NetworkingManager.shared.request(.live(id: self.park.id), type: EntityLiveDataResponse.self)
 			liveData = response.liveData
 		} catch {
 			print(error)
@@ -187,7 +226,6 @@ final class ParkOverviewViewModel: ObservableObject {
 				return .green
 			}
 		} else {
-
 			if text == "Down" || text == "Closed" || text == "Refurbishment" {
 				return .pink
 			} else {

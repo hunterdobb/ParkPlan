@@ -14,6 +14,10 @@
 		B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B02A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */; };
+		B51641472A6ADB1C00401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
+		B51641482A6ADF5600401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
+		B516414A2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */; };
+		B516414B2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */; };
 		B553CB4D299BD6650056BA32 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */; };
 		B553CB53299BEF380056BA32 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553CB52299BEF380056BA32 /* NetworkingEndpointTests.swift */; };
 		B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B553CB56299D3C7C0056BA32 /* EpcotLiveDataResponse.json */; };
@@ -114,6 +118,8 @@
 		B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Restaurant1LiveData.json; sourceTree = "<group>"; };
 		B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Attraction1LiveData.json; sourceTree = "<group>"; };
 		B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Show1LiveData.json; sourceTree = "<group>"; };
+		B51641462A6ADB1C00401BB2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
 		B553CB42299BD6290056BA32 /* ParkPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B553CB4C299BD6650056BA32 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
 		B553CB4F299BE2820056BA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				B50156A52A65E33400FAFCA9 /* Bundle-Decodable.swift */,
+				B51641462A6ADB1C00401BB2 /* Logger.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -307,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */,
+				B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */,
 			);
 			path = ItemDetail;
 			sourceTree = "<group>";
@@ -576,6 +584,7 @@
 				B5F3E07629983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5F3E08329983BE500E67EF3 /* EntityType.swift in Sources */,
 				B5F3E0892998403A00E67EF3 /* LiveQueue.swift in Sources */,
+				B51641482A6ADF5600401BB2 /* Logger.swift in Sources */,
 				B5F3E07C29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
 				B5A14383299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5B92C5C299729CB009582BA /* DestinationsViewModel.swift in Sources */,
@@ -584,6 +593,7 @@
 				B5E4D2C22A6342DF00F750A4 /* NetworkingManager.swift in Sources */,
 				B5F3E08C2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */,
+				B516414B2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */,
 				B5E4D2CA2A6495F500F750A4 /* ItemDetailView.swift in Sources */,
 				B554481229969AFA003966F3 /* ParkPlanApp.swift in Sources */,
 				B5E4D2C32A6342E100F750A4 /* Endpoint.swift in Sources */,
@@ -604,6 +614,7 @@
 				B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */,
 				B5A14382299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5F3E07B29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
+				B51641472A6ADB1C00401BB2 /* Logger.swift in Sources */,
 				B595C06229955E2400F80A68 /* POIScrollView.swift in Sources */,
 				B595C04329903CC900F80A68 /* ParkDetailView.swift in Sources */,
 				B5F24E1C29883330003FE227 /* DestinationsViewModel.swift in Sources */,
@@ -614,6 +625,7 @@
 				B5E4D2C92A6491F900F750A4 /* ItemDetailView.swift in Sources */,
 				B5F3E08E2998441300E67EF3 /* TagData.swift in Sources */,
 				B5F3E08229983BE500E67EF3 /* EntityType.swift in Sources */,
+				B516414A2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */,
 				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
 				B5F3E08B2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B595C05D299552AE00F80A68 /* POICardView.swift in Sources */,

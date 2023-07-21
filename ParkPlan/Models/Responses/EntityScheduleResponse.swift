@@ -18,9 +18,10 @@ struct EntityScheduleResponse: Decodable {
 // MARK: - Schedule Entry
 struct ScheduleEntry: Decodable {
 	let date: String
-	let openingTime: String
-	let closingTime: String
+	let openingTime: Date
+	let closingTime: Date
 	let type: ScheduleType
+	let description: String?
 
 	enum ScheduleType: String, Decodable {
 		case operating = "OPERATING"

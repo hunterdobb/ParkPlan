@@ -34,7 +34,6 @@ struct POIScrollView: View {
 									.multilineTextAlignment(.leading)
 							}
 						}
-
 						NavigationLink("View All", destination: ParkDetailView(park: vm.park, entityType: entityType))
 							.buttonStyle(.borderedProminent)
 							.font(.headline)
@@ -57,8 +56,8 @@ struct POIScrollView_Previews: PreviewProvider {
 		POIScrollView(title: "Shows", symbolName: "theatermasks.fill", data: previewVm.updatedAttractions, typeColor: .orange, entityType: .attraction)
 			.environmentObject(ParkOverviewViewModel(park: previewPark))
 			.task {
-				await previewVm.fetchLiveData(for: previewVm.park.id)
-				await previewVm.fetchChildren(for: previewVm.park.id)
+				await previewVm.fetchLiveData()
+				await previewVm.fetchChildren()
 			}
     }
 }

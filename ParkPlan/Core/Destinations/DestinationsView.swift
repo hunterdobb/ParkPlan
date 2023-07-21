@@ -5,29 +5,24 @@
 //  Created by Hunter Dobbelmann on 1/30/23.
 //
 
-import OSLog
 import SwiftUI
 
 struct DestinationsView: View {
-	@EnvironmentObject private var vm: DestinationsViewModel
+//	@EnvironmentObject private var vm: DestinationsViewModel
+	@StateObject var vm = DestinationsViewModel()
 	@State private var hasAppeared = false
-	let logger = Logger(subsystem: "ParkPlan", category: "DestinationsView")
 
     var body: some View {
         NavigationStack {
 			if vm.isLoading {
-				ProgressView {
-					Text("Loading Destinations")
-				}
+				ProgressView { Text("Loading Destinations") }
 			} else {
 				List {
 					#if os(watchOS)
 					clearSearch
 					#endif
 
-					ForEach(vm.searchResults) { destination in
-						ParksList(destination: destination)
-					}
+					ForEach(vm.filteredDestinations, content: ParksList.init)
 				}
 				.navigationTitle("Destinations")
 				#if !os(watchOS)
@@ -39,27 +34,20 @@ struct DestinationsView: View {
         }
 		.task {
 			if !hasAppeared {
-				logger.log(level: .info, "Fetching destinations")
 				await vm.fetchDestinations()
 				hasAppeared = true
 			}
 		}
 		.alert(isPresented: $vm.hasError, error: vm.error) {
 			Button("Retry") {
-				Task {
-					await vm.fetchDestinations()
-				}
+				Task { await vm.fetchDestinations() }
 			}
 		}
     }
 }
 
-struct DestinationsView_Previews: PreviewProvider {
-    static var previews: some View {
-        DestinationsView()
-		// TODO: Improve preview code to match SwiftfulCrypto code
-			.environmentObject(DestinationsViewModel())
-    }
+#Preview {
+	DestinationsView()
 }
 
 private extension DestinationsView {
@@ -79,22 +67,3 @@ private extension DestinationsView {
 		}
 	}
 }
-
-//extension DestinationsView {
-//    func testStaticData() {
-//        print("DestinationsResponse")
-//        dump(
-//            try? StaticJSONMapper.decode(file: "DestinationsStaticData", type: DestinationsResponse.self)
-//        )
-//
-//        print("\n\nSingleDestinationData")
-//        dump(
-//            try? StaticJSONMapper.decode(file: "SingleDestinationData", type: EntityData.self)
-//        )
-//
-//        print("\n\nUniversalsIOAChildrenResponse")
-//        dump(
-//            try? StaticJSONMapper.decode(file: "UniversalIOAChildrenResponse", type: EntityChildrenResponse.self)
-//        )
-//    }
-//}

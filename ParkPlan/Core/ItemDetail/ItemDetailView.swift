@@ -15,11 +15,8 @@ struct ItemDetailView: View {
 	@State private var extraInfo: EntityData?
 
 	var standbyWait: String? {
-		if let standby = liveData?.queue?.standby?.waitTime {
-			return "\(standby) minutes"
-		} else {
-			return nil
-		}
+		guard let standby = liveData?.queue?.standby?.waitTime else { return nil }
+		return "\(standby) minutes"
 	}
 
 	var returnStart: String? {
