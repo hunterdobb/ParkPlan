@@ -1,0 +1,512 @@
+{
+	"id": "1c84a229-8862-4648-9c71-378ddd2c7693",
+	"name": "Disney's Animal Kingdom Theme Park",
+	"entityType": "PARK",
+	"timezone": "America/New_York",
+	"children": [
+		{
+			"id": "d58db4d0-3bad-4655-937b-1cbc9ed0e880",
+			"name": "Tusker House Restaurant",
+			"entityType": "RESTAURANT",
+			"slug": "tuskerhouserestaurant",
+			"externalId": "90002686;entityType=restaurant"
+		},
+		{
+			"id": "98c7115e-1898-4d4c-8662-8e3a3dfe7c7f",
+			"name": "Adventure Flotilla",
+			"entityType": "SHOW",
+			"slug": "donaldsdinobashflotilla",
+			"externalId": "19579551;entityType=Entertainment"
+		},
+		{
+			"id": "6ef1b126-5b0b-46a1-8608-4fcf98ab92c8",
+			"name": "Wilderness Explorers",
+			"entityType": "ATTRACTION",
+			"slug": "wildernessexplorers",
+			"externalId": "17396838;entityType=Attraction"
+		},
+		{
+			"id": "811984d7-56f4-4ca6-848d-896d46aca846",
+			"name": "Gorillas - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "gorillasdisneyanimals",
+			"externalId": "17883688;entityType=Attraction"
+		},
+		{
+			"id": "a349429a-5ef8-41c4-9a28-84ed4f7a0465",
+			"name": "Viva Gaia Street Band!",
+			"entityType": "SHOW",
+			"slug": "vivagaiastreetband",
+			"externalId": "16629705;entityType=Entertainment"
+		},
+		{
+			"id": "16fdff47-c8b1-4228-b97d-242f3663396e",
+			"name": "Mickey and Friends Flotilla",
+			"entityType": "SHOW",
+			"slug": "mickeyandfriendsflotilla",
+			"externalId": "19579552;entityType=Entertainment"
+		},
+		{
+			"id": "1897c9b3-436c-4046-937d-b6ff98233177",
+			"name": "African Hogs - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "africanhogsdisneyanimals",
+			"externalId": "19427475;entityType=Attraction"
+		},
+		{
+			"id": "64a6915f-a835-4226-ba5c-8389fc4cade3",
+			"name": "Expedition Everest - Legend of the Forbidden Mountain",
+			"entityType": "ATTRACTION",
+			"slug": "expeditioneverestlegendoftheforbiddenmountain",
+			"externalId": "26068;entityType=Attraction"
+		},
+		{
+			"id": "1627c724-112c-4361-aeba-dae80082c90d",
+			"name": "TriceraTop Spin",
+			"entityType": "ATTRACTION",
+			"slug": "triceratopspin",
+			"externalId": "80010228;entityType=Attraction"
+		},
+		{
+			"id": "ba44245e-5562-4359-be27-9dfb2d96cb2d",
+			"name": "It's Tough to be a Bug!",
+			"entityType": "ATTRACTION",
+			"slug": "itstoughtobeabug",
+			"externalId": "80010150;entityType=Attraction"
+		},
+		{
+			"id": "861bf387-f362-4904-9082-99e093efa6ee",
+			"name": "Ankole Cattle - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "ankolecattledisneyanimals",
+			"externalId": "19429176;entityType=Attraction"
+		},
+		{
+			"id": "8b2bcfc1-23f6-4893-aca8-8225b1884a07",
+			"name": "African Elephants - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "africanelephantsdisneyanimals",
+			"externalId": "17883614;entityType=Attraction"
+		},
+		{
+			"id": "97552d3f-8ddf-4aa5-b7b1-e14d5bd05568",
+			"name": "White Rhinos - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "whiterhinosdisneyanimals",
+			"externalId": "17905384;entityType=Attraction"
+		},
+		{
+			"id": "3655bbe2-8a41-4f35-a99f-e4d9d582c5fa",
+			"name": "Black Rhinos - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "blackrhinosdisneyanimals",
+			"externalId": "17905385;entityType=Attraction"
+		},
+		{
+			"id": "4edb7625-3f86-4da6-9a31-c0cd72fa94fc",
+			"name": "Migratory Birds at Maharajah Jungle Trek - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "migratorybirdsatmaharajahjungletrekdisneyanimals",
+			"externalId": "17905389;entityType=Attraction"
+		},
+		{
+			"id": "f39dbb08-35db-4ad4-885d-e4787de5bde6",
+			"name": "Cotton-Top Tamarins - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "cottontoptamarinsdisneyanimals",
+			"externalId": "17883689;entityType=Attraction"
+		},
+		{
+			"id": "4f391f0e-52be-4f9d-99d6-b3ae0373b43c",
+			"name": "Wildlife Express Train",
+			"entityType": "ATTRACTION",
+			"slug": "wildlifeexpresstrain",
+			"externalId": "80010235;entityType=Attraction"
+		},
+		{
+			"id": "7a5af3b7-9bc1-4962-92d0-3ea9c9ce35f0",
+			"name": "Na'vi River Journey",
+			"entityType": "ATTRACTION",
+			"slug": "naviriverjourney",
+			"externalId": "18665185;entityType=Attraction"
+		},
+		{
+			"id": "239d5e6c-28c4-4ed4-80a9-d332692c0758",
+			"name": "Migratory Birds at Tree of Life - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "migratorybirdsattreeoflifedisneyanimals",
+			"externalId": "17905399;entityType=Attraction"
+		},
+		{
+			"id": "125d9166-634b-41ec-a29c-182bb0a71dba",
+			"name": "Hippopotamuses - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "hippopotamusesdisneyanimals",
+			"externalId": "18478570;entityType=Attraction"
+		},
+		{
+			"id": "dd0392bc-2ebb-48ab-b1b5-1af1193acee2",
+			"name": "Giraffes - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "giraffesdisneyanimals",
+			"externalId": "18478569;entityType=Attraction"
+		},
+		{
+			"id": "e7976e25-4322-4587-8ded-fb1d9dcbb83c",
+			"name": "Gorilla Falls Exploration Trail",
+			"entityType": "ATTRACTION",
+			"slug": "gorillafallsexplorationtrail",
+			"externalId": "80010175;entityType=Attraction"
+		},
+		{
+			"id": "380c7bc4-646e-439a-8699-be1cd603a36d",
+			"name": "Vultures - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "vulturesdisneyanimals",
+			"externalId": "18673386;entityType=Attraction"
+		},
+		{
+			"id": "3b7309a5-7b57-4edf-b4e6-36ad958ac21e",
+			"name": "The Animation Experience at Conservation Station",
+			"entityType": "ATTRACTION",
+			"slug": "theanimationexperienceatconservationstation",
+			"externalId": "19330300;entityType=Attraction"
+		},
+		{
+			"id": "d581fdde-6679-46e5-821d-a33c9b4cc7ed",
+			"name": "Gibbons - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "gibbonsdisneyanimals",
+			"externalId": "18685276;entityType=Attraction"
+		},
+		{
+			"id": "904f17dd-0ef3-4794-be7e-58b884bf81b5",
+			"name": "African Birds - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "africanbirdsdisneyanimals",
+			"externalId": "18685279;entityType=Attraction"
+		},
+		{
+			"id": "d04ec77c-c082-46fd-a253-c7c69bb14374",
+			"name": "Asian Small-Clawed Otters - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "asiansmallclawedottersdisneyanimals",
+			"externalId": "19401798;entityType=Attraction"
+		},
+		{
+			"id": "a15ce7cf-342a-4c7a-9372-7a1fa1054747",
+			"name": "Affection Section",
+			"entityType": "ATTRACTION",
+			"slug": "affectionsection",
+			"externalId": "80010104;entityType=Attraction"
+		},
+		{
+			"id": "41b5c2ea-7c6f-47b5-8330-c00ffa347376",
+			"name": "Fossil Fun Games",
+			"entityType": "ATTRACTION",
+			"slug": "fossilfungames",
+			"externalId": "80010133;entityType=Attraction"
+		},
+		{
+			"id": "4d27b0d7-2b0a-4569-90fa-e79f117ec7ef",
+			"name": "Discovery Island Trails",
+			"entityType": "ATTRACTION",
+			"slug": "discoveryislandtrails",
+			"externalId": "80010126;entityType=Attraction"
+		},
+		{
+			"id": "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53",
+			"name": "Tree of Life",
+			"entityType": "ATTRACTION",
+			"slug": "treeoflife",
+			"externalId": "80010217;entityType=Attraction"
+		},
+		{
+			"id": "e12fb6d6-0985-44e5-bdd3-65ff74433063",
+			"name": "Tiffins Restaurant",
+			"entityType": "RESTAURANT",
+			"slug": "tiffinsrestaurant",
+			"externalId": "18069632;entityType=restaurant"
+		},
+		{
+			"id": "cea213d9-bf4f-408a-ac61-768e7709ab7d",
+			"name": "Yak & Yeti™ Restaurant",
+			"entityType": "RESTAURANT",
+			"slug": "yakyetirestaurant",
+			"externalId": "215686;entityType=restaurant"
+		},
+		{
+			"id": "f0e0d1a3-b1a1-42a1-b514-df96b7951db2",
+			"name": "African Lions - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "africanlionsdisneyanimals",
+			"externalId": "17883684;entityType=Attraction"
+		},
+		{
+			"id": "c616884f-c55f-4f74-b58d-1a8374717380",
+			"name": "Tigers - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "tigersdisneyanimals",
+			"externalId": "17905380;entityType=Attraction"
+		},
+		{
+			"id": "20b61c85-1c69-4576-8d8e-ba7b16915577",
+			"name": "Migratory Birds at The Oasis Exhibits - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "migratorybirdsattheoasisexhibitsdisneyanimals",
+			"externalId": "17905394;entityType=Attraction"
+		},
+		{
+			"id": "7f97be37-1210-462a-8039-1751c9b0b6a8",
+			"name": "Meerkats - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "meerkatsdisneyanimals",
+			"externalId": "19437429;entityType=Attraction"
+		},
+		{
+			"id": "32e01181-9a5f-4936-8a77-0dace1de836c",
+			"name": "Kilimanjaro Safaris",
+			"entityType": "ATTRACTION",
+			"slug": "kilimanjarosafaris",
+			"externalId": "80010157;entityType=Attraction"
+		},
+		{
+			"id": "bc997600-fcc0-4f6f-b908-a1419b26cfd8",
+			"name": "The Oasis Exhibits",
+			"entityType": "ATTRACTION",
+			"slug": "theoasisexhibits",
+			"externalId": "80010214;entityType=Attraction"
+		},
+		{
+			"id": "224d803c-cd7a-45d8-bfab-d843f2030983",
+			"name": "Rainforest Cafe® at Disney's Animal Kingdom",
+			"entityType": "RESTAURANT",
+			"slug": "rainforestcafeatdisneysanimalkingdom",
+			"externalId": "90002440;entityType=restaurant"
+		},
+		{
+			"id": "43e5558e-2be0-4989-b80b-074afa8302a9",
+			"name": "The Boneyard",
+			"entityType": "ATTRACTION",
+			"slug": "theboneyard",
+			"externalId": "80010203;entityType=Attraction"
+		},
+		{
+			"id": "24cf863c-b6ba-4826-a056-0b698989cbf7",
+			"name": "Avatar Flight of Passage",
+			"entityType": "ATTRACTION",
+			"slug": "avatarflightofpassage",
+			"externalId": "18665186;entityType=Attraction"
+		},
+		{
+			"id": "d58d9262-ec95-4161-80a0-07ca43b2f5f3",
+			"name": "Kali River Rapids",
+			"entityType": "ATTRACTION",
+			"slug": "kaliriverrapids",
+			"externalId": "80010154;entityType=Attraction"
+		},
+		{
+			"id": "55c531b6-3ce2-4c47-a8a1-0dc9107d825b",
+			"name": "DINOSAUR",
+			"entityType": "ATTRACTION",
+			"slug": "dinosaur",
+			"externalId": "80010123;entityType=Attraction"
+		},
+		{
+			"id": "13d7c9d1-a785-403d-9ba8-71fee2f02d55",
+			"name": "Meet Favorite Disney Pals at Adventurers Outpost",
+			"entityType": "SHOW",
+			"slug": "meetfavoritedisneypalsatadventurersoutpost",
+			"externalId": "17421326;entityType=Entertainment"
+		},
+		{
+			"id": "b9be5b8f-fe1f-4a77-bcad-5399429ecaa6",
+			"name": "Dino-Sue",
+			"entityType": "ATTRACTION",
+			"slug": "dinosue",
+			"externalId": "80010124;entityType=Attraction"
+		},
+		{
+			"id": "1a8ea967-229a-42a0-8290-59b036c84e14",
+			"name": "Maharajah Jungle Trek",
+			"entityType": "ATTRACTION",
+			"slug": "maharajahjungletrek",
+			"externalId": "80010164;entityType=Attraction"
+		},
+		{
+			"id": "d8214ba6-22a7-4a92-8977-bae3779d5c4c",
+			"name": "Feathered Friends in Flight!",
+			"entityType": "SHOW",
+			"slug": "featheredfriendsinflight",
+			"externalId": "19581372;entityType=Entertainment"
+		},
+		{
+			"id": "93d3c183-737f-4e26-98f9-b18a3e190393",
+			"name": "Animal Encounters: Winged Encounters – The Kingdom Takes Flight",
+			"entityType": "SHOW",
+			"slug": "animalencounterswingedencountersthekingdomtakesflight",
+			"externalId": "17821434;entityType=Entertainment"
+		},
+		{
+			"id": "d8497541-53a2-4206-b95f-39cb238ae511",
+			"name": "Tam Tam Drummers of Harambe",
+			"entityType": "SHOW",
+			"slug": "tamtamdrummersofharambe",
+			"externalId": "72877;entityType=Entertainment"
+		},
+		{
+			"id": "f9e169bf-1e27-47c9-9f0f-ce8c6df4da53",
+			"name": "Okapis - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "okapisdisneyanimals",
+			"externalId": "18478578;entityType=Attraction"
+		},
+		{
+			"id": "af420c20-96c0-4ea2-bb7f-d68385291f88",
+			"name": "Discovery Island Drummers Flotilla",
+			"entityType": "SHOW",
+			"slug": "discoveryislanddrummersflotilla",
+			"externalId": "19581371;entityType=Entertainment"
+		},
+		{
+			"id": "a86b36a4-a439-43cd-8994-4030a159e261",
+			"name": "Komodo Dragons - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "komododragonsdisneyanimals",
+			"externalId": "19423228;entityType=Attraction"
+		},
+		{
+			"id": "3e490fd6-8e1c-44d5-9eef-59ce897402f3",
+			"name": "Discovery River Cruise - The Lion King",
+			"entityType": "SHOW",
+			"slug": "discoveryrivercharactercruise",
+			"externalId": "19579549;entityType=Entertainment"
+		},
+		{
+			"id": "759e7496-565c-420f-b0bd-777dfd598f08",
+			"name": "Invertebrates at Conservation Station - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": null,
+			"externalId": "18673434;entityType=Attraction"
+		},
+		{
+			"id": "e8ada80c-bee5-4584-a715-aa847c615cd5",
+			"name": "Beacons of Magic",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "19630231;entityType=Entertainment"
+		},
+		{
+			"id": "f8d2730d-1fcb-414e-94bb-0a0f876d7720",
+			"name": "Donald's Dino-Bash!",
+			"entityType": "SHOW",
+			"slug": "donaldsdinobash",
+			"externalId": "18984704;entityType=Entertainment"
+		},
+		{
+			"id": "127eb7ec-9d9f-43bc-a259-9eb03c467fef",
+			"name": "Zebras at Kilimanjaro Safaris - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "zebrasatkilimanjarosafarisdisneyanimals",
+			"externalId": "18673399;entityType=Attraction"
+		},
+		{
+			"id": "95712b31-ceed-4f7d-be3e-3d5e6badac5c",
+			"name": "Finding Nemo: The Big Blue... and Beyond!",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "411550125;entityType=Entertainment"
+		},
+		{
+			"id": "63687e52-8d88-4f3c-8817-579ded518a21",
+			"name": "Disney KiteTails",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "19630156;entityType=Entertainment"
+		},
+		{
+			"id": "bd5eefa4-665d-4840-a3f3-eb0232dd7310",
+			"name": "Chakranadi",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "16630482;entityType=Entertainment"
+		},
+		{
+			"id": "704426b6-9fb3-4ff9-8f6b-44d52c551ac3",
+			"name": "Tree of Life Awakenings: A Beacon of Magic",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "411500808;entityType=Entertainment"
+		},
+		{
+			"id": "2a55aee6-c87a-4bda-a3d4-b022693a62a3",
+			"name": "Tree of Life Awakenings",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "18447293;entityType=Entertainment"
+		},
+		{
+			"id": "a08d9f84-fbdf-45f3-9b68-645d296de307",
+			"name": "DiVine",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "432709;entityType=Entertainment"
+		},
+		{
+			"id": "3a4e0f49-f9ff-4481-a95b-d4952cdf6097",
+			"name": "Festival of the Lion King",
+			"entityType": "SHOW",
+			"slug": "acelebrationoffestivalofthelionking",
+			"externalId": "12432;entityType=Entertainment"
+		},
+		{
+			"id": "dd142c0b-622a-4b44-8e22-c0facb2b20a8",
+			"name": "Kora Tinga Tinga",
+			"entityType": "SHOW",
+			"slug": "koratingatinga",
+			"externalId": "18435910;entityType=Entertainment"
+		},
+		{
+			"id": "b5724816-0507-4da0-ae22-7c69df8bc871",
+			"name": "Discovery River Cruise - Pocahontas",
+			"entityType": "SHOW",
+			"slug": null,
+			"externalId": "411705711;entityType=Entertainment"
+		},
+		{
+			"id": "17ecfc8c-8013-4d48-805b-f37f94cc2452",
+			"name": "Flamingos at Discovery Island - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "flamingosdisneyanimals",
+			"externalId": "18685133;entityType=Attraction"
+		},
+		{
+			"id": "1dd9eb9b-ce6d-451b-b8ef-f39b3435b35a",
+			"name": "Zebras at Africa - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "zebrasatgorillafallsexplorationtraildisneyanimals",
+			"externalId": "18673408;entityType=Attraction"
+		},
+		{
+			"id": "0941f812-f214-4837-9e67-ee1216ceed50",
+			"name": "Flamingos at Africa - Disney Animals",
+			"entityType": "ATTRACTION",
+			"slug": "invertebratesatgorillafallsexplorationtraildisneyanimals",
+			"externalId": "18673456;entityType=Attraction"
+		},
+		{
+			"id": "6fbe6d02-4057-43bb-80a3-047b1e8a50ca",
+			"name": "Conservation Station",
+			"entityType": "ATTRACTION",
+			"slug": "conservationstation",
+			"externalId": "80010119;entityType=Attraction"
+		},
+		{
+			"id": "5f8057b4-adfd-4258-906d-9ae3485ffbff",
+			"name": "Harambe Village Acrobats",
+			"entityType": "SHOW",
+			"slug": "harambevillageacrobats",
+			"externalId": "18425797;entityType=Entertainment"
+		}
+	]
+}

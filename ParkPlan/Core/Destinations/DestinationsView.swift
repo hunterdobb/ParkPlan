@@ -8,62 +8,26 @@
 import SwiftUI
 
 struct DestinationsView: View {
-//	@EnvironmentObject private var vm: DestinationsViewModel
-	@StateObject var vm = DestinationsViewModel()
-	@State private var hasAppeared = false
+	let parks = Bundle.main.decode("DisneyDestinations.json", as: DestinationEntry.self).parks
 
-    var body: some View {
-        NavigationStack {
-			if vm.isLoading {
-				ProgressView { Text("Loading Destinations") }
-			} else {
-				List {
-					#if os(watchOS)
-					clearSearch
-					#endif
+	var body: some View {
+		NavigationStack {
+			List {
+				ForEach(parks, content: ParkRowView.init)
+					.listRowInsets(.init(top: 15, leading: 30, bottom: 15, trailing: 30))
 
-					ForEach(vm.filteredDestinations, content: ParksList.init)
-				}
-				.navigationTitle("Destinations")
-				#if !os(watchOS)
-				.searchable(text: $vm.searchText, placement: .navigationBarDrawer(displayMode: .always))
-				#else
-				.searchable(text: $vm.searchText)
-				#endif
 			}
-        }
-		.task {
-			if !hasAppeared {
-				await vm.fetchDestinations()
-				hasAppeared = true
-			}
+			.navigationTitle("Disney World")
+			#if !os(watchOS)
+			.listRowSpacing(10)
+			.listItemTint(.purple)
+			.listRowSeparator(.hidden)
+			.listStyle(.plain)
+			#endif
 		}
-		.alert(isPresented: $vm.hasError, error: vm.error) {
-			Button("Retry") {
-				Task { await vm.fetchDestinations() }
-			}
-		}
-    }
+	}
 }
 
 #Preview {
 	DestinationsView()
-}
-
-private extension DestinationsView {
-	@ViewBuilder
-	var clearSearch: some View {
-		if !vm.searchText.isEmpty {
-			Button {
-				vm.searchText = ""
-			} label: {
-				HStack {
-					Image(systemName: "xmark")
-						.foregroundColor(.blue)
-					Text("Clear Search")
-				}
-
-			}
-		}
-	}
 }

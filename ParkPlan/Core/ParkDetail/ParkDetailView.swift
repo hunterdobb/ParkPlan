@@ -15,8 +15,6 @@ struct ParkDetailView: View {
 
 	@State private var hasAppeared = false
 
-	
-
     var body: some View {
 		List {
 			#if os(watchOS)

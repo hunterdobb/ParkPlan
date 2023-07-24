@@ -12,7 +12,7 @@ struct EntityLiveDataResponse: Decodable {
 	let name: String
 	let entityType: EntityType
 	let timezone: String?
-	let liveData: [EntityLiveData]?
+	let liveData: [EntityLiveData]
 }
 
 // MARK: - Entity Live Data

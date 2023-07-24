@@ -25,7 +25,7 @@ struct DiningView: View {
 		}
 		Text("\(liveData?.diningAvailability?.first?.waitTime ?? 12)")
 			.task {
-				liveData = try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self).liveData?.first ?? nil
+				liveData = try? await NetworkingManager.shared.request(.live(id: id), type: EntityLiveDataResponse.self).liveData.first ?? nil
 			}
     }
 

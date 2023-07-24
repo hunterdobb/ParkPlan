@@ -9,7 +9,7 @@ import SwiftUI
 
 struct POICardView: View {
 	@EnvironmentObject private var vm: ParkOverviewViewModel
-	let poi: EntityChild
+	let poi: EntityLiveData
 	// These default values will be overwritten in .onAppear
 	@State private var name: String = ""
 	@State private var liveDataString: String = ""
@@ -71,41 +71,41 @@ struct POICardView: View {
 		.cardBackground(liveDataColor)
 		.onAppear {
 			name = poi.name
-			liveDataString = vm.standbyWaitText(for: poi)
+			liveDataString = vm.standbyWaitText(id: poi.id)
 			liveDataColor = vm.getColorForLiveData(text: liveDataString)
 			type = poi.entityType
 		}
 	}
 }
 
-struct POICardView_Previews: PreviewProvider {
-	static var previews: some View {
-		let previewPOI1 = EntityChild(id: "578bbd12-1975-4ec3-9879-ea641c780342",
-									 name: "Hagrid's Magical Creatures Motorbike Adventure™",
-									 entityType: .attraction,
-									 slug: nil,
-									 externalId: "17097")
-
-		let previewPOI2 = EntityChild(id: "7863937e-bb65-408b-9652-c9700c923c9c",
-									 name: "Hog's Head™",
-									 entityType: .restaurant,
-									 slug: nil,
-									 externalId: "11632")
-
-		Group {
-			POICardView(poi: previewPOI1)
-				.padding()
-				.previewLayout(.sizeThatFits)
-				.previewDisplayName("Card Long Name")
-
-			POICardView(poi: previewPOI2)
-				.padding()
-				.previewLayout(.sizeThatFits)
-				.previewDisplayName("Card Short Name")
-		}
-		.environmentObject(ParkOverviewViewModel(park: DestinationParkEntry(id: "267615cc-8943-4c2a-ae2c-5da728ca591f", name: "Universal's Islands of Adventure")))
-	}
-}
+//struct POICardView_Previews: PreviewProvider {
+//	static var previews: some View {
+//		let previewPOI1 = EntityChild(id: "578bbd12-1975-4ec3-9879-ea641c780342",
+//									 name: "Hagrid's Magical Creatures Motorbike Adventure™",
+//									 entityType: .attraction,
+//									 slug: nil,
+//									 externalId: "17097")
+//
+//		let previewPOI2 = EntityChild(id: "7863937e-bb65-408b-9652-c9700c923c9c",
+//									 name: "Hog's Head™",
+//									 entityType: .restaurant,
+//									 slug: nil,
+//									 externalId: "11632")
+//
+//		Group {
+//			POICardView(poi: previewPOI1)
+//				.padding()
+//				.previewLayout(.sizeThatFits)
+//				.previewDisplayName("Card Long Name")
+//
+//			POICardView(poi: previewPOI2)
+//				.padding()
+//				.previewLayout(.sizeThatFits)
+//				.previewDisplayName("Card Short Name")
+//		}
+//		.environmentObject(ParkOverviewViewModel(park: DestinationParkEntry(id: "267615cc-8943-4c2a-ae2c-5da728ca591f", name: "Universal's Islands of Adventure")))
+//	}
+//}
 
 // MARK: - Custom Views
 private extension POICardView {
@@ -115,9 +115,7 @@ private extension POICardView {
 			.lineLimit(3)
 			.frame(maxWidth: .infinity, alignment: .leading)
 			.frame(maxHeight: .infinity, alignment: .top)
-//			.font(.largeTitle)
 			.font(.system(.largeTitle, design: .rounded, weight: .bold))
-//			.bold()
 			.minimumScaleFactor(0.5)
 			.padding(.top, 1)
 	}

@@ -9,15 +9,12 @@ import SwiftUI
 
 @main
 struct ParkPlanApp: App {
-//	@StateObject private var vm = DestinationsViewModel()
-
-	// main Branch Test
+	@StateObject var parkProvider = ParksProvider()
 
     var body: some Scene {
         WindowGroup {
 			TabView {
 				DestinationsView()
-//					.environmentObject(vm)
 					.tabItem {
 						Image(systemName: "globe.americas.fill")
 						Text("Destinations")
@@ -29,6 +26,7 @@ struct ParkPlanApp: App {
 						Text("Settings")
 					}
 			}
+			.environmentObject(parkProvider)
         }
     }
 }

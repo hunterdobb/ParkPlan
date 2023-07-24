@@ -12,11 +12,9 @@ struct POIScrollView: View {
 	let symbolName: String
 	
 	@EnvironmentObject private var vm: ParkOverviewViewModel
-	let data: [EntityChild]
+	let data: [EntityLiveData]
 	let typeColor: Color
 	let entityType: EntityType
-
-
 
     var body: some View {
 		VStack(alignment: .leading, spacing: 10) {
@@ -26,9 +24,12 @@ struct POIScrollView: View {
 				HStack {
 					if !data.isEmpty {
 						ForEach(data) { poi in
-							let poiLiveData = vm.liveData?.first(where: { $0.id == poi.id })
 							NavigationLink {
-								ItemDetailView(name: poi.name, id: poi.id, liveData: poiLiveData)
+								ItemDetailView(
+									name: poi.name,
+									id: poi.id,
+									liveData: vm.getLiveData(id: poi.id)
+								)
 							} label: {
 								POICardView(poi: poi)
 									.multilineTextAlignment(.leading)
@@ -57,7 +58,6 @@ struct POIScrollView_Previews: PreviewProvider {
 			.environmentObject(ParkOverviewViewModel(park: previewPark))
 			.task {
 				await previewVm.fetchLiveData()
-				await previewVm.fetchChildren()
 			}
     }
 }
