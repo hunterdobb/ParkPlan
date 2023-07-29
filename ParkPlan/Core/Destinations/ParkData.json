@@ -1,0 +1,2175 @@
+{
+	"id": "e957da41-3552-4cf6-b636-5babc5cbc4e5",
+	"name": "Walt Disney World® Resort",
+	"slug": "waltdisneyworldresort",
+	"parks": [
+		{
+			"id": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+			"name": "Magic Kingdom",
+			"location": {
+				"latitude": 28.4160036778,
+				"longitude": -81.5811902834
+			},
+			"children": [
+				{
+					"id": "de737ffc-306b-4f32-8bbb-34e5d370ec8f",
+					"name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+					"shortName": "A Pirate's Adventure",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "apiratesadventuretreasuresofthesevenseas",
+					"externalId": "17272158;entityType=Attraction",
+					"description": "Embark on an interactive quest as a pirate, using a map to uncover treasures, solve mysteries, and battle enemies throughout Adventureland."
+				},
+				{
+					"id": "796b0a25-c51e-456e-9bb8-50a324e301b3",
+					"name": "Jungle Cruise",
+					"shortName": "",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "junglecruise",
+					"externalId": "80010153;entityType=Attraction",
+					"description": "Set off on a pun-filled expedition through exotic jungles, guided by humorous skippers."
+				},
+				{
+					"id": "6ea670b8-3097-4d60-b69c-94e16071da17",
+					"name": "Jungle Navigation Co. LTD Skipper Canteen",
+					"shortName": "Jungle Navigation",
+					"land": "Adventureland",
+					"entityType": "RESTAURANT",
+					"slug": "junglenavigationcoltdskippercanteen",
+					"externalId": "18185631;entityType=restaurant",
+					"description": "Enjoy a diverse menu inspired by global flavors in this Jungle Cruise-themed restaurant."
+				},
+				{
+					"id": "352feb94-e52e-45eb-9c92-e4b44c6b1a9d",
+					"name": "Pirates of the Caribbean",
+					"shortName": "",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "piratesofthecaribbean",
+					"externalId": "80010177;entityType=Attraction",
+					"description": "Set sail with swashbuckling pirates on a boat ride through pirate-infested waters."
+				},
+				{
+					"id": "30fe3c64-af71-4c66-a54b-aa61fd7af177",
+					"name": "Swiss Family Treehouse",
+					"shortName": "",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "swissfamilytreehouse",
+					"externalId": "80010196;entityType=Attraction",
+					"description": "Explore the impressive treehouse built by the Robinson family, offering panoramic views of Adventureland."
+				},
+				{
+					"id": "96455de6-f4f1-403c-9391-bf8396979149",
+					"name": "The Magic Carpets of Aladdin",
+					"shortName": "",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "themagiccarpetsofaladdin",
+					"externalId": "80010210;entityType=Attraction",
+					"description": "Soar on a magic carpet ride with Aladdin and Abu, controlling the height of your flight."
+				},
+				{
+					"id": "6fd1e225-53a0-4a80-a577-4bbc9a471075",
+					"name": "Walt Disney's Enchanted Tiki Room",
+					"shortName": "Enchanted Tiki Room",
+					"land": "Adventureland",
+					"entityType": "ATTRACTION",
+					"slug": "waltdisneysenchantedtikiroom",
+					"externalId": "16124144;entityType=Attraction",
+					"description": "Experience an enchanting musical show with animatronic birds, flowers, and tikis in a tropical setting."
+				},
+				{
+					"id": "f5aad2d4-a419-4384-bd9a-42f86385c750",
+					"name": "it's a small world",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "itsasmallworld",
+					"externalId": "80010149;entityType=Attraction",
+					"description": "Take a playful boat ride through scenes of singing and dancing dolls from various cultures around the world, promoting unity and harmony."
+				},
+				{
+					"id": "e847a8bd-7d21-432b-a7a1-f483517a22b5",
+					"name": "Be Our Guest Restaurant",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "RESTAURANT",
+					"slug": "beourguestrestaurant",
+					"externalId": "16660079;entityType=restaurant",
+					"description": "Step into the magical world of Beauty and the Beast at this enchanting restaurant in Beast's castle, offering French-inspired cuisine and a fairytale setting."
+				},
+				{
+					"id": "f010bc01-b450-4476-a5f3-a5f2813104b2",
+					"name": "Casey Jr. Splash 'N' Soak Station",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "caseyjrsplashnsoakstation",
+					"externalId": "16512939;entityType=Attraction",
+					"description": "A water play area perfect for kids to cool off and have fun, themed after Casey Jr. from the classic Disney film \"Dumbo.\""
+				},
+				{
+					"id": "90d79335-c907-4069-a021-d0fe1ec73ae2",
+					"name": "Cinderella Castle",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "cinderellacastle",
+					"externalId": "16767209;entityType=Attraction",
+					"description": "The iconic centerpiece of Magic Kingdom, Cinderella Castle stands tall as a symbol of Disney magic and serves as a backdrop for nighttime shows."
+				},
+				{
+					"id": "290942fd-89c9-4680-98df-b86b49752f6a",
+					"name": "Cinderella Castle: A Beacon of Magic",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411500827;entityType=Entertainment",
+					"description": "Witness the castle transformed with stunning projections and special lighting effects during nighttime shows."
+				},
+				{
+					"id": "55bdcccc-217b-416c-b8b0-4b6a87d16179",
+					"name": "Cinderella's Royal Table",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "RESTAURANT",
+					"slug": "cinderellasroyaltable",
+					"externalId": "90002464;entityType=restaurant",
+					"description": "Dine like royalty in Cinderella's Castle, meeting Disney princesses and enjoying a fairytale feast."
+				},
+				{
+					"id": "890fa430-89c0-4a3f-96c9-11597888005e",
+					"name": "Dumbo the Flying Elephant",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "dumbotheflyingelephant",
+					"externalId": "80010129;entityType=Attraction",
+					"description": "Soar high aboard Dumbo's back, controlling your flying elephant to experience a whimsical ride."
+				},
+				{
+					"id": "e76c93df-31af-49a5-8e2f-752c76c937c9",
+					"name": "Enchanted Tales with Belle",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "enchantedtaleswithbelle",
+					"externalId": "16767276;entityType=Attraction",
+					"description": "Step into Belle's world in Maurice's cottage and participate in an interactive storytelling experience with Belle herself."
+				},
+				{
+					"id": "0aae716c-af13-4439-b638-d75fb1649df3",
+					"name": "Mad Tea Party",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "madteaparty",
+					"externalId": "80010162;entityType=Attraction",
+					"description": "Spin and twirl in teacups at this classic Disney attraction, inspired by \"Alice in Wonderland.\""
+				},
+				{
+					"id": "012a211b-4c91-451c-8a0e-5e3ab398eda8",
+					"name": "Meet Ariel at Her Grotto",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "meetarielathergrotto",
+					"externalId": "16874126;entityType=Entertainment",
+					"description": "Meet and take photos with Ariel, the beloved Little Mermaid, in her charming grotto."
+				},
+				{
+					"id": "40737d3d-0ff6-4a9e-a050-beb87bf90120",
+					"name": "Meet Cinderella and a Visiting Princess at Princess Fairytale Hall",
+					"shortName": "Meet Cinderella",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "meetcinderellaandelenaatprincessfairytalehall",
+					"externalId": "18498503;entityType=Entertainment",
+					"description": "Meet Cinderella and another Disney Princess at this regal meeting location."
+				},
+				{
+					"id": "166f2985-7b27-4eff-a8b3-29c3448ba198",
+					"name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
+					"shortName": "Meet Daring Disney Pals",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "meetdaringdisneypalsascircusstarsatpetessillysideshow",
+					"externalId": "387133;entityType=Entertainment",
+					"description": "Encounter classic Disney characters dressed as circus performers."
+				},
+				{
+					"id": "b5d6d1d1-e960-4c8f-a8a4-b9748b386b64",
+					"name": "Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
+					"shortName": "Meet Dashing Disney Pals",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "meetdashingdisneypalsascircusstarsatpetessillysideshow",
+					"externalId": "15743682;entityType=Entertainment",
+					"description": "Interact with beloved Disney characters in their circus-themed costumes."
+				},
+				{
+					"id": "cf4b2ba4-3626-4de7-9d07-abe8a65b1665",
+					"name": "Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall",
+					"shortName": "Meet Princess Tiana",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "meetrapunzelandtianaatprincessfairytalehall",
+					"externalId": "17505397;entityType=Entertainment",
+					"description": "Meet Princess Tiana and another Disney Princess in this royal setting."
+				},
+				{
+					"id": "4c31b3ad-5dc9-437f-ac1a-0fdff36a2818",
+					"name": "Mickey's Magical Friendship Faire",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "18381020;entityType=Entertainment",
+					"description": "An enchanting stage show with Mickey and friends, showcasing music, dancing, and special effects."
+				},
+				{
+					"id": "7c5e1e02-3a44-4151-9005-44066d5ba1da",
+					"name": "Mickey's PhilharMagic",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "mickeysphilharmagic",
+					"externalId": "80010170;entityType=Attraction",
+					"description": "A 3D musical adventure starring Mickey Mouse, featuring iconic Disney songs and classic characters."
+				},
+				{
+					"id": "86a41273-5f15-4b54-93b6-829f140e5161",
+					"name": "Peter Pan's Flight",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "peterpansflight",
+					"externalId": "80010176;entityType=Attraction",
+					"description": "Soar over London and Never Land on a flying pirate ship, reliving the classic story of Peter Pan."
+				},
+				{
+					"id": "273ddb8d-e7b5-4e34-8657-1113f49262a5",
+					"name": "Prince Charming Regal Carrousel",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "princecharmingregalcarrousel",
+					"externalId": "80010117;entityType=Attraction",
+					"description": "Ride on a majestic carousel with beautifully decorated horses, fit for royalty."
+				},
+				{
+					"id": "9d4d5229-7142-44b6-b4fb-528920969a2c",
+					"name": "Seven Dwarfs Mine Train",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "sevendwarfsminetrain",
+					"externalId": "16767284;entityType=Attraction",
+					"description": "Board a mine cart and journey through the diamond mine with the Seven Dwarfs from \"Snow White.\""
+				},
+				{
+					"id": "924a3b2c-6b4b-49e5-99d3-e9dc3f2e8a48",
+					"name": "The Barnstormer",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "thebarnstormer",
+					"externalId": "16491297;entityType=Attraction",
+					"description": "A family-friendly roller coaster with the Great Goofini, offering a fun-filled flight through the sky."
+				},
+				{
+					"id": "0d94ad60-72f0-4551-83a6-ebaecdd89737",
+					"name": "The Many Adventures of Winnie the Pooh",
+					"shortName": "Winnie the Pooh",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "themanyadventuresofwinniethepooh",
+					"externalId": "80010213;entityType=Attraction",
+					"description": "Join Winnie the Pooh and friends on a whimsical journey through the Hundred Acre Wood."
+				},
+				{
+					"id": "3cba0cb4-e2a6-402c-93ee-c11ffcb127ef",
+					"name": "Under the Sea - Journey of The Little Mermaid",
+					"shortName": "Under the Sea",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "undertheseajourneyofthelittlemermaid",
+					"externalId": "16767263;entityType=Attraction",
+					"description": "Dive under the sea and join Ariel on her adventure, featuring songs and scenes from \"The Little Mermaid.\""
+				},
+				{
+					"id": "e40ac396-cbac-43f4-8752-764ed60ccceb",
+					"name": "Walt Disney World Railroad - Fantasyland",
+					"shortName": "",
+					"land": "Fantasyland",
+					"entityType": "ATTRACTION",
+					"slug": "waltdisneyworldrailroadfantasyland",
+					"externalId": "16491299;entityType=Attraction",
+					"description": "Board the classic steam-powered train for a relaxing ride around Magic Kingdom."
+				},
+				{
+					"id": "de3309ca-97d5-4211-bffe-739fed47e92f",
+					"name": "Big Thunder Mountain Railroad",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "bigthundermountainrailroad",
+					"externalId": "80010110;entityType=Attraction",
+					"description": "Board a runaway mine train for a thrilling adventure through the wild west, complete with dips, turns, and breathtaking views."
+				},
+				{
+					"id": "0f57cecf-5502-4503-8bc3-ba84d3708ace",
+					"name": "Country Bear Jamboree",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "countrybearjamboree",
+					"externalId": "80069748;entityType=Attraction",
+					"description": "A classic and humorous stage show featuring a cast of animatronic bears performing musical numbers and jokes."
+				},
+				{
+					"id": "365816dc-e99c-4b55-bafa-ba2cecd3ed96",
+					"name": "Frontierland Shootin' Arcade",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "frontierlandshootinarcade",
+					"externalId": "80010135;entityType=Attraction",
+					"description": "Test your marksmanship skills as you take aim at various targets in this old-west shooting gallery."
+				},
+				{
+					"id": "a5241f3b-4ab5-4902-b5ba-435132ef553d",
+					"name": "Splash Mountain",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "splashmountain",
+					"externalId": "80010192;entityType=Attraction",
+					"description": "Join Br'er Rabbit on a log-flume adventure through scenes from \"Song of the South,\" culminating in a thrilling drop."
+				},
+				{
+					"id": "4bef7560-ed81-47c7-b178-6544abe3daaf",
+					"name": "Tom Sawyer Island",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "tomsawyerisland",
+					"externalId": "80010220;entityType=Attraction",
+					"description": "Explore an island filled with caves, paths, and places to discover, themed after the adventures of Tom Sawyer."
+				},
+				{
+					"id": "06c599f9-1ddf-4d47-9157-a992acafc96b",
+					"name": "Walt Disney World Railroad - Frontierland",
+					"shortName": "",
+					"land": "Frontierland",
+					"entityType": "ATTRACTION",
+					"slug": "waltdisneyworldrailroadfrontierland",
+					"externalId": "2219610;entityType=Attraction",
+					"description": "Hop on the train for a scenic journey through Frontierland and beyond."
+				},
+				{
+					"id": "2551a77d-023f-4ab1-9a19-8afec0190f39",
+					"name": "Haunted Mansion",
+					"shortName": "",
+					"land": "Liberty Square",
+					"entityType": "ATTRACTION",
+					"slug": "hauntedmansion",
+					"externalId": "80010208;entityType=Attraction",
+					"description": "Take a spooky tour of a haunted estate, filled with ghostly illusions and humorous spirits."
+				},
+				{
+					"id": "15700490-3749-45cf-a737-3cba56e13704",
+					"name": "Liberty Square Riverboat",
+					"shortName": "",
+					"land": "Liberty Square",
+					"entityType": "ATTRACTION",
+					"slug": "libertysquareriverboat",
+					"externalId": "80010160;entityType=Attraction",
+					"description": "Step aboard the Liberty Belle Riverboat for a relaxing paddlewheel journey along the Rivers of America."
+				},
+				{
+					"id": "ae9a4a79-ccf1-4561-9a95-cf83d3007b98",
+					"name": "Liberty Tree Tavern",
+					"shortName": "",
+					"land": "Liberty Square",
+					"entityType": "RESTAURANT",
+					"slug": "libertytreetavern",
+					"externalId": "90001819;entityType=restaurant",
+					"description": "Savor a colonial-inspired meal in a rustic setting, celebrating American history and traditions."
+				},
+				{
+					"id": "697473c5-ae17-4c3f-80c7-09a813248013",
+					"name": "The Diamond Horseshoe",
+					"shortName": "",
+					"land": "Liberty Square",
+					"entityType": "RESTAURANT",
+					"slug": "thediamondhorseshoe",
+					"externalId": "247904;entityType=restaurant",
+					"description": "A western-style restaurant, offering all-you-can-eat meals and live entertainment."
+				},
+				{
+					"id": "2ebfb38c-5cb5-4de1-86c0-f7af14188022",
+					"name": "The Hall of Presidents",
+					"shortName": "",
+					"land": "Liberty Square",
+					"entityType": "ATTRACTION",
+					"slug": "thehallofpresidents",
+					"externalId": "80069754;entityType=Attraction",
+					"description": "Experience an inspiring show featuring animatronic representations of the U.S. presidents."
+				},
+				{
+					"id": "a0613b70-293f-4a5b-8169-357be1777c62",
+					"name": "Casey's Corner Pianist",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "caseyscornerpianist",
+					"externalId": "8074;entityType=Entertainment",
+					"description": "Enjoy the lively tunes of a pianist while dining at Casey's Corner, a hot dog spot on Main Street, U.S.A."
+				},
+				{
+					"id": "f819079e-644e-4fce-bda3-26b899ac7027",
+					"name": "Disney Adventure Friends Cavalcade",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411550122;entityType=Entertainment",
+					"description": "A lively and colorful parade with beloved Disney characters and adventure-themed floats."
+				},
+				{
+					"id": "bb74811e-b80e-4d24-bca1-d880f0af4732",
+					"name": "Disney Enchantment – Now Through April 2, 2023",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "19630230;entityType=Entertainment",
+					"description": "A nighttime spectacular featuring projections, fireworks, and music celebrating the power of imagination and believing in oneself."
+				},
+				{
+					"id": "ee56b2f3-fd49-4a29-ae1a-2d321549a633",
+					"name": "Disney Festival of Fantasy Parade",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "disneyfestivaloffantasyparade",
+					"externalId": "17718925;entityType=Entertainment",
+					"description": "Join the celebration as this vibrant parade showcases Disney characters, dazzling floats, and lively music."
+				},
+				{
+					"id": "1c708beb-41e1-43ae-8dd8-1e85075aeb38",
+					"name": "Flag Retreat",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "flagretreat",
+					"externalId": "7922;entityType=Entertainment",
+					"description": "Be a part of a patriotic ceremony as the American flag is lowered and retired for the day in Town Square."
+				},
+				{
+					"id": "22b78ed9-a692-47cb-b6a4-6d1224ff67e3",
+					"name": "Happily Ever After",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "happilyeverafter",
+					"externalId": "18672598;entityType=Entertainment",
+					"description": "A spectacular fireworks and projection show that takes guests on a magical journey, celebrating beloved Disney stories and inspiring dreams."
+				},
+				{
+					"id": "cf9d12fb-1e06-4c8e-ae6f-1e7f1e5c861c",
+					"name": "Horses - Disney Animals",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "horsesdisneyanimals",
+					"externalId": "18677928;entityType=Attraction",
+					"description": "Encounter majestic horses and other animals as they make appearances at Magic Kingdom."
+				},
+				{
+					"id": "3dc6e90f-de6e-4bf0-bae9-b04bc930351a",
+					"name": "Let the Magic Begin",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "letthemagicbegin",
+					"externalId": "8336;entityType=Entertainment",
+					"description": "The daily opening show at Magic Kingdom, welcoming guests with enchanting performances and Disney characters."
+				},
+				{
+					"id": "51392ca4-f824-42d8-8808-8110ec8e0e22",
+					"name": "Main Street Philharmonic at Main Street, U.S.A.",
+					"shortName": "Main Street Philharmonic",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "mainstreetphilharmonicatmainstreetusa",
+					"externalId": "8066;entityType=Entertainment",
+					"description": "Enjoy the delightful sounds of a live brass and percussion band as they perform on Main Street, U.S.A."
+				},
+				{
+					"id": "888fb4a4-7adf-47a1-8ba2-c258cc64fd75",
+					"name": "Main Street Vehicles",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "mainstreetvehicles",
+					"externalId": "80010165;entityType=Attraction",
+					"description": "Ride in style on vintage vehicles, such as a horse-drawn trolley or omnibus, along Main Street, U.S.A."
+				},
+				{
+					"id": "a2d92647-634d-4eb4-886b-9da858e871f1",
+					"name": "Meet Mickey at Town Square Theater",
+					"shortName": "Meet Mickey",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "15850196;entityType=Entertainment",
+					"description": "Meet Mickey Mouse himself at this magical location on Main Street, U.S.A."
+				},
+				{
+					"id": "af50079f-9d69-4cbf-955c-6864cab3e39b",
+					"name": "Mickey's Celebration Cavalcade",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "mickeyfriendscavalcade",
+					"externalId": "19579538;entityType=Entertainment",
+					"description": "A joyful mini-parade featuring Mickey Mouse and his friends, celebrating the spirit of Magic Kingdom."
+				},
+				{
+					"id": "c4b64a31-e855-46a9-9d1a-aa13c99e88af",
+					"name": "The Crystal Palace",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "RESTAURANT",
+					"slug": "thecrystalpalace",
+					"externalId": "90002660;entityType=restaurant",
+					"description": "Dine with Winnie the Pooh and friends in this Victorian-themed restaurant with a stunning glass atrium."
+				},
+				{
+					"id": "1eee22e8-1d0a-4809-a42b-df3ae55c69d5",
+					"name": "The Dapper Dans",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "SHOW",
+					"slug": "thedapperdans",
+					"externalId": "8075;entityType=Entertainment",
+					"description": "Enjoy the harmonious sounds of this barbershop quartet, performing classic Disney tunes and more."
+				},
+				{
+					"id": "75d43698-162c-47af-a607-e879637dc8e7",
+					"name": "The Plaza Restaurant",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "RESTAURANT",
+					"slug": "theplazarestaurant",
+					"externalId": "90002670;entityType=restaurant",
+					"description": "A charming turn-of-the-century restaurant, serving American comfort food."
+				},
+				{
+					"id": "83201c33-ce99-45ae-a595-f47e61d73739",
+					"name": "Tony's Town Square Restaurant",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "RESTAURANT",
+					"slug": "tonystownsquarerestaurant",
+					"externalId": "90002678;entityType=restaurant",
+					"description": "Dine in an Italian trattoria with Lady and the Tramp theming, offering classic Italian dishes."
+				},
+				{
+					"id": "e39b831b-7731-49bb-815b-289b4f49a9fd",
+					"name": "Walt Disney World Railroad - Main Street, U.S.A.",
+					"shortName": "",
+					"land": "Main Street, U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "waltdisneyworldrailroadmainstreetusa",
+					"externalId": "80010230;entityType=Attraction",
+					"description": "All aboard the Walt Disney World Railroad for a nostalgic trip around Magic Kingdom."
+				},
+				{
+					"id": "d9d12438-d999-4482-894b-8955fdb20ccf",
+					"name": "Astro Orbiter",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "astroorbiter",
+					"externalId": "80010107;entityType=Attraction",
+					"description": "Climb aboard your own rocket and soar high above Tomorrowland, controlling your spaceship as it spins around a central tower."
+				},
+				{
+					"id": "72c7343a-f7fb-4f66-95df-c91016de7338",
+					"name": "Buzz Lightyear's Space Ranger Spin",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "buzzlightyearsspacerangerspin",
+					"externalId": "80010114;entityType=Attraction",
+					"description": "Join Buzz Lightyear in a battle against the evil Emperor Zurg as you use your laser blaster to shoot targets and rack up points."
+				},
+				{
+					"id": "e8f0b426-7645-4ea3-8b41-b94ae7091a41",
+					"name": "Monsters Inc. Laugh Floor",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "monstersinclaughfloor",
+					"externalId": "136550;entityType=Attraction",
+					"description": "Be part of a comedy show hosted by Mike Wazowski and his monster friends in Monstropolis."
+				},
+				{
+					"id": "b2260923-9315-40fd-9c6b-44dd811dbe64",
+					"name": "Space Mountain",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "spacemountain",
+					"externalId": "80010190;entityType=Attraction",
+					"description": "Embark on a thrilling indoor roller coaster through space, offering high-speed twists and turns in the dark."
+				},
+				{
+					"id": "f163ddcd-43e1-488d-8276-2381c1db0a39",
+					"name": "Tomorrowland Speedway",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "tomorrowlandspeedway",
+					"externalId": "80010222;entityType=Attraction",
+					"description": "Race around a track in your own gas-powered car, reminiscent of the open road and classic speedways."
+				},
+				{
+					"id": "ffcfeaa2-1416-4920-a1ed-543c1a1695c4",
+					"name": "Tomorrowland Transit Authority PeopleMover",
+					"shortName": "PeopleMover",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "tomorrowlandtransitauthoritypeoplemover",
+					"externalId": "80010224;entityType=Attraction",
+					"description": "Take a leisurely tour of Tomorrowland aboard an elevated tram for unique views of attractions."
+				},
+				{
+					"id": "5a43d1a7-ad53-4d25-abfe-25625f0da304",
+					"name": "TRON Lightcycle / Run – New!",
+					"shortName": "",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "",
+					"externalId": "411504498;entityType=Attraction",
+					"description": "A high-speed, futuristic roller coaster attraction, inspired by the film \"TRON.\""
+				},
+				{
+					"id": "8183f3f2-1b59-4b9c-b634-6a863bdf8d84",
+					"name": "Walt Disney's Carousel of Progress",
+					"shortName": "Carousel of Progress",
+					"land": "Tomorrowland",
+					"entityType": "ATTRACTION",
+					"slug": "waltdisneyscarouselofprogress",
+					"externalId": "80010232;entityType=Attraction",
+					"description": "Step into the past and future in this rotating theater, exploring advancements in technology."
+				}
+			]
+		},
+		{
+			"id": "47f90d2c-e191-4239-a466-5892ef59a88b",
+			"name": "EPCOT",
+			"location": {
+				"latitude": 28.3762301397,
+				"longitude": -81.5494047655
+			},
+			"children": [
+				{
+					"id": "5b7cf10a-763b-45ba-9049-87140270826f",
+					"name": "La Hacienda de San Angel",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "lahaciendadesanangel",
+					"externalId": "15525573;entityType=restaurant",
+					"description": "Enjoy waterfront dining with stunning views of the World Showcase Lagoon while savoring authentic Mexican cuisine."
+				},
+				{
+					"id": "17d51899-7d6d-4cd7-93bb-4064a47d501b",
+					"name": "Teppan Edo",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "teppanedo",
+					"externalId": "221625;entityType=restaurant",
+					"description": "Experience the art of teppanyaki dining as skilled chefs prepare your meal with flair right before your eyes. Enjoy delicious Japanese dishes in an interactive and entertaining setting."
+				},
+				{
+					"id": "3d8f8f8f-f984-4d2e-8dea-5a79432bdf05",
+					"name": "Advanced Training Lab",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "ATTRACTION",
+					"slug": "advancedtraininglab",
+					"externalId": "3831;entityType=Attraction",
+					"description": "Engage in space-themed challenges and interactive play in this area that ignites the astronaut within you."
+				},
+				{
+					"id": "ade9aa6d-2eb0-4046-b04d-a0f98d0682d9",
+					"name": "Sea Turtles - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "seaturtlesdisneyanimals",
+					"externalId": "17883692;entityType=Attraction",
+					"description": "Get up close to sea turtles and learn about their fascinating behaviors and conservation efforts to protect these magnificent creatures."
+				},
+				{
+					"id": "66ff36de-9cb3-4d9a-b891-1665d19ffb3e",
+					"name": "Stave Church Gallery",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "stavechurchgallery",
+					"externalId": "61525;entityType=Attraction",
+					"description": "Step into a traditional Norwegian stave church and explore exhibits highlighting Norway's captivating history and folklore."
+				},
+				{
+					"id": "ee070d46-6a64-41c0-9f12-69dcfcca10a0",
+					"name": "Reflections of China",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "reflectionsofchina",
+					"externalId": "80010180;entityType=Attraction",
+					"description": "Immerse yourself in the beauty and culture of China as you journey through stunning landscapes and iconic landmarks in this 360-degree film."
+				},
+				{
+					"id": "8d7ccdb1-a22b-4e26-8dc8-65b1938ed5f0",
+					"name": "Frozen Ever After",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "frozeneverafter",
+					"externalId": "18375495;entityType=Attraction",
+					"description": "Embark on an enchanting boat ride with Anna, Elsa, and Olaf from Disney's Frozen. Experience memorable scenes and songs from the beloved film while reliving the magic of Arendelle."
+				},
+				{
+					"id": "41aba635-48e4-43bf-9bb1-3b811b5705d0",
+					"name": "Rose & Crown Pub Musician",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "epcotpianist",
+					"externalId": "17490262;entityType=Entertainment",
+					"description": "Unwind in a cozy British pub atmosphere and enjoy live musical performances while savoring British fare and drinks."
+				},
+				{
+					"id": "8410885a-115d-4a5f-9cd5-08d0e659a603",
+					"name": "Takumi-Tei",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "takumitei",
+					"externalId": "19317888;entityType=restaurant",
+					"description": "Indulge in an upscale dining experience with a kaiseki multi-course menu that celebrates seasonal Japanese ingredients. Immerse yourself in the refined ambiance inspired by the beauty of Japan."
+				},
+				{
+					"id": "329c91db-3b4f-40e5-adaa-f902e6f450f9",
+					"name": "Coral Reefs - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "coralreefsdisneyanimals",
+					"externalId": "17883690;entityType=Attraction",
+					"description": "Discover the wonder of coral reefs and learn about their vital role in marine ecosystems. Explore marine life and conservation efforts dedicated to preserving these delicate underwater habitats."
+				},
+				{
+					"id": "8f353879-d6ac-4211-9352-4029efb47c18",
+					"name": "Living with the Land",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "livingwiththeland",
+					"externalId": "80010161;entityType=Attraction",
+					"description": "Embark on an educational boat journey through innovative greenhouses and sustainable farming techniques, showcasing the harmony between humanity and the environment."
+				},
+				{
+					"id": "81b15dfd-cf6a-466f-be59-3dd65d2a2807",
+					"name": "Soarin' Around the World",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "soarinaroundtheworld",
+					"externalId": "20194;entityType=Attraction",
+					"description": "Take flight on an exhilarating simulated hang-gliding adventure over awe-inspiring global landmarks and natural wonders. Experience the breathtaking beauty of the world from a unique perspective."
+				},
+				{
+					"id": "35ed719b-f7f0-488f-8346-4fbf8055d373",
+					"name": "Disney and Pixar Short Film Festival",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "ATTRACTION",
+					"slug": "disneyandpixarshortfilmfestival",
+					"externalId": "18269694;entityType=Attraction",
+					"description": "Immerse yourself in heartwarming and entertaining short films featuring beloved Disney and Pixar characters in this 4D movie experience."
+				},
+				{
+					"id": "22f48b73-01df-460e-8969-9eb2b4ae836c",
+					"name": "Gran Fiesta Tour Starring The Three Caballeros",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "granfiestatourstarringthethreecaballeros",
+					"externalId": "207395;entityType=Attraction",
+					"description": "Embark on a whimsical boat journey with Donald Duck, José Carioca, and Panchito as they lead you on a fun-filled adventure through the heart of Mexico, featuring vibrant scenes and catchy tunes."
+				},
+				{
+					"id": "18c533d6-a395-4ae4-9488-80fce9c497fe",
+					"name": "Palais du Cinéma",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "palaisducinma",
+					"externalId": "19503896;entityType=Attraction",
+					"description": "Step into the captivating world of classic French cinema as this exhibit showcases the rich history and artistic contributions of French filmmakers. Explore the magic of iconic movie clips and treasures."
+				},
+				{
+					"id": "8c8cd77d-97f6-4309-b285-42aad90e9f15",
+					"name": "Beauty and the Beast Sing-Along",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "beautyandthebeastsingalong",
+					"externalId": "19463785;entityType=Attraction",
+					"description": "Sing along to the enchanting tale of Beauty and the Beast in this interactive show that brings the beloved story to life with the magic of music and audience participation."
+				},
+				{
+					"id": "07dbeaea-85fa-45f2-872f-02f9e7510419",
+					"name": "Gallery of Arts and History",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "galleryofartsandhistory",
+					"externalId": "80010137;entityType=Attraction",
+					"description": "Discover the captivating culture and history of Morocco as you explore exhibits featuring traditional Moroccan arts and crafts."
+				},
+				{
+					"id": "3e5f26ee-c02d-47fd-891e-5e4479073444",
+					"name": "ImageWorks - The \"What If\" Labs",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "ATTRACTION",
+					"slug": "imageworksthewhatiflabs",
+					"externalId": "80010144;entityType=Attraction",
+					"description": "Let your creativity soar in this interactive playground where imagination knows no bounds. Engage in playful activities that inspire curiosity and fun for guests of all ages."
+				},
+				{
+					"id": "00666fe9-7774-4b53-9fb7-3d333f8aa503",
+					"name": "Impressions de France",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "impressionsdefrance",
+					"externalId": "80010145;entityType=Attraction",
+					"description": "Be transported to the beauty of France through this film that showcases its picturesque landscapes, iconic landmarks, and rich culture."
+				},
+				{
+					"id": "6f1d3b25-42c9-4e99-9dce-6c20d7a5deea",
+					"name": "Bijutsu-kan Gallery",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "bijutsukangallery",
+					"externalId": "80069745;entityType=Attraction",
+					"description": "Immerse yourself in the world of Japanese art and culture as this exhibit features rotating displays of captivating artistic masterpieces."
+				},
+				{
+					"id": "480fde8f-fe58-4bfb-b3ab-052a39d4db7c",
+					"name": "Spaceship Earth",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "ATTRACTION",
+					"slug": "spaceshipearth",
+					"externalId": "80010191;entityType=Attraction",
+					"description": "Embark on a time-traveling journey through the history of communication and human progress in this iconic geodesic sphere attraction."
+				},
+				{
+					"id": "37bb0aca-0dcf-4fa0-bc03-81d1b4ef9ac0",
+					"name": "Manatees - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "manateesdisneyanimals",
+					"externalId": "19440020;entityType=Attraction",
+					"description": "Learn about the fascinating world of manatees and observe these gentle giants as they swim gracefully in their habitat."
+				},
+				{
+					"id": "4f0df9e7-d4c1-45b5-93e2-4a7bc92547b0",
+					"name": "American Heritage Gallery",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "americanheritagegallery",
+					"externalId": "26421;entityType=Attraction",
+					"description": "Immerse yourself in American history and culture through exhibits that showcase the diverse heritage and achievements of the United States."
+				},
+				{
+					"id": "8a877212-9020-43d2-9ead-604b392d8cce",
+					"name": "Restaurant Marrakesh",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "restaurantmarrakesh",
+					"externalId": "90002068;entityType=restaurant",
+					"description": "Experience the flavors of Morocco in a restaurant filled with vibrant colors and live entertainment, offering a taste of traditional Moroccan cuisine and culture."
+				},
+				{
+					"id": "296d164a-8b9a-49d3-a285-637b86731260",
+					"name": "Matsuriza",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "matsuriza",
+					"externalId": "80010865;entityType=Entertainment",
+					"description": "Be mesmerized by the rhythmic beats of traditional Japanese taiko drumming as performers bring energy and excitement to the pavilion."
+				},
+				{
+					"id": "83fed9d1-c25f-497c-ab8e-21e4dd7ce655",
+					"name": "Sergio",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "sergio",
+					"externalId": "80010873;entityType=Entertainment",
+					"description": "Witness the captivating juggling skills and comedic talents of Sergio as he entertains guests of all ages with his lively street performances."
+				},
+				{
+					"id": "4d34dd80-4042-4ada-a74f-ef35a0887b4f",
+					"name": "Sharks and Rays - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "sharksandraysdisneyanimals",
+					"externalId": "17883691;entityType=Attraction",
+					"description": "Encounter and learn about the fascinating world of sharks and rays in this interactive exhibit dedicated to marine life education and conservation."
+				},
+				{
+					"id": "15107c34-65a3-473c-aaeb-655b508f529d",
+					"name": "Space 220 Lounge",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "RESTAURANT",
+					"slug": "",
+					"externalId": "19634138;entityType=restaurant",
+					"description": "Elevate your dining experience in this celestial-themed lounge offering an array of creative cocktails and picturesque views of outer space."
+				},
+				{
+					"id": "c5f6c7e4-d5cd-4d71-8e02-57d8bb43b3ba",
+					"name": "Voices of Liberty",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "voicesofliberty",
+					"externalId": "80010879;entityType=Entertainment",
+					"description": "Be enchanted by the harmonious a cappella performances of this talented vocal group, showcasing American patriotic songs and classic melodies."
+				},
+				{
+					"id": "fb076275-0570-4d62-b2a9-4d6515130fa3",
+					"name": "The Seas with Nemo & Friends",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "theseaswithnemofriends",
+					"externalId": "107785;entityType=Attraction",
+					"description": "Dive into an underwater world with live animals, interactive exhibits, and an adventure with Nemo and friends in this pavilion dedicated to marine exploration and conservation."
+				},
+				{
+					"id": "ea730d0c-7723-429d-89a4-9e76f053f5ac",
+					"name": "Mariachi Cobre",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "mariachicobre",
+					"externalId": "19322758;entityType=Entertainment",
+					"description": "Experience the vibrant sounds of traditional Mexican music as Mariachi Cobre fills the air with lively performances that celebrate the rich cultural heritage of Mexico."
+				},
+				{
+					"id": "9244365a-ffad-4ea1-ad8d-a36ac3a0e383",
+					"name": "Reef Fish - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "reeffishdisneyanimals",
+					"externalId": "18672355;entityType=Attraction",
+					"description": "Observe and learn about a fascinating array of reef fish in this educational exhibit dedicated to the conservation of marine ecosystems."
+				},
+				{
+					"id": "57acb522-a6fc-4aa4-a80e-21f21f317250",
+					"name": "Turtle Talk With Crush",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "turtletalkwithcrush",
+					"externalId": "62992;entityType=Attraction",
+					"description": "Dive into an interactive show where you can chat and interact with Crush, the beloved sea turtle from Finding Nemo, in an unforgettable undersea adventure filled with humor and surprises."
+				},
+				{
+					"id": "001b099f-4db8-4843-8c1e-852e0e8fc2df",
+					"name": "Viva Mexico",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "vivamexico",
+					"externalId": "209984;entityType=Entertainment",
+					"description": "Discover authentic Mexican craftsmanship and souvenirs at this vibrant open-air marketplace showcasing the creativity and talent of Mexican artisans."
+				},
+				{
+					"id": "9053240b-7f7f-44fe-970b-bd7956cd5d4f",
+					"name": "Project Tomorrow: Inventing the Wonders of the Future",
+					"shortName": "Project Tomorrow",
+					"land": "World Celebration",
+					"entityType": "ATTRACTION",
+					"slug": "projecttomorrowinventingthewondersofthefuture",
+					"externalId": "220239;entityType=Attraction",
+					"description": "Embark on a journey of innovation and possibilities in this interactive exhibit showcasing technological advancements and ideas that shape the world of tomorrow."
+				},
+				{
+					"id": "48e7f9f2-ddc3-4ced-8d11-a5cd968085c2",
+					"name": "Tokyo Dining",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "tokyodining",
+					"externalId": "221626;entityType=restaurant",
+					"description": "Savor an array of delectable Japanese dishes in a contemporary setting that captures the essence of modern Tokyo dining."
+				},
+				{
+					"id": "2ecc4fff-2994-476f-9926-24a4af173838",
+					"name": "Bruce's Shark World",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "brucessharkworld",
+					"externalId": "56404;entityType=Attraction",
+					"description": "Join the adventure in this playful area inspired by Bruce, the friendly shark from Finding Nemo, where kids can explore, climb, and play."
+				},
+				{
+					"id": "8f8746cb-c714-4c60-848d-e2dc4e6f586b",
+					"name": "Mexico Folk Art Gallery",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "mexicofolkartgallery",
+					"externalId": "80069743;entityType=Attraction",
+					"description": "Immerse yourself in the vibrant world of Mexican folk art as this gallery showcases the creativity and craftsmanship of traditional Mexican artisans."
+				},
+				{
+					"id": "c9e1d1f6-021f-43f2-a14b-3e67f65adbc4",
+					"name": "Biergarten Restaurant",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "biergartenrestaurant",
+					"externalId": "90001292;entityType=restaurant",
+					"description": "Raise a stein to German culture and cuisine in this lively beer hall, where you can enjoy a festive buffet with live entertainment and communal dining."
+				},
+				{
+					"id": "4807262a-ad16-4d43-a0d7-64b24603ef36",
+					"name": "Chefs de France",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "chefsdefrance",
+					"externalId": "90001373;entityType=restaurant",
+					"description": "Dine in elegance at this authentic French brasserie, where you can savor classic French dishes prepared by skilled chefs."
+				},
+				{
+					"id": "eb6a60d7-b354-47a1-a091-0beb11b24188",
+					"name": "Akershus Royal Banquet Hall",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "akershusroyalbanquethall",
+					"externalId": "90002066;entityType=restaurant",
+					"description": "Experience a royal feast fit for a princess in this enchanting dining hall where beloved Disney princesses greet guests and create magical memories."
+				},
+				{
+					"id": "3ace01d1-15fc-4fbb-99e4-81a696cb2d05",
+					"name": "Kidcot Fun Stops",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "kidcotfunstops",
+					"externalId": "91245;entityType=Attraction",
+					"description": "Embark on an artistic adventure at various stops throughout the World Showcase, where kids can create and decorate special keepsakes inspired by different countries and cultures."
+				},
+				{
+					"id": "dbf4a977-a7b5-41db-a9b7-ecad65f9aa0f",
+					"name": "Spice Road Table",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "spiceroadtable",
+					"externalId": "17720675;entityType=restaurant",
+					"description": "Delight your senses with the flavors of the Mediterranean in this picturesque waterfront restaurant, offering delectable dishes and stunning views."
+				},
+				{
+					"id": "e14e439d-d1aa-4f3a-90e9-60c524bd0b5a",
+					"name": "Tutto Italia Ristorante",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "tuttoitaliaristorante",
+					"externalId": "220739;entityType=restaurant",
+					"description": "Indulge in the flavors of Italy in this charming trattoria, where you can savor traditional Italian cuisine and savor the essence of Italy."
+				},
+				{
+					"id": "38892221-f69c-4913-97c9-7473c88854fa",
+					"name": "Coral Reef Restaurant",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "RESTAURANT",
+					"slug": "coralreefrestaurant",
+					"externalId": "90001416;entityType=restaurant",
+					"description": "Dine amidst an underwater paradise at this unique restaurant with massive aquarium walls, offering panoramic views of a diverse array of marine life."
+				},
+				{
+					"id": "3206e3a6-cbc3-4960-9700-163764bc47d6",
+					"name": "Le Cellier Steakhouse",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "lecelliersteakhouse",
+					"externalId": "90001798;entityType=restaurant",
+					"description": "Satisfy your appetite with delectable steaks and Canadian-inspired cuisine in a cozy cellar setting, celebrating the flavors of Canada."
+				},
+				{
+					"id": "6ecdbfc8-85c2-436d-893b-6db0f437b74a",
+					"name": "Rose & Crown Dining Room",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "rosecrowndiningroom",
+					"externalId": "90002084;entityType=restaurant",
+					"description": "Savor classic British dishes and spirits in an authentic pub atmosphere overlooking the World Showcase Lagoon."
+				},
+				{
+					"id": "37ae57c5-feaf-4e47-8f27-4b385be200f0",
+					"name": "Test Track",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "ATTRACTION",
+					"slug": "testtrack",
+					"externalId": "80010199;entityType=Attraction",
+					"description": "Design your own virtual concept vehicle and then put it to the test on an exhilarating high-speed ride through a series of thrilling automotive challenges."
+				},
+				{
+					"id": "5b6475ad-4e9a-4793-b841-501aa382c9c0",
+					"name": "Mission: SPACE",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "ATTRACTION",
+					"slug": "missionspace",
+					"externalId": "80010173;entityType=Attraction",
+					"description": "Experience the sensation of space travel as you embark on an exciting mission to Mars or orbit Earth in this thrilling simulator attraction."
+				},
+				{
+					"id": "0f40274d-420a-425a-9377-29fd6e49484f",
+					"name": "House of the Whispering Willows",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "houseofthewhisperingwillows",
+					"externalId": "160914;entityType=Attraction",
+					"description": "Immerse yourself in Chinese culture and tradition in this tranquil garden that tells the story of an ancient tale of love and transformation."
+				},
+				{
+					"id": "75449e85-c410-4cef-a368-9d2ea5d52b58",
+					"name": "Journey Into Imagination With Figment",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "ATTRACTION",
+					"slug": "journeyintoimaginationwithfigment",
+					"externalId": "80010152;entityType=Attraction",
+					"description": "Join Figment, the lovable purple dragon, on a whimsical journey through the imagination, celebrating creativity and the power of imagination."
+				},
+				{
+					"id": "1f542745-cda1-4786-a536-5fff373e5964",
+					"name": "The American Adventure",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "theamericanadventure",
+					"externalId": "80010200;entityType=Attraction",
+					"description": "Embark on a patriotic journey through American history, culture, and accomplishments in this inspiring multimedia show featuring audio-animatronics and stirring music."
+				},
+				{
+					"id": "fc64aa10-290f-472e-9fab-4d649f53ab2d",
+					"name": "La Crêperie de Paris",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "",
+					"externalId": "19511274;entityType=restaurant",
+					"description": "Savor the sweet and savory delights of authentic French crepes in this charming Parisian-style crêperie."
+				},
+				{
+					"id": "b83b6dc9-9573-4e15-ab00-9ed8a2334770",
+					"name": "Via Napoli Ristorante e Pizzeria",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "vianapoliristoranteepizzeria",
+					"externalId": "15525574;entityType=restaurant",
+					"description": "Delight in mouthwatering Neapolitan pizzas and traditional Italian dishes in this vibrant pizzeria, inspired by the authentic flavors of Southern Italy."
+				},
+				{
+					"id": "93843fb0-ee5a-49c6-91a8-40a042e93865",
+					"name": "Monsieur Paul",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "monsieurpaul",
+					"externalId": "90001296;entityType=restaurant",
+					"description": "Experience the art of fine French dining in a sophisticated setting, where you can enjoy an exquisite menu created by talented chefs."
+				},
+				{
+					"id": "736b2e6c-daaf-45c4-ba9e-fb60d7cf92d6",
+					"name": "La Cava del Tequila",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "lacavadeltequila",
+					"externalId": "348023;entityType=restaurant",
+					"description": "Discover the rich and diverse world of tequila as you sample premium selections and handcrafted cocktails in a cozy Mexican-inspired setting."
+				},
+				{
+					"id": "d4179c4c-eb08-4559-aa7c-f9802fda641b",
+					"name": "Garden Grill Restaurant",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "RESTAURANT",
+					"slug": "gardengrillrestaurant",
+					"externalId": "90002237;entityType=restaurant",
+					"description": "Feast on a delicious harvest-style meal at this rotating restaurant with views of Living with the Land."
+				},
+				{
+					"id": "7969166f-feef-4350-b26e-6a6c745528f4",
+					"name": "SeaBase",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "seabase",
+					"externalId": "80010184;entityType=Attraction",
+					"description": "Immerse yourself in an underwater adventure as you explore a massive saltwater aquarium teeming with marine life from around the world."
+				},
+				{
+					"id": "61fb49f8-e62f-4e1c-ae0e-8ab9929037bc",
+					"name": "Canada Far and Wide in Circle-Vision 360",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "canadafarandwideincirclevision360",
+					"externalId": "80010174;entityType=Attraction",
+					"description": "Embark on a stunning journey across Canada's diverse landscapes and cultural heritage in this breathtaking 360-degree film."
+				},
+				{
+					"id": "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0",
+					"name": "Remy's Ratatouille Adventure",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "ATTRACTION",
+					"slug": "remysratatouilleadventureopeningoctober12021",
+					"externalId": "19497835;entityType=Attraction",
+					"description": "Join Remy, the tiny chef from Ratatouille, on a fun-filled adventure through Gusteau's restaurant in this 4D dark ride experience."
+				},
+				{
+					"id": "482169b9-2889-4747-8aef-f9d13a37d940",
+					"name": "Awesome Planet",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "awesomeplanet",
+					"externalId": "19473173;entityType=Attraction",
+					"description": "Discover the beauty of Earth and the importance of conservation in this inspiring film that showcases the wonders of our planet."
+				},
+				{
+					"id": "07263f57-0431-4da2-a8b6-77d2965a6f83",
+					"name": "San Angel Inn Restaurante",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "sanangelinnrestaurante",
+					"externalId": "90002100;entityType=restaurant",
+					"description": "Transport yourself to a romantic Mexican courtyard setting while savoring authentic Mexican cuisine amidst views of the starlit night."
+				},
+				{
+					"id": "e8dccc86-cfb4-44c3-9a90-e95b88edbd21",
+					"name": "Nine Dragons Restaurant",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "RESTAURANT",
+					"slug": "ninedragonsrestaurant",
+					"externalId": "90001985;entityType=restaurant",
+					"description": "Savor the flavors of China as this restaurant serves up delectable dishes influenced by regional Chinese cuisine."
+				},
+				{
+					"id": "86ea784f-eed1-4696-ac01-ebb65589bf0e",
+					"name": "Invertebrates at EPCOT - Disney Animals",
+					"shortName": "",
+					"land": "World Nature",
+					"entityType": "ATTRACTION",
+					"slug": "invertebratesatepcotdisneyanimals",
+					"externalId": "18673469;entityType=Attraction",
+					"description": "Learn about the fascinating world of invertebrates and their vital roles in ecosystems through interactive exhibits and educational experiences."
+				},
+				{
+					"id": "e3549451-b284-453d-9c31-e3b1207abd79",
+					"name": "Guardians of the Galaxy: Cosmic Rewind",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "ATTRACTION",
+					"slug": "",
+					"externalId": "411499845;entityType=Attraction",
+					"description": "Embark on an exhilarating cosmic adventure with the Guardians of the Galaxy in this thrilling indoor roller coaster."
+				},
+				{
+					"id": "09120193-f2db-4073-8ea8-be994e61e5b3",
+					"name": "Spaceship Earth: A Beacon of Magic",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411500814;entityType=Entertainment",
+					"description": "Marvel at the iconic Spaceship Earth as it transforms into a stunning beacon of light, illuminating the night sky with an inspiring spectacle."
+				},
+				{
+					"id": "5979b17a-4af3-449d-8d9c-3ca312d1f3da",
+					"name": "Alberta Bound",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "78700;entityType=Entertainment",
+					"description": "Tap your feet to the lively rhythms and tunes of a Canadian musical group that celebrates the vibrant spirit of Alberta."
+				},
+				{
+					"id": "b772df79-1fca-4c0a-a2f3-88b22e63e7c3",
+					"name": "Space 220 Restaurant",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "RESTAURANT",
+					"slug": "space220comingsoon",
+					"externalId": "19433706;entityType=restaurant",
+					"description": "Elevate your dining experience to new heights as you enjoy out-of-this-world cuisine in a space-themed restaurant with breathtaking views of Earth from space."
+				},
+				{
+					"id": "81e6f8fc-068c-4d20-9433-2353992cec7a",
+					"name": "Disney® Visa® Cardmember Photo Opportunity at EPCOT",
+					"shortName": "",
+					"land": "World Celebration",
+					"entityType": "SHOW",
+					"slug": "disneyvisacardmemberphotoopportunityatepcot",
+					"externalId": "15958368;entityType=Entertainment",
+					"description": "Capture a magical moment with exclusive Disney Visa Cardmember Photo Opportunities throughout EPCOT."
+				},
+				{
+					"id": "76eadac1-cdfa-45e5-a25c-54ed4c3a604f",
+					"name": "Marimba de las Américas",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "marimbadelasamricas",
+					"externalId": "19277873;entityType=Entertainment",
+					"description": "Delight in the festive sounds of Latin America as this energetic musical group performs vibrant melodies and rhythms."
+				},
+				{
+					"id": "3beaa9a5-6404-4446-bfd1-e0d0eea65e85",
+					"name": "JAMMitors",
+					"shortName": "",
+					"land": "World Discovery",
+					"entityType": "SHOW",
+					"slug": "jammingardeners",
+					"externalId": "13507;entityType=Entertainment",
+					"description": "Enjoy a lively percussion performance by this quirky group that uses everyday items to create infectious beats and rhythms."
+				},
+				{
+					"id": "33bd3bad-6803-4c5e-97ac-f7e31261a604",
+					"name": "Meet Anna and Elsa at Royal Sommerhus",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "meetannaandelsaatroyalsommerhus",
+					"externalId": "17564219;entityType=Entertainment",
+					"description": "Meet and greet with the beloved sisters from Frozen in their charming summer cottage, where you can take photos and create magical memories."
+				},
+				{
+					"id": "9d3adf0b-f0bf-43c6-b92f-90236880d3db",
+					"name": "Groovin' Alps",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "18923661;entityType=Entertainment",
+					"description": "Tap your feet to the lively rhythms of traditional Alpine music performed by this entertaining musical group."
+				},
+				{
+					"id": "5cd0aeed-2e8a-41c8-9a33-55eb5b121962",
+					"name": "Atlas Fusion",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "19496225;entityType=Entertainment",
+					"description": "Immerse yourself in the artistry and athleticism of this acrobatic show that blends dance, music, and imagination from around the world."
+				},
+				{
+					"id": "64f25dcf-66cb-4b07-b081-6c3f77d46b65",
+					"name": "EPCOT Forever",
+					"shortName": "",
+					"land": "World Showcase",
+					"entityType": "SHOW",
+					"slug": "epcotforever",
+					"externalId": "19258170;entityType=Entertainment",
+					"description": "Experience the magic of EPCOT with this nighttime spectacular featuring soaring fireworks, stunning visuals, and a celebration of the park's past, present, and future."
+				}
+			]
+		},
+		{
+			"id": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+			"name": "Hollywood Studios",
+			"location": {
+				"latitude": 28.3584111691,
+				"longitude": -81.558689232
+			}
+		},
+		{
+			"id": "1c84a229-8862-4648-9c71-378ddd2c7693",
+			"name": "Animal Kingdom",
+			"location": {
+				"latitude": 28.3553842507,
+				"longitude": -81.5900898529
+			},
+			"children": [
+				{
+					"id": "6ef1b126-5b0b-46a1-8608-4fcf98ab92c8",
+					"name": "Wilderness Explorers",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "wildernessexplorers",
+					"externalId": "17396838;entityType=Attraction",
+					"description": "An interactive experience where guests can become Wilderness Explorers, completing challenges and earning badges throughout the park."
+				},
+				{
+					"id": "811984d7-56f4-4ca6-848d-896d46aca846",
+					"name": "Gorillas - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "gorillasdisneyanimals",
+					"externalId": "17883688;entityType=Attraction",
+					"description": "A gorilla habitat where guests can observe these magnificent primates up close."
+				},
+				{
+					"id": "1897c9b3-436c-4046-937d-b6ff98233177",
+					"name": "African Hogs - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "africanhogsdisneyanimals",
+					"externalId": "19427475;entityType=Attraction",
+					"description": "Encounter fascinating African hogs in their naturalistic environment."
+				},
+				{
+					"id": "64a6915f-a835-4226-ba5c-8389fc4cade3",
+					"name": "Expedition Everest - Legend of the Forbidden Mountain",
+					"shortName": "Expedition Everest",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "expeditioneverestlegendoftheforbiddenmountain",
+					"externalId": "26068;entityType=Attraction",
+					"description": "Embark on a thrilling roller coaster adventure as you encounter the mysterious Yeti on the legendary Forbidden Mountain."
+				},
+				{
+					"id": "1627c724-112c-4361-aeba-dae80082c90d",
+					"name": "TriceraTop Spin",
+					"shortName": "",
+					"land": "Dinoland U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "triceratopspin",
+					"externalId": "80010228;entityType=Attraction",
+					"description": "A dinosaur-themed spinner ride where guests can soar through the air on their very own Triceratops."
+				},
+				{
+					"id": "ba44245e-5562-4359-be27-9dfb2d96cb2d",
+					"name": "It's Tough to be a Bug!",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "itstoughtobeabug",
+					"externalId": "80010150;entityType=Attraction",
+					"description": "A 3D show inside the Tree of Life that features characters from \"A Bug's Life\" and highlights the importance of insects in nature."
+				},
+				{
+					"id": "861bf387-f362-4904-9082-99e093efa6ee",
+					"name": "Ankole Cattle - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "ankolecattledisneyanimals",
+					"externalId": "19429176;entityType=Attraction",
+					"description": "Observe the distinctive long-horned Ankole cattle from Africa."
+				},
+				{
+					"id": "8b2bcfc1-23f6-4893-aca8-8225b1884a07",
+					"name": "African Elephants - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "africanelephantsdisneyanimals",
+					"externalId": "17883614;entityType=Attraction",
+					"description": "Witness the beauty and majesty of African elephants in their savannah setting."
+				},
+				{
+					"id": "97552d3f-8ddf-4aa5-b7b1-e14d5bd05568",
+					"name": "White Rhinos - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "whiterhinosdisneyanimals",
+					"externalId": "17905384;entityType=Attraction",
+					"description": "Learn about and appreciate the critically endangered Southern White Rhinoceros."
+				},
+				{
+					"id": "3655bbe2-8a41-4f35-a99f-e4d9d582c5fa",
+					"name": "Black Rhinos - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "blackrhinosdisneyanimals",
+					"externalId": "17905385;entityType=Attraction",
+					"description": "Observe the elusive and endangered Black Rhinoceros in a spacious habitat."
+				},
+				{
+					"id": "4edb7625-3f86-4da6-9a31-c0cd72fa94fc",
+					"name": "Migratory Birds at Maharajah Jungle Trek - Disney Animals",
+					"shortName": "Migratory Birds",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "migratorybirdsatmaharajahjungletrekdisneyanimals",
+					"externalId": "17905389;entityType=Attraction",
+					"description": "Encounter various migratory bird species at the Maharajah Jungle Trek in Asia."
+				},
+				{
+					"id": "f39dbb08-35db-4ad4-885d-e4787de5bde6",
+					"name": "Cotton-Top Tamarins - Disney Animals",
+					"shortName": "Cotton-Top Tamarins",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "cottontoptamarinsdisneyanimals",
+					"externalId": "17883689;entityType=Attraction",
+					"description": "Watch the playful and adorable cotton-top tamarins in their habitat."
+				},
+				{
+					"id": "4f391f0e-52be-4f9d-99d6-b3ae0373b43c",
+					"name": "Wildlife Express Train",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "wildlifeexpresstrain",
+					"externalId": "80010235;entityType=Attraction",
+					"description": "Hop aboard the Wildlife Express Train to Rafiki's Planet Watch, offering a behind-the-scenes look at animal care and conservation."
+				},
+				{
+					"id": "7a5af3b7-9bc1-4962-92d0-3ea9c9ce35f0",
+					"name": "Na'vi River Journey",
+					"shortName": "",
+					"land": "Pandora: The World of Avatar",
+					"entityType": "ATTRACTION",
+					"slug": "naviriverjourney",
+					"externalId": "18665185;entityType=Attraction",
+					"description": "Glide through the bioluminescent forests of Pandora on a boat ride filled with mesmerizing sights and sounds."
+				},
+				{
+					"id": "239d5e6c-28c4-4ed4-80a9-d332692c0758",
+					"name": "Migratory Birds at Tree of Life - Disney Animals",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "migratorybirdsattreeoflifedisneyanimals",
+					"externalId": "17905399;entityType=Attraction",
+					"description": "Observe migratory birds from various species at the Tree of Life."
+				},
+				{
+					"id": "125d9166-634b-41ec-a29c-182bb0a71dba",
+					"name": "Hippopotamuses - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "hippopotamusesdisneyanimals",
+					"externalId": "18478570;entityType=Attraction",
+					"description": "See the \"river horses\" in a watery setting, showcasing their unique semi-aquatic lifestyle."
+				},
+				{
+					"id": "dd0392bc-2ebb-48ab-b1b5-1af1193acee2",
+					"name": "Giraffes - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "giraffesdisneyanimals",
+					"externalId": "18478569;entityType=Attraction",
+					"description": "Marvel at the graceful and towering giraffes as they roam the savannah."
+				},
+				{
+					"id": "e7976e25-4322-4587-8ded-fb1d9dcbb83c",
+					"name": "Gorilla Falls Exploration Trail",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "gorillafallsexplorationtrail",
+					"externalId": "80010175;entityType=Attraction",
+					"description": "Walk along this trail to observe gorillas, hippos, meerkats, and exotic birds in their habitats."
+				},
+				{
+					"id": "380c7bc4-646e-439a-8699-be1cd603a36d",
+					"name": "Vultures - Disney Animals",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "vulturesdisneyanimals",
+					"externalId": "18673386;entityType=Attraction",
+					"description": "Observe these vital scavengers and learn about their ecological role."
+				},
+				{
+					"id": "3b7309a5-7b57-4edf-b4e6-36ad958ac21e",
+					"name": "The Animation Experience at Conservation Station",
+					"shortName": "",
+					"land": "Rafiki's Planet Watch",
+					"entityType": "ATTRACTION",
+					"slug": "theanimationexperienceatconservationstation",
+					"externalId": "19330300;entityType=Attraction",
+					"description": "An interactive drawing class at Rafiki's Planet Watch where guests learn to draw Disney characters and learn about their conservation stories."
+				},
+				{
+					"id": "d581fdde-6679-46e5-821d-a33c9b4cc7ed",
+					"name": "Gibbons - Disney Animals",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "gibbonsdisneyanimals",
+					"externalId": "18685276;entityType=Attraction",
+					"description": "Hear the haunting calls of the gibbons and learn about these acrobatic primates."
+				},
+				{
+					"id": "904f17dd-0ef3-4794-be7e-58b884bf81b5",
+					"name": "African Birds - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "africanbirdsdisneyanimals",
+					"externalId": "18685279;entityType=Attraction",
+					"description": "Discover a diverse range of African bird species in their natural habitats."
+				},
+				{
+					"id": "d04ec77c-c082-46fd-a253-c7c69bb14374",
+					"name": "Asian Small-Clawed Otters - Disney Animals",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "asiansmallclawedottersdisneyanimals",
+					"externalId": "19401798;entityType=Attraction",
+					"description": "Watch the playful and adorable Asian small-clawed otters in their habitat."
+				},
+				{
+					"id": "a15ce7cf-342a-4c7a-9372-7a1fa1054747",
+					"name": "Affection Section",
+					"shortName": "",
+					"land": "Rafiki's Planet Watch",
+					"entityType": "ATTRACTION",
+					"slug": "affectionsection",
+					"externalId": "80010104;entityType=Attraction",
+					"description": "A petting zoo area at Rafiki's Planet Watch where guests can interact with farm animals."
+				},
+				{
+					"id": "41b5c2ea-7c6f-47b5-8330-c00ffa347376",
+					"name": "Fossil Fun Games",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "fossilfungames",
+					"externalId": "80010133;entityType=Attraction",
+					"description": "Enjoy fun and challenging carnival-style games with a prehistoric twist."
+				},
+				{
+					"id": "4d27b0d7-2b0a-4569-90fa-e79f117ec7ef",
+					"name": "Discovery Island Trails",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "discoveryislandtrails",
+					"externalId": "80010126;entityType=Attraction",
+					"description": "Scenic walking paths around the Tree of Life where you can encounter various animal exhibits."
+				},
+				{
+					"id": "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53",
+					"name": "Tree of Life",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "treeoflife",
+					"externalId": "80010217;entityType=Attraction",
+					"description": "A stunning 145-foot-tall tree adorned with intricate animal carvings and housing the \"It's Tough to be a Bug!\" attraction inside."
+				},
+				{
+					"id": "f0e0d1a3-b1a1-42a1-b514-df96b7951db2",
+					"name": "African Lions - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "africanlionsdisneyanimals",
+					"externalId": "17883684;entityType=Attraction",
+					"description": "Encounter the \"king of the jungle\" in a habitat that mimics the African savannah."
+				},
+				{
+					"id": "c616884f-c55f-4f74-b58d-1a8374717380",
+					"name": "Tigers - Disney Animals",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "tigersdisneyanimals",
+					"externalId": "17905380;entityType=Attraction",
+					"description": "See these powerful big cats in their lush Asian environment."
+				},
+				{
+					"id": "20b61c85-1c69-4576-8d8e-ba7b16915577",
+					"name": "Migratory Birds at The Oasis Exhibits - Disney Animals",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "migratorybirdsattheoasisexhibitsdisneyanimals",
+					"externalId": "17905394;entityType=Attraction",
+					"description": "Discover migratory birds amidst lush vegetation at The Oasis Exhibits."
+				},
+				{
+					"id": "7f97be37-1210-462a-8039-1751c9b0b6a8",
+					"name": "Meerkats - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "meerkatsdisneyanimals",
+					"externalId": "19437429;entityType=Attraction",
+					"description": "Observe the charming meerkats as they display their social behavior."
+				},
+				{
+					"id": "32e01181-9a5f-4936-8a77-0dace1de836c",
+					"name": "Kilimanjaro Safaris",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "kilimanjarosafaris",
+					"externalId": "80010157;entityType=Attraction",
+					"description": "Embark on an authentic African safari adventure to encounter a wide variety of wildlife in their natural habitats."
+				},
+				{
+					"id": "bc997600-fcc0-4f6f-b908-a1419b26cfd8",
+					"name": "The Oasis Exhibits",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "theoasisexhibits",
+					"externalId": "80010214;entityType=Attraction",
+					"description": "A tranquil area at the park's entrance showcasing various animals like giant anteaters and exotic birds."
+				},
+				{
+					"id": "43e5558e-2be0-4989-b80b-074afa8302a9",
+					"name": "The Boneyard",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "theboneyard",
+					"externalId": "80010203;entityType=Attraction",
+					"description": "A fun-filled play area where kids can dig for fossils, explore a maze, and have imaginative adventures."
+				},
+				{
+					"id": "24cf863c-b6ba-4826-a056-0b698989cbf7",
+					"name": "Avatar Flight of Passage",
+					"shortName": "",
+					"land": "Pandora: The World of Avatar",
+					"entityType": "ATTRACTION",
+					"slug": "avatarflightofpassage",
+					"externalId": "18665186;entityType=Attraction",
+					"description": "Experience an exhilarating flight on the back of a banshee through the breathtaking landscapes of Pandora."
+				},
+				{
+					"id": "d58d9262-ec95-4161-80a0-07ca43b2f5f3",
+					"name": "Kali River Rapids",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "kaliriverrapids",
+					"externalId": "80010154;entityType=Attraction",
+					"description": "Brave the rapids of the Chakranadi River on a thrilling water rafting expedition."
+				},
+				{
+					"id": "55c531b6-3ce2-4c47-a8a1-0dc9107d825b",
+					"name": "DINOSAUR",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "dinosaur",
+					"externalId": "80010123;entityType=Attraction",
+					"description": "Go back in time on a wild and bumpy journey to save a dinosaur from extinction in this dark ride."
+				},
+				{
+					"id": "b9be5b8f-fe1f-4a77-bcad-5399429ecaa6",
+					"name": "Dino-Sue",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "ATTRACTION",
+					"slug": "dinosue",
+					"externalId": "80010124;entityType=Attraction",
+					"description": "See the impressive replica of a Tyrannosaurus Rex skeleton, named Sue, in DinoLand U.S.A."
+				},
+				{
+					"id": "1a8ea967-229a-42a0-8290-59b036c84e14",
+					"name": "Maharajah Jungle Trek",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "maharajahjungletrek",
+					"externalId": "80010164;entityType=Attraction",
+					"description": "Explore lush forests and ancient ruins while encountering Asian animals like tigers and Komodo dragons."
+				},
+				{
+					"id": "f9e169bf-1e27-47c9-9f0f-ce8c6df4da53",
+					"name": "Okapis - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "okapisdisneyanimals",
+					"externalId": "18478578;entityType=Attraction",
+					"description": "Observe these elusive forest giraffes in a habitat that resembles the dense rainforest."
+				},
+				{
+					"id": "a86b36a4-a439-43cd-8994-4030a159e261",
+					"name": "Komodo Dragons - Disney Animals",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "ATTRACTION",
+					"slug": "komododragonsdisneyanimals",
+					"externalId": "19423228;entityType=Attraction",
+					"description": "Encounter the largest living lizard species in their exhibit."
+				},
+				{
+					"id": "759e7496-565c-420f-b0bd-777dfd598f08",
+					"name": "Invertebrates at Conservation Station - Disney Animals",
+					"shortName": "",
+					"land": "Rafiki's Planet Watch",
+					"entityType": "ATTRACTION",
+					"slug": "",
+					"externalId": "18673434;entityType=Attraction",
+					"description": "Learn about various invertebrate species, including insects and arachnids, at Conservation Station."
+				},
+				{
+					"id": "127eb7ec-9d9f-43bc-a259-9eb03c467fef",
+					"name": "Zebras at Kilimanjaro Safaris - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "zebrasatkilimanjarosafarisdisneyanimals",
+					"externalId": "18673399;entityType=Attraction",
+					"description": "Spot the striking black-and-white striped zebras during your Kilimanjaro Safaris expedition."
+				},
+				{
+					"id": "17ecfc8c-8013-4d48-805b-f37f94cc2452",
+					"name": "Flamingos at Discovery Island - Disney Animals",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "ATTRACTION",
+					"slug": "flamingosdisneyanimals",
+					"externalId": "18685133;entityType=Attraction",
+					"description": "View the vibrant flamingos as they gracefully move through their lagoon."
+				},
+				{
+					"id": "1dd9eb9b-ce6d-451b-b8ef-f39b3435b35a",
+					"name": "Zebras at Africa - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "zebrasatgorillafallsexplorationtraildisneyanimals",
+					"externalId": "18673408;entityType=Attraction",
+					"description": "Observe zebras in their African habitat."
+				},
+				{
+					"id": "0941f812-f214-4837-9e67-ee1216ceed50",
+					"name": "Flamingos at Africa - Disney Animals",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "ATTRACTION",
+					"slug": "invertebratesatgorillafallsexplorationtraildisneyanimals",
+					"externalId": "18673456;entityType=Attraction",
+					"description": "See the elegant flamingos wading through their African-themed environment."
+				},
+				{
+					"id": "6fbe6d02-4057-43bb-80a3-047b1e8a50ca",
+					"name": "Conservation Station",
+					"shortName": "",
+					"land": "Rafiki's Planet Watch",
+					"entityType": "ATTRACTION",
+					"slug": "conservationstation",
+					"externalId": "80010119;entityType=Attraction",
+					"description": "A dedicated area for learning about animal care, conservation efforts, and interacting with wildlife."
+				},
+				{
+					"id": "d58db4d0-3bad-4655-937b-1cbc9ed0e880",
+					"name": "Tusker House Restaurant",
+					"shortName": "Tusker House",
+					"land": "Africa",
+					"entityType": "RESTAURANT",
+					"slug": "tuskerhouserestaurant",
+					"externalId": "90002686;entityType=restaurant",
+					"description": "Enjoy a lively character dining experience with African-inspired cuisine."
+				},
+				{
+					"id": "e12fb6d6-0985-44e5-bdd3-65ff74433063",
+					"name": "Tiffins Restaurant",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "RESTAURANT",
+					"slug": "tiffinsrestaurant",
+					"externalId": "18069632;entityType=restaurant",
+					"description": "A signature dining restaurant that celebrates the art of traveling and features global cuisine."
+				},
+				{
+					"id": "cea213d9-bf4f-408a-ac61-768e7709ab7d",
+					"name": "Yak & Yeti™ Restaurant",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "RESTAURANT",
+					"slug": "yakyetirestaurant",
+					"externalId": "215686;entityType=restaurant",
+					"description": "Savor pan-Asian dishes in a beautifully themed restaurant inspired by the travels of the proprietress."
+				},
+				{
+					"id": "224d803c-cd7a-45d8-bfab-d843f2030983",
+					"name": "Rainforest Cafe® at Disney's Animal Kingdom",
+					"shortName": "",
+					"land": "Oasis",
+					"entityType": "RESTAURANT",
+					"slug": "rainforestcafeatdisneysanimalkingdom",
+					"externalId": "90002440;entityType=restaurant",
+					"description": "Dine in a lively rainforest environment with animatronic animals and tropical surroundings."
+				},
+				{
+					"id": "98c7115e-1898-4d4c-8662-8e3a3dfe7c7f",
+					"name": "Adventure Flotilla",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "SHOW",
+					"slug": "donaldsdinobashflotilla",
+					"externalId": "19579551;entityType=Entertainment",
+					"description": "A floating musical performance featuring beloved Disney characters and catchy tunes."
+				},
+				{
+					"id": "a349429a-5ef8-41c4-9a28-84ed4f7a0465",
+					"name": "Viva Gaia Street Band!",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "vivagaiastreetband",
+					"externalId": "16629705;entityType=Entertainment",
+					"description": "Enjoy the vibrant rhythms of this street band, spreading musical joy around the park."
+				},
+				{
+					"id": "16fdff47-c8b1-4228-b97d-242f3663396e",
+					"name": "Mickey and Friends Flotilla",
+					"shortName": "",
+					"land": "NA",
+					"entityType": "SHOW",
+					"slug": "mickeyandfriendsflotilla",
+					"externalId": "19579552;entityType=Entertainment",
+					"description": "A boat parade where Mickey Mouse and friends greet guests from the water."
+				},
+				{
+					"id": "13d7c9d1-a785-403d-9ba8-71fee2f02d55",
+					"name": "Meet Favorite Disney Pals at Adventurers Outpost",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "meetfavoritedisneypalsatadventurersoutpost",
+					"externalId": "17421326;entityType=Entertainment",
+					"description": "Meet Mickey and Minnie in their adventurer attire at this character meet-and-greet location."
+				},
+				{
+					"id": "d8214ba6-22a7-4a92-8977-bae3779d5c4c",
+					"name": "Feathered Friends in Flight!",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "SHOW",
+					"slug": "featheredfriendsinflight",
+					"externalId": "19581372;entityType=Entertainment",
+					"description": "A lively bird show featuring free-flying macaws and other exotic bird species."
+				},
+				{
+					"id": "93d3c183-737f-4e26-98f9-b18a3e190393",
+					"name": "Animal Encounters: Winged Encounters – The Kingdom Takes Flight",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "animalencounterswingedencountersthekingdomtakesflight",
+					"externalId": "17821434;entityType=Entertainment",
+					"description": "Marvel at the majestic sight of macaws as they take to the sky in this bird presentation."
+				},
+				{
+					"id": "d8497541-53a2-4206-b95f-39cb238ae511",
+					"name": "Tam Tam Drummers of Harambe",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "SHOW",
+					"slug": "tamtamdrummersofharambe",
+					"externalId": "72877;entityType=Entertainment",
+					"description": "Enjoy the energetic beats of these African drummers in Harambe village."
+				},
+				{
+					"id": "af420c20-96c0-4ea2-bb7f-d68385291f88",
+					"name": "Discovery Island Drummers Flotilla",
+					"shortName": "",
+					"land": "NA",
+					"entityType": "SHOW",
+					"slug": "discoveryislanddrummersflotilla",
+					"externalId": "19581371;entityType=Entertainment",
+					"description": "A lively musical flotilla that cruises along Discovery River."
+				},
+				{
+					"id": "3e490fd6-8e1c-44d5-9eef-59ce897402f3",
+					"name": "Discovery River Cruise - The Lion King",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "SHOW",
+					"slug": "discoveryrivercharactercruise",
+					"externalId": "19579549;entityType=Entertainment",
+					"description": "A live-action retelling of \"The Lion King\" performed on a boat floating along Discovery River."
+				},
+				{
+					"id": "e8ada80c-bee5-4584-a715-aa847c615cd5",
+					"name": "Beacons of Magic",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "19630231;entityType=Entertainment",
+					"description": "Dazzling nighttime lighting effects that enhance the beauty of the park's iconic structures."
+				},
+				{
+					"id": "f8d2730d-1fcb-414e-94bb-0a0f876d7720",
+					"name": "Donald's Dino-Bash!",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "SHOW",
+					"slug": "donaldsdinobash",
+					"externalId": "18984704;entityType=Entertainment",
+					"description": "Join Donald Duck and friends for a prehistoric party filled with fun and games."
+				},
+				{
+					"id": "95712b31-ceed-4f7d-be3e-3d5e6badac5c",
+					"name": "Finding Nemo: The Big Blue... and Beyond!",
+					"shortName": "",
+					"land": "DinoLand U.S.A.",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411550125;entityType=Entertainment",
+					"description": "A musical stage show featuring characters from \"Finding Nemo\" and \"Finding Dory.\""
+				},
+				{
+					"id": "63687e52-8d88-4f3c-8817-579ded518a21",
+					"name": "Disney KiteTails",
+					"shortName": "",
+					"land": "Discovery River",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "19630156;entityType=Entertainment",
+					"description": "A high-flying show featuring colorful kites shaped like Disney characters and wildlife."
+				},
+				{
+					"id": "bd5eefa4-665d-4840-a3f3-eb0232dd7310",
+					"name": "Chakranadi",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "16630482;entityType=Entertainment",
+					"description": "A river that flows through the park, providing a scenic backdrop for attractions like Kali River Rapids."
+				},
+				{
+					"id": "704426b6-9fb3-4ff9-8f6b-44d52c551ac3",
+					"name": "Tree of Life Awakenings: A Beacon of Magic",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411500808;entityType=Entertainment",
+					"description": "A mesmerizing projection show that brings the Tree of Life to life with captivating stories."
+				},
+				{
+					"id": "2a55aee6-c87a-4bda-a3d4-b022693a62a3",
+					"name": "Tree of Life Awakenings",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "18447293;entityType=Entertainment",
+					"description": "Stunning projections on the Tree of Life depicting various animal stories and natural wonders."
+				},
+				{
+					"id": "a08d9f84-fbdf-45f3-9b68-645d296de307",
+					"name": "DiVine",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "432709;entityType=Entertainment",
+					"description": "A living, nature-themed character that blends into the surroundings, surprising and delighting guests as she moves through the foliage."
+				},
+				{
+					"id": "3a4e0f49-f9ff-4481-a95b-d4952cdf6097",
+					"name": "Festival of the Lion King",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "SHOW",
+					"slug": "acelebrationoffestivalofthelionking",
+					"externalId": "12432;entityType=Entertainment",
+					"description": "A Broadway-style musical celebration of the \"Lion King\" story with stunning performances and acrobatics."
+				},
+				{
+					"id": "dd142c0b-622a-4b44-8e22-c0facb2b20a8",
+					"name": "Kora Tinga Tinga",
+					"shortName": "",
+					"land": "Discovery Island",
+					"entityType": "SHOW",
+					"slug": "koratingatinga",
+					"externalId": "18435910;entityType=Entertainment",
+					"description": "A captivating musical and acrobatic performance showcasing the rich African culture."
+				},
+				{
+					"id": "b5724816-0507-4da0-ae22-7c69df8bc871",
+					"name": "Discovery River Cruise - Pocahontas",
+					"shortName": "",
+					"land": "Asia",
+					"entityType": "SHOW",
+					"slug": "",
+					"externalId": "411705711;entityType=Entertainment",
+					"description": "A peaceful boat journey that retells the story of \"Pocahontas\" through live performances."
+				},
+				{
+					"id": "5f8057b4-adfd-4258-906d-9ae3485ffbff",
+					"name": "Harambe Village Acrobats",
+					"shortName": "",
+					"land": "Africa",
+					"entityType": "SHOW",
+					"slug": "harambevillageacrobats",
+					"externalId": "18425797;entityType=Entertainment",
+					"description": "Be amazed by the acrobatic talents of this African performance group in Harambe village."
+				}
+			]
+		}
+	]
+}

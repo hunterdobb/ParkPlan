@@ -59,6 +59,9 @@
 		B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
 		B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */; };
 		B5B92C6429972B09009582BA /* ParkDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C0462991449C00F80A68 /* ParkDetailRow.swift */; };
+		B5C4F20C2A741510007930FF /* ParkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5C4F20B2A741510007930FF /* ParkData.json */; };
+		B5E459E42A75B7D800E7AEBF /* DataTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5E459E32A75B7D800E7AEBF /* DataTest.json */; };
+		B5E459E52A75B7D800E7AEBF /* DataTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5E459E32A75B7D800E7AEBF /* DataTest.json */; };
 		B5E4D2C22A6342DF00F750A4 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
 		B5E4D2C32A6342E100F750A4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
 		B5E4D2C52A6367F600F750A4 /* DiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4D2C42A6367F600F750A4 /* DiningView.swift */; };
@@ -162,6 +165,8 @@
 		B595C05F2995562800F80A68 /* LiveDataTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataTagView.swift; sourceTree = "<group>"; };
 		B595C06129955E2400F80A68 /* POIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIScrollView.swift; sourceTree = "<group>"; };
 		B5A14381299AD5C10022B074 /* ParkOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkOverviewViewModel.swift; sourceTree = "<group>"; };
+		B5C4F20B2A741510007930FF /* ParkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ParkData.json; path = ../Core/Destinations/ParkData.json; sourceTree = "<group>"; };
+		B5E459E32A75B7D800E7AEBF /* DataTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataTest.json; sourceTree = "<group>"; };
 		B5E4D2C42A6367F600F750A4 /* DiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningView.swift; sourceTree = "<group>"; };
 		B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		B5EFF2732985B263003AE5F1 /* ParkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,6 +417,8 @@
 				B5F3E08A2998417D00E67EF3 /* EntityData.swift */,
 				B5F3E08D2998441300E67EF3 /* TagData.swift */,
 				B52F14672A6DA4AF00E6EF8E /* DisneyDestinations.json */,
+				B5E459E32A75B7D800E7AEBF /* DataTest.json */,
+				B5C4F20B2A741510007930FF /* ParkData.json */,
 				B52F146D2A6DA58C00E6EF8E /* MagicKingdomEntities.json */,
 				B52F14702A6DA60600E6EF8E /* EpcotEntities.json */,
 				B52F14762A6DA68E00E6EF8E /* HollywoodEntities.json */,
@@ -521,7 +528,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					B553CB41299BD6290056BA32 = {
 						CreatedOnToolsVersion = 14.2;
@@ -569,6 +576,7 @@
 			files = (
 				B52F14692A6DA4AF00E6EF8E /* DisneyDestinations.json in Resources */,
 				B52F14722A6DA60600E6EF8E /* EpcotEntities.json in Resources */,
+				B5E459E52A75B7D800E7AEBF /* DataTest.json in Resources */,
 				B52F146F2A6DA58C00E6EF8E /* MagicKingdomEntities.json in Resources */,
 				B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */,
 				B52F14782A6DA68E00E6EF8E /* HollywoodEntities.json in Resources */,
@@ -594,6 +602,8 @@
 				B52F14772A6DA68E00E6EF8E /* HollywoodEntities.json in Resources */,
 				B553CB57299D3C7C0056BA32 /* EpcotLiveDataResponse.json in Resources */,
 				B52F14712A6DA60600E6EF8E /* EpcotEntities.json in Resources */,
+				B5C4F20C2A741510007930FF /* ParkData.json in Resources */,
+				B5E459E42A75B7D800E7AEBF /* DataTest.json in Resources */,
 				B52F146E2A6DA58C00E6EF8E /* MagicKingdomEntities.json in Resources */,
 				B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */,
 				B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */,
@@ -710,6 +720,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5M7L7W2WHX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -732,6 +743,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5M7L7W2WHX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -815,6 +827,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -844,9 +857,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -876,6 +891,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -905,9 +921,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -935,6 +953,7 @@
 				CODE_SIGN_ENTITLEMENTS = ParkPlan/Configuration/ParkPlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ParkPlan/Preview Content\"";
 				DEVELOPMENT_TEAM = 5M7L7W2WHX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -975,6 +994,7 @@
 				CODE_SIGN_ENTITLEMENTS = ParkPlan/Configuration/ParkPlan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ParkPlan/Preview Content\"";
 				DEVELOPMENT_TEAM = 5M7L7W2WHX;
 				ENABLE_HARDENED_RUNTIME = YES;
