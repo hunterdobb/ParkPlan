@@ -40,7 +40,7 @@ struct ParkDetailView: View {
 				noLiveDataList
 			}
 		}
-		.navigationTitle(park.name)
+		.navigationTitle(park.parkName)
 		.task {
 			if !hasAppeared {
 				await vm.fetchLiveData(for: park.id)

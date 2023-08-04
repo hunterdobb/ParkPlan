@@ -10,32 +10,19 @@ import SwiftUI
 struct ParkBannerView: View {
 	let park: Park
 
+	@EnvironmentObject var disneyDataService: DisneyDataService
+
 	/// Tuple value representing color and saturation amount
 	var colorData: (color: Color, saturation: Double) {
 		switch park.name {
-		case ParkNames.magicKingdom.rawValue: (Color.blue, 0.5)
-		case ParkNames.epcot.rawValue: (Color.indigo, 0.8)
-		case ParkNames.hollywoodStudios.rawValue: (Color.orange, 0.4)
-		case ParkNames.animalKingdom.rawValue: (Color.green, 0.5)
-		default: (Color.blue, 0.5)
+		case .magicKingdom: (Color.blue, 0.5)
+		case .epcot: (Color.indigo, 0.8)
+		case .hollywoodStudios: (Color.orange, 0.4)
+		case .animalKingdom: (Color.green, 0.5)
 		}
 	}
 
-	/// String representing the operating hours for current day.
-	/// Returns nil if operating hours are unavailable.
-	///
-	/// Ex: 9:00 AM - 10:00 PM
-	var operatingHours: String? {
-		guard let entries = park.schedule else { return nil }
-
-		if let operating = entries.first(where: { $0.type == .operating }) {
-			let open = operating.openingTime
-			let close = operating.closingTime
-			return "\(open.formatted(date: .omitted, time: .shortened)) - \(close.formatted(date: .omitted, time: .shortened))"
-		} else {
-			return nil
-		}
-	}
+	
 
 	var body: some View {
 		Image(park.bannerImageName)
@@ -55,9 +42,9 @@ struct ParkBannerView: View {
 
 					HStack {
 						VStack(alignment: .leading) {
-							Text(park.name)
+							Text(park.parkName)
 								.font(.system(.title, design: .rounded, weight: .heavy))
-							if let operatingHours {
+							if let operatingHours = disneyDataService.getOperatingHours(for: park) {
 								Text(operatingHours)
 									.font(.system(.headline, design: .rounded, weight: .bold))
 									.opacity(0.9)

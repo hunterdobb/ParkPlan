@@ -12,23 +12,30 @@ struct Resort: Decodable, Identifiable {
 	let name: String
 	let slug: String
 	var parks: [Park]
+	
+	var liveData: [EntityLiveData]?
+	var scheduleData: EntityScheduleResponse?
+
+	var parksSchedule: [EntityScheduleResponse]? {
+		scheduleData?.parks
+	}
 }
 
 struct Park: Decodable, Identifiable {
 	let id: String
-	let name: String
+	let name: ParkNames
 	let location: Location
 	let entitiesFileName: String
 	let bannerImageName: String
 
-	var schedule: [ScheduleEntry]?
+	var parkName: String { name.rawValue }
 }
 
-enum ParkNames: String {
-	case magicKingdom = "Magic Kingdom"
-	case epcot = "EPCOT"
-	case hollywoodStudios = "Hollywood Studios"
-	case animalKingdom = "Animal Kingdom"
+enum ParkNames: String, Decodable {
+	case magicKingdom 		= "Magic Kingdom"
+	case epcot 				= "EPCOT"
+	case hollywoodStudios 	= "Hollywood Studios"
+	case animalKingdom 		= "Animal Kingdom"
 }
 
 struct Entity: Decodable, Identifiable, Hashable {
@@ -42,9 +49,16 @@ struct Entity: Decodable, Identifiable, Hashable {
 	let latitude: Double
 	let longitude: Double
 	let description: String
-//	let liveData: EntityLiveData?
 
 	static var magicKingdomEntities: [Entity] = Bundle.main.decode("MagicKingdomData.json")
+
+//	static func == (lhs: Entity, rhs: Entity) -> Bool {
+//		lhs.id == rhs.id
+//	}
+//
+//	func hash(into hasher: inout Hasher) {
+//		hasher.combine(id)
+//	}
 }
 
 enum LandType: String, Decodable, CaseIterable {

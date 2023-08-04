@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import OSLog
 
 /*
  Disney World Park ids and slugs:
@@ -15,8 +16,6 @@ import Foundation
  1c84a229-8862-4648-9c71-378ddd2c7693	disneysanimalkingdomthemepark
  */
 
-
-
 @MainActor
 class DisneyDataService: ObservableObject {
 	@Published var resort = Bundle.main.decode("ParkData.json", as: Resort.self)
@@ -24,38 +23,39 @@ class DisneyDataService: ObservableObject {
 	var parks: [Park] { resort.parks }
 
 	init() {
-		Task { await fetchScheduleData() }
+		Task {
+			await fetchScheduleData()
+			await fetchLiveData()
+		}
 	}
 
+	// MARK: - Fetch Data
 	func fetchScheduleData() async {
 		do {
-			async let mkData = try await NetworkingManager.shared.request(
-				.schedule(id: "magickingdompark"),
+			async let response = try await NetworkingManager.shared.request(
+				.schedule(id: "waltdisneyworldresort"),
 				type: EntityScheduleResponse.self
 			)
-			async let epData = try await NetworkingManager.shared.request(
-				.schedule(id: "epcot"),
-				type: EntityScheduleResponse.self
-			)
-			async let hsData = try await NetworkingManager.shared.request(
-				.schedule(id: "disneyshollywoodstudios"),
-				type: EntityScheduleResponse.self
-			)
-			async let akData = try await NetworkingManager.shared.request(
-				.schedule(id: "disneysanimalkingdomthemepark"),
-				type: EntityScheduleResponse.self
-			)
-
-			let (magic, epcot, holly, animal) = (0, 1, 2, 3)
-			resort.parks[magic].schedule 	= try await mkData.schedule
-			resort.parks[epcot].schedule 	= try await epData.schedule
-			resort.parks[holly].schedule 	= try await hsData.schedule
-			resort.parks[animal].schedule 	= try await akData.schedule
+			resort.scheduleData = try await response
 		} catch {
 			print(error)
 		}
 	}
 
+	func fetchLiveData() async {
+		do {
+			async let response = try await NetworkingManager.shared.request(
+				.live(id: "waltdisneyworldresort"),
+				type: EntityLiveDataResponse.self
+			)
+
+			resort.liveData = try await response.liveData
+		} catch {
+			print(error)
+		}
+	}
+
+	// MARK: - Get Data
 	func getOperatingHours(for entries: [ScheduleEntry]?) -> String? {
 		guard let entries else { return nil }
 
@@ -63,6 +63,33 @@ class DisneyDataService: ObservableObject {
 			let open = operating.openingTime
 			let close = operating.closingTime
 			return "\(open.formatted(date: .omitted, time: .shortened)) - \(close.formatted(date: .omitted, time: .shortened))"
+		} else {
+			return nil
+		}
+	}
+
+	/// Returns String representing the operating hours for current day.
+	/// Returns nil if operating hours are unavailable.
+	///
+	/// Ex: 9:00 AM - 10:00 PM
+	func getOperatingHours(for park: Park) -> String? {
+		guard let entries = resort.parksSchedule?.first(where: { $0.id == park.id })?.schedule else {
+			return nil
+		}
+
+		if let operating = entries.first(where: { $0.type == .operating }) {
+			let open = operating.openingTime
+			let close = operating.closingTime
+			return "\(open.formatted(date: .omitted, time: .shortened)) - \(close.formatted(date: .omitted, time: .shortened))"
+		} else {
+			return nil
+		}
+	}
+
+	func getStandbyWait(for entity: Entity) -> Int? {
+		if let liveData = resort.liveData,
+		   let entityLiveData = liveData.first(where: { entity.id == $0.id }) {
+			return entityLiveData.queue?.standby?.waitTime
 		} else {
 			return nil
 		}

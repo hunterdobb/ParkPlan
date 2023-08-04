@@ -447,11 +447,11 @@
 		B5EFF2902985B872003AE5F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B5EFF2862985B297003AE5F1 /* Example JSON */,
-				B5EFF2962986B516003AE5F1 /* Responses */,
 				B5F194472A79A76400B4173A /* Park.swift */,
 				B5C4F20B2A741510007930FF /* ParkData.json */,
 				B5A513BF2A79AE1200CAEC1B /* EntityData */,
+				B5EFF2862985B297003AE5F1 /* Example JSON */,
+				B5EFF2962986B516003AE5F1 /* Responses */,
 				B5F3E08129983BE500E67EF3 /* EntityType.swift */,
 				B5F3E0872998403A00E67EF3 /* LiveQueue.swift */,
 				B5F3E08A2998417D00E67EF3 /* EntityData.swift */,

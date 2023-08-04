@@ -12,15 +12,21 @@ import SwiftUI
 struct EntityDetailView: View {
 	let entity: Entity
 
+	@EnvironmentObject var disneyDataService: DisneyDataService
+
 	var body: some View {
 		VStack {
 			VStack(alignment: .leading) {
 				Text(entity.name)
 					.font(.system(.largeTitle, design: .rounded, weight: .bold))
 					.frame(maxWidth: .infinity, alignment: .leading)
-				Text("\(entity.entityType.rawValue.capitalized) • \(entity.land.rawValue)")
-					.foregroundStyle(.gray)
-					.frame(maxWidth: .infinity, alignment: .leading)
+				HStack(spacing: 0) {
+					Text("\(entity.entityType.rawValue.capitalized) • \(entity.land.rawValue)")
+					if let standby = disneyDataService.getStandbyWait(for: entity) {
+						Text(" • \(standby) min")
+					}
+				}
+				.foregroundStyle(.gray)
 			}
 			.padding(.horizontal)
 

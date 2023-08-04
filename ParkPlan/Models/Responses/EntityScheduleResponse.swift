@@ -11,7 +11,7 @@ struct EntityScheduleResponse: Decodable, Identifiable {
 	let id: String
 	let name: String
 	let entityType: EntityType
-	let timezone: String
+	let timezone: String?
 	let schedule: [ScheduleEntry]
 	let parks: [EntityScheduleResponse]?
 }

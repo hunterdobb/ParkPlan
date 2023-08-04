@@ -20,7 +20,7 @@ struct ParkRowView: View {
 			#endif
 		} label: {
 			VStack(alignment: .leading) {
-				Text(park.name)
+				Text(park.name.rawValue)
 					.font(.system(.title, design: .rounded, weight: .heavy))
 
 				HStack {
@@ -42,11 +42,10 @@ struct ParkRowView: View {
 
 	var color: Color {
 		switch park.name {
-		case "Magic Kingdom": return .blue
-		case "EPCOT": return .purple
-		case "Hollywood Studios": return .orange
-		case "Animal Kingdom": return .green
-		default: return .blue
+		case .magicKingdom: return .blue
+		case .epcot: return .purple
+		case .hollywoodStudios: return .orange
+		case .animalKingdom: return .green
 		}
 	}
 }

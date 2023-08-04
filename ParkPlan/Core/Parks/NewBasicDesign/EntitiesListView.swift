@@ -26,7 +26,9 @@ struct EntitiesListView: View {
 
 	var body: some View {
 		List {
-			Text(disneyDataService.getOperatingHours(for: park.schedule) ?? "Loading Hours")
+			Text(disneyDataService.getOperatingHours(for: park) ?? "Loading Hours")
+				.listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
+				.listRowBackground(Color.clear)
 
 			ForEach(parkLandChunks, id: \.self) { parkLands in
 				Section(parkLands.first?.land.rawValue ?? "Unknown") {
@@ -34,14 +36,22 @@ struct EntitiesListView: View {
 						NavigationLink(destination: EntityDetailView(entity: entity)) {
 							VStack(alignment: .leading) {
 								Text(entity.name)
-								Text("\(entity.entityType.rawValue.capitalized)")
-									.font(.caption).foregroundStyle(.gray)
+								HStack(spacing: 0) {
+									Text("\(entity.entityType.rawValue.capitalized)")
+
+									if let standby = disneyDataService.getStandbyWait(for: entity) {
+										Text(" • \(standby) min")
+									}
+
+
+								}
+								.font(.caption).foregroundStyle(.gray)
 							}
 						}
 					}
 				}
 			}
 		}
-		.navigationTitle(park.name)
+		.navigationTitle(park.parkName)
 	}
 }

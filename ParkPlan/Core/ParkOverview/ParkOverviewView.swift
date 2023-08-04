@@ -17,7 +17,7 @@ struct ParkOverviewView: View {
 
     var body: some View {
 		ScrollView {
-			if let schedule = dataService.getOperatingHours(for: vm.park.schedule) {
+			if let schedule = dataService.getOperatingHours(for: vm.park) {
 				Text(schedule)
 					.frame(maxWidth: .infinity, alignment: .leading)
 					.padding([.leading, .bottom])
@@ -31,7 +31,7 @@ struct ParkOverviewView: View {
 			showSection
 			restaurantSection
 		}
-		.navigationTitle(vm.park.name)
+		.navigationTitle(vm.park.parkName)
 		.task {
 			if !hasAppeared {
 				await vm.fetchData()

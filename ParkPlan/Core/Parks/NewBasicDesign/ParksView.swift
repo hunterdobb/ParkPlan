@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ParksView: View {
-//	let disneyWorld = Bundle.main.decode("ParkData.json", as: Resort.self)
 	@EnvironmentObject var disneyDataService: DisneyDataService
 
 	var body: some View {

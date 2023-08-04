@@ -17,7 +17,6 @@ struct EntityLiveDataResponse: Decodable {
 
 // MARK: - Entity Live Data
 struct EntityLiveData: Decodable, Identifiable {
-
 	let id: String
 	let name: String
 	let entityType: EntityType
