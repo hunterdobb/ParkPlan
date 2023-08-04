@@ -9,24 +9,26 @@ import SwiftUI
 
 @main
 struct ParkPlanApp: App {
-	@StateObject var parkProvider = ParksProvider()
+//	@StateObject var parkProvider = ParksProvider()
+	@StateObject var scheduleService = DisneyDataService()
 
     var body: some Scene {
         WindowGroup {
 			TabView {
 				DestinationsView()
 					.tabItem {
-						Image(systemName: "globe.americas.fill")
-						Text("Destinations")
+						Image(systemName: "square.grid.2x2.fill")
+						Text("Browse")
 					}
 
-				Text("Settings")
+				TeView()
 					.tabItem {
 						Image(systemName: "gear")
 						Text("Settings")
 					}
 			}
-			.environmentObject(parkProvider)
+//			.environmentObject(parkProvider)
+			.environmentObject(scheduleService)
         }
     }
 }

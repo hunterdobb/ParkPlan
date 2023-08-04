@@ -9,7 +9,7 @@ import OSLog
 import SwiftUI
 
 final class ParkOverviewViewModel: ObservableObject {
-	@Published var park: DestinationParkEntry
+	@Published var park: Park
 	@Published private(set) var liveData = [EntityLiveData]()
 	@Published private(set) var scheduleData = [ScheduleEntry]()
 
@@ -19,7 +19,7 @@ final class ParkOverviewViewModel: ObservableObject {
 
 	@Published var selection: EntityType = .attraction
 
-	init(park: DestinationParkEntry) {
+	init(park: Park) {
 		self.park = park
 	}
 

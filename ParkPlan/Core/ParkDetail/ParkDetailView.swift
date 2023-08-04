@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ParkDetailView: View {
 	@StateObject private var vm = ParkDetailViewModel()
-	let park: DestinationParkEntry
+	let park: Park
 	let entityType: EntityType
 
 	@State private var hasAppeared = false
@@ -67,15 +67,15 @@ struct ParkDetailView: View {
     }
 }
 
-struct ParkDataView_Previews: PreviewProvider {
-    static var previews: some View {
-		let previewPark = DestinationParkEntry(id: "75ea578a-adc8-4116-a54d-dccb60765ef9", name: "Magic Kingdom Park")
-
-        NavigationStack {
-			ParkDetailView(park: previewPark, entityType: .attraction)
-        }
-    }
-}
+//struct ParkDataView_Previews: PreviewProvider {
+//    static var previews: some View {
+//		let previewPark = DestinationParkEntry(id: "75ea578a-adc8-4116-a54d-dccb60765ef9", name: "Magic Kingdom Park")
+//
+//        NavigationStack {
+//			ParkDetailView(park: previewPark, entityType: .attraction)
+//        }
+//    }
+//}
 
 private extension ParkDetailView {
 	var typePicker: some View {

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ParkRowView: View {
-	let park: DestinationParkEntry
+	let park: Park
 
     var body: some View {
 		NavigationLink {
@@ -51,15 +51,15 @@ struct ParkRowView: View {
 	}
 }
 
-#Preview {
-	NavigationStack {
-		List {
-			ParkRowView(
-				park: DestinationParkEntry(
-					id: "75ea578a-adc8-4116-a54d-dccb60765ef9",
-					name: "Magic Kingdom Park"
-				)
-			)
-		}
-	}
-}
+//#Preview {
+//	NavigationStack {
+//		List {
+//			ParkRowView(
+//				park: DestinationParkEntry(
+//					id: "75ea578a-adc8-4116-a54d-dccb60765ef9",
+//					name: "Magic Kingdom Park"
+//				)
+//			)
+//		}
+//	}
+//}

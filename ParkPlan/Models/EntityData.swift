@@ -19,9 +19,9 @@ struct EntityData: Decodable {
 	let externalId: String
 	let tags: TagData?
 	let cuisines: [String]?
+}
 
-	struct Location: Decodable {
-	  let latitude: Double
-	  let longitude: Double
-	}
+struct Location: Decodable {
+	let latitude: Double
+	let longitude: Double
 }

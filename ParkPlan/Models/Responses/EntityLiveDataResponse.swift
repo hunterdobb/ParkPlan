@@ -17,6 +17,7 @@ struct EntityLiveDataResponse: Decodable {
 
 // MARK: - Entity Live Data
 struct EntityLiveData: Decodable, Identifiable {
+
 	let id: String
 	let name: String
 	let entityType: EntityType
@@ -54,19 +55,19 @@ struct LiveShowTime: Decodable, Hashable {
 	let endTime: Date? //($date-time)
 }
 
-enum LiveStatusType: String, Decodable {
+enum LiveStatusType: String, Decodable, Hashable {
 	case operating = "OPERATING"
 	case down = "DOWN"
 	case closed = "CLOSED"
 	case refurbishment = "REFURBISHMENT"
 }
 
-enum OperatingHoursType: String {
+enum OperatingHoursType: String, Hashable {
 	case earlyEntry = "Early Entry"
 	case operating = "Operating"
 }
 
-enum ShowtimeType: String {
+enum ShowtimeType: String, Hashable {
 	case performanceTime = "Performance Time"
 	case operating = "Operating"
 }

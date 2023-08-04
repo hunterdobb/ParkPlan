@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct EntityScheduleResponse: Decodable {
+struct EntityScheduleResponse: Decodable, Identifiable {
 	let id: String
 	let name: String
 	let entityType: EntityType
 	let timezone: String
 	let schedule: [ScheduleEntry]
+	let parks: [EntityScheduleResponse]?
 }
 
 // MARK: - Schedule Entry

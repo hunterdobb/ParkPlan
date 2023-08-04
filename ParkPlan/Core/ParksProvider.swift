@@ -8,6 +8,8 @@
 import OSLog
 import Foundation
 
+/*
+
 class ParksProvider: ObservableObject {
 	@Published private(set) var destinations = [DestinationEntry]()
 	@Published private(set) var liveData = [EntityLiveData]()
@@ -39,3 +41,4 @@ class ParksProvider: ObservableObject {
 		}
 	}
 }
+*/

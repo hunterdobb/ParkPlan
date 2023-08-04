@@ -11,13 +11,21 @@ import SwiftUI
 struct ParkOverviewView: View {
 	@EnvironmentObject private var vm: ParkOverviewViewModel
 	@State private var hasAppeared = false
-	
+
+	@EnvironmentObject var dataService: DisneyDataService
+
 
     var body: some View {
 		ScrollView {
-			Text("Hours: \(vm.operatingHours ?? "")")
-				.frame(maxWidth: .infinity, alignment: .leading)
-				.padding([.leading, .bottom])
+			if let schedule = dataService.getOperatingHours(for: vm.park.schedule) {
+				Text(schedule)
+					.frame(maxWidth: .infinity, alignment: .leading)
+					.padding([.leading, .bottom])
+			} else {
+				Text("0:00 AM - 0:00 PM")
+					.padding([.leading, .bottom])
+			}
+
 //			favoriteSection
 			attractionSection
 			showSection
@@ -38,22 +46,22 @@ struct ParkOverviewView: View {
     }
 }
 
-struct ParkOverviewView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationStack {
-			let previewPark = DestinationParkEntry(
-				id: "75ea578a-adc8-4116-a54d-dccb60765ef9",
-				name: "Magic Kingdom Park"
-			)
-        	ParkOverviewView()
-				.environmentObject(ParkOverviewViewModel(park: previewPark))
-        }
-    }
-}
+//struct ParkOverviewView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NavigationStack {
+//			let previewPark = Park(
+//				id: "75ea578a-adc8-4116-a54d-dccb60765ef9",
+//				name: "Magic Kingdom Park"
+//			)
+//        	ParkOverviewView()
+//				.environmentObject(ParkOverviewViewModel(park: previewPark))
+//        }
+//    }
+//}
 
 private extension ParkOverviewView {
 	var favoriteSection: some View {
-		POIScrollView(title: "Favorites",
+		EntitiesScrollView(title: "Favorites",
 					  symbolName: "heart.fill",
 					  data: [],
 					  typeColor: .red,
@@ -63,7 +71,7 @@ private extension ParkOverviewView {
 
 	var attractionSection: some View {
 		let attractions = Array(vm.operatingAttractions.prefix(5))
-		return POIScrollView(title: "Attractions",
+		return EntitiesScrollView(title: "Attractions",
 							 symbolName: "seal.fill",
 							 data: attractions,
 							 typeColor: .blue,
@@ -72,7 +80,7 @@ private extension ParkOverviewView {
 
 	var showSection: some View {
 		let shows = Array(vm.operatingShows.prefix(5))
-		return POIScrollView(title: "Shows",
+		return EntitiesScrollView(title: "Shows",
 							 symbolName: "theatermasks.fill",
 							 data: shows,
 							 typeColor: .orange,
@@ -81,7 +89,7 @@ private extension ParkOverviewView {
 
 	var restaurantSection: some View {
 		let restaurants = Array(vm.restaurants.prefix(5))
-		return POIScrollView(title: "Restaurants",
+		return EntitiesScrollView(title: "Restaurants",
 							 symbolName: "fork.knife",
 							 data: restaurants,
 							 typeColor: .indigo,

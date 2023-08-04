@@ -1,5 +1,5 @@
 //
-//  POICardView.swift
+//  EntityCardView.swift
 //  ParkPlan
 //
 //  Created by Hunter Dobbelmann on 2/9/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct POICardView: View {
+struct EntityCardView: View {
 	@EnvironmentObject private var vm: ParkOverviewViewModel
 	let poi: EntityLiveData
 	// These default values will be overwritten in .onAppear
@@ -93,12 +93,12 @@ struct POICardView: View {
 //									 externalId: "11632")
 //
 //		Group {
-//			POICardView(poi: previewPOI1)
+//			EntityCardView(poi: previewPOI1)
 //				.padding()
 //				.previewLayout(.sizeThatFits)
 //				.previewDisplayName("Card Long Name")
 //
-//			POICardView(poi: previewPOI2)
+//			EntityCardView(poi: previewPOI2)
 //				.padding()
 //				.previewLayout(.sizeThatFits)
 //				.previewDisplayName("Card Short Name")
@@ -108,7 +108,7 @@ struct POICardView: View {
 //}
 
 // MARK: - Custom Views
-private extension POICardView {
+private extension EntityCardView {
 	var title: some View {
 		Text(name)
 			.foregroundStyle(liveDataColor.shadow(.inner(radius: 10)))

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/*
 struct ParksList: View {
     let destination: DestinationEntry
 
@@ -16,9 +17,9 @@ struct ParksList: View {
                 NavigationLink(park.name) {
 					#if os(iOS)
 					ParkOverviewView()
-						.environmentObject(ParkOverviewViewModel(park: park))
+						.environmentObject(ParkOverviewViewModel(park: destination.parks))
 					#elseif os(watchOS)
-					ParkDetailView(park: park, entityType: .attraction)
+					ParkDetailView(data: data, entityType: .attraction)
 					#endif
                 }
             }
@@ -39,3 +40,4 @@ struct ParksList: View {
 		}
 	}
 }
+*/
