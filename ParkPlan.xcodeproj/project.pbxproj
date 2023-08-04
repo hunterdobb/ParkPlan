@@ -14,20 +14,10 @@
 		B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B02A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */; };
-		B51555702A7C78990006828E /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515556F2A7C78990006828E /* DestinationsViewModel.swift */; };
-		B51555712A7C78990006828E /* DestinationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515556F2A7C78990006828E /* DestinationsViewModel.swift */; };
-		B51555732A7C78A90006828E /* DisneyParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51555722A7C78A90006828E /* DisneyParksView.swift */; };
-		B51555742A7C78A90006828E /* DisneyParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51555722A7C78A90006828E /* DisneyParksView.swift */; };
-		B51555762A7C78BB0006828E /* ParkRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51555752A7C78BB0006828E /* ParkRowData.swift */; };
-		B51555772A7C78BB0006828E /* ParkRowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51555752A7C78BB0006828E /* ParkRowData.swift */; };
 		B51555782A7C7B1C0006828E /* EntityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C9E982A7C3A7300E23BC4 /* EntityDetailView.swift */; };
 		B51641472A6ADB1C00401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
 		B51641482A6ADF5600401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
-		B516414A2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */; };
-		B516414B2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */; };
 		B52F14632A6D8BEC00E6EF8E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F14622A6D8BEC00E6EF8E /* PreviewData.swift */; };
-		B52F14652A6D9FDC00E6EF8E /* ParksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F14642A6D9FDC00E6EF8E /* ParksProvider.swift */; };
-		B52F14662A6D9FDC00E6EF8E /* ParksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F14642A6D9FDC00E6EF8E /* ParksProvider.swift */; };
 		B52F14802A6DAEA100E6EF8E /* ParkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F147F2A6DAEA100E6EF8E /* ParkRowView.swift */; };
 		B52F14812A6DAEA100E6EF8E /* ParkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F147F2A6DAEA100E6EF8E /* ParkRowView.swift */; };
 		B53048592A78457F00D34714 /* MagicKingdomData.json in Resources */ = {isa = PBXBuildFile; fileRef = B53048582A78457F00D34714 /* MagicKingdomData.json */; };
@@ -67,7 +57,7 @@
 		B5A513BD2A79A8EF00CAEC1B /* ParkBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A513BB2A79A8EF00CAEC1B /* ParkBannerView.swift */; };
 		B5A513C62A7ADB6600CAEC1B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5A513C52A7ADB6600CAEC1B /* Algorithms */; };
 		B5A513C92A7AFF9800CAEC1B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5A513C82A7AFF9800CAEC1B /* Algorithms */; };
-		B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
+		B5B92C5B299729A6009582BA /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* ParksView.swift */; };
 		B5B92C60299729E1009582BA /* ParksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksList.swift */; };
 		B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
 		B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
@@ -89,7 +79,7 @@
 		B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
 		B5EFF29829872413003AE5F1 /* UniversalIOAChildrenResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */; };
 		B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */; };
-		B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */; };
+		B5EFF29D2987F527003AE5F1 /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* ParksView.swift */; };
 		B5F194482A79A76400B4173A /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F194472A79A76400B4173A /* Park.swift */; };
 		B5F194492A79A76400B4173A /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F194472A79A76400B4173A /* Park.swift */; };
 		B5F24E1729880A6D003FE227 /* UniversalIOALiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */; };
@@ -150,13 +140,8 @@
 		B50156A72A65E4AB00FAFCA9 /* Restaurant1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Restaurant1LiveData.json; sourceTree = "<group>"; };
 		B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Attraction1LiveData.json; sourceTree = "<group>"; };
 		B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Show1LiveData.json; sourceTree = "<group>"; };
-		B515556F2A7C78990006828E /* DestinationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationsViewModel.swift; sourceTree = "<group>"; };
-		B51555722A7C78A90006828E /* DisneyParksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisneyParksView.swift; sourceTree = "<group>"; };
-		B51555752A7C78BB0006828E /* ParkRowData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkRowData.swift; sourceTree = "<group>"; };
 		B51641462A6ADB1C00401BB2 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
 		B52F14622A6D8BEC00E6EF8E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
-		B52F14642A6D9FDC00E6EF8E /* ParksProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksProvider.swift; sourceTree = "<group>"; };
 		B52F147F2A6DAEA100E6EF8E /* ParkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRowView.swift; sourceTree = "<group>"; };
 		B53048582A78457F00D34714 /* MagicKingdomData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MagicKingdomData.json; sourceTree = "<group>"; };
 		B530485B2A7845FF00D34714 /* EpcotData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EpcotData.json; sourceTree = "<group>"; };
@@ -199,7 +184,7 @@
 		B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapper.swift; sourceTree = "<group>"; };
 		B5EFF29729872412003AE5F1 /* UniversalIOAChildrenResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOAChildrenResponse.json; sourceTree = "<group>"; };
 		B5EFF29A298753D4003AE5F1 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
-		B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsView.swift; sourceTree = "<group>"; };
+		B5EFF29C2987F527003AE5F1 /* ParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksView.swift; sourceTree = "<group>"; };
 		B5F194472A79A76400B4173A /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		B5F24E1629880A6D003FE227 /* UniversalIOALiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniversalIOALiveResponse.json; sourceTree = "<group>"; };
 		B5F24E21298AA0A9003FE227 /* ParksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksList.swift; sourceTree = "<group>"; };
@@ -334,8 +319,7 @@
 		B59C9E972A7C39A300E23BC4 /* NewBasicDesign */ = {
 			isa = PBXGroup;
 			children = (
-				B51555722A7C78A90006828E /* DisneyParksView.swift */,
-				B5EFF29C2987F527003AE5F1 /* DestinationsView.swift */,
+				B5EFF29C2987F527003AE5F1 /* ParksView.swift */,
 				B59C9E942A7C398700E23BC4 /* EntitiesListView.swift */,
 				B59C9E982A7C3A7300E23BC4 /* EntityDetailView.swift */,
 			);
@@ -395,7 +379,6 @@
 			isa = PBXGroup;
 			children = (
 				B5E4D2C82A6491F900F750A4 /* ItemDetailView.swift */,
-				B51641492A6AFC0100401BB2 /* ItemDetailViewModel.swift */,
 			);
 			path = ItemDetail;
 			sourceTree = "<group>";
@@ -468,11 +451,11 @@
 				B5EFF2962986B516003AE5F1 /* Responses */,
 				B5F194472A79A76400B4173A /* Park.swift */,
 				B5C4F20B2A741510007930FF /* ParkData.json */,
+				B5A513BF2A79AE1200CAEC1B /* EntityData */,
 				B5F3E08129983BE500E67EF3 /* EntityType.swift */,
 				B5F3E0872998403A00E67EF3 /* LiveQueue.swift */,
 				B5F3E08A2998417D00E67EF3 /* EntityData.swift */,
 				B5F3E08D2998441300E67EF3 /* TagData.swift */,
-				B5A513BF2A79AE1200CAEC1B /* EntityData */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -491,8 +474,6 @@
 		B5F24E18298832C6003FE227 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B51555752A7C78BB0006828E /* ParkRowData.swift */,
-				B52F14642A6D9FDC00E6EF8E /* ParksProvider.swift */,
 				B5E4D2C72A6491C800F750A4 /* ItemDetail */,
 				B595C05E2995560300F80A68 /* Components */,
 				B5F24E19298832DC003FE227 /* Parks */,
@@ -510,7 +491,6 @@
 				B5A513BB2A79A8EF00CAEC1B /* ParkBannerView.swift */,
 				B52F147F2A6DAEA100E6EF8E /* ParkRowView.swift */,
 				B5F24E21298AA0A9003FE227 /* ParksList.swift */,
-				B515556F2A7C78990006828E /* DestinationsViewModel.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -699,27 +679,22 @@
 				B5A14383299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B50156AA2A65E57200FAFCA9 /* Bundle-Decodable.swift in Sources */,
 				B541F4D02A7BEF2700485F0A /* DisneyDataService.swift in Sources */,
-				B51555772A7C78BB0006828E /* ParkRowData.swift in Sources */,
 				B5B92C60299729E1009582BA /* ParksList.swift in Sources */,
 				B5E4D2C22A6342DF00F750A4 /* NetworkingManager.swift in Sources */,
-				B52F14662A6D9FDC00E6EF8E /* ParksProvider.swift in Sources */,
 				B5F3E08C2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */,
-				B516414B2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */,
 				B5E4D2CA2A6495F500F750A4 /* ItemDetailView.swift in Sources */,
 				B5F194492A79A76400B4173A /* Park.swift in Sources */,
 				B554481229969AFA003966F3 /* ParkPlanApp.swift in Sources */,
 				B5E4D2C32A6342E100F750A4 /* Endpoint.swift in Sources */,
 				B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */,
-				B51555712A7C78990006828E /* DestinationsViewModel.swift in Sources */,
 				B52F14812A6DAEA100E6EF8E /* ParkRowView.swift in Sources */,
 				B5F3E07F29983B8E00E67EF3 /* EntityChildrenResponse.swift in Sources */,
 				B59C9E962A7C398700E23BC4 /* EntitiesListView.swift in Sources */,
 				B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */,
 				B5F3E08F2998441300E67EF3 /* TagData.swift in Sources */,
-				B51555742A7C78A90006828E /* DisneyParksView.swift in Sources */,
 				B5A513BD2A79A8EF00CAEC1B /* ParkBannerView.swift in Sources */,
-				B5B92C5B299729A6009582BA /* DestinationsView.swift in Sources */,
+				B5B92C5B299729A6009582BA /* ParksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,9 +702,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51555732A7C78A90006828E /* DisneyParksView.swift in Sources */,
 				B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */,
-				B5EFF29D2987F527003AE5F1 /* DestinationsView.swift in Sources */,
+				B5EFF29D2987F527003AE5F1 /* ParksView.swift in Sources */,
 				B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */,
 				B5A14382299AD5C10022B074 /* ParkOverviewViewModel.swift in Sources */,
 				B5F3E07B29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
@@ -743,13 +717,10 @@
 				B5F24E26298AB4EF003FE227 /* MapTestView.swift in Sources */,
 				B5F3E0882998403A00E67EF3 /* LiveQueue.swift in Sources */,
 				B52F14802A6DAEA100E6EF8E /* ParkRowView.swift in Sources */,
-				B51555762A7C78BB0006828E /* ParkRowData.swift in Sources */,
 				B5E4D2C92A6491F900F750A4 /* ItemDetailView.swift in Sources */,
 				B5D30BE52A7C0FD800A51C2E /* TestHideNavView.swift in Sources */,
 				B5F3E08E2998441300E67EF3 /* TagData.swift in Sources */,
 				B5F3E08229983BE500E67EF3 /* EntityType.swift in Sources */,
-				B516414A2A6AFC0100401BB2 /* ItemDetailViewModel.swift in Sources */,
-				B51555702A7C78990006828E /* DestinationsViewModel.swift in Sources */,
 				B595C0602995562800F80A68 /* LiveDataTagView.swift in Sources */,
 				B5F3E08B2998417D00E67EF3 /* EntityData.swift in Sources */,
 				B595C05D299552AE00F80A68 /* EntityCardView.swift in Sources */,
@@ -762,7 +733,6 @@
 				B5EFF2772985B263003AE5F1 /* ParkPlanApp.swift in Sources */,
 				B595C0472991449C00F80A68 /* ParkDetailRow.swift in Sources */,
 				B5A513BC2A79A8EF00CAEC1B /* ParkBannerView.swift in Sources */,
-				B52F14652A6D9FDC00E6EF8E /* ParksProvider.swift in Sources */,
 				B5EFF2932986A85E003AE5F1 /* StaticJSONMapper.swift in Sources */,
 				B5EFF29B298753D4003AE5F1 /* NetworkingManager.swift in Sources */,
 				B52F14632A6D8BEC00E6EF8E /* PreviewData.swift in Sources */,

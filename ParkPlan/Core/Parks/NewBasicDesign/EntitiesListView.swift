@@ -5,14 +5,14 @@
 //  Created by Hunter Dobbelmann on 8/3/23.
 //
 
+import Algorithms
 import SwiftUI
 
 struct EntitiesListView: View {
 	let park: Park
 	var entities: [Entity]
 
-	@EnvironmentObject var data: DisneyDataService
-	@Environment(\.dismiss) var dismiss
+	@EnvironmentObject var disneyDataService: DisneyDataService
 
 	init(park: Park) {
 		self.park = park
@@ -20,17 +20,17 @@ struct EntitiesListView: View {
 		entities.sort { $0.land.rawValue < $1.land.rawValue }
 	}
 
-	var landChunks: [[Entity]] {
+	var parkLandChunks: [[Entity]] {
 		entities.chunked { $0.land == $1.land }.map { Array($0) }
 	}
 
 	var body: some View {
 		List {
-			Text(data.getOperatingHours(for: park.schedule) ?? "hours")
-			Button("Back") {  }
-			ForEach(landChunks, id: \.self) { lands in
-				Section(lands.first?.land.rawValue ?? "Unknown") {
-					ForEach(lands) { entity in
+			Text(disneyDataService.getOperatingHours(for: park.schedule) ?? "Loading Hours")
+
+			ForEach(parkLandChunks, id: \.self) { parkLands in
+				Section(parkLands.first?.land.rawValue ?? "Unknown") {
+					ForEach(parkLands) { entity in
 						NavigationLink(destination: EntityDetailView(entity: entity)) {
 							VStack(alignment: .leading) {
 								Text(entity.name)

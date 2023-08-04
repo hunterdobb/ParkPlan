@@ -15,7 +15,7 @@ struct ParkPlanApp: App {
     var body: some Scene {
         WindowGroup {
 			TabView {
-				DestinationsView()
+				ParksView()
 					.tabItem {
 						Image(systemName: "square.grid.2x2.fill")
 						Text("Browse")

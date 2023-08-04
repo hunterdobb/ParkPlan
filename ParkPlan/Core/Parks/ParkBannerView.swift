@@ -11,9 +11,7 @@ struct ParkBannerView: View {
 	let park: Park
 
 	/// Tuple value representing color and saturation amount
-	/// color.0 is color
-	/// color.1 is saturation
-	var color: (Color, Double) {
+	var colorData: (color: Color, saturation: Double) {
 		switch park.name {
 		case ParkNames.magicKingdom.rawValue: (Color.blue, 0.5)
 		case ParkNames.epcot.rawValue: (Color.indigo, 0.8)
@@ -23,6 +21,10 @@ struct ParkBannerView: View {
 		}
 	}
 
+	/// String representing the operating hours for current day.
+	/// Returns nil if operating hours are unavailable.
+	///
+	/// Ex: 9:00 AM - 10:00 PM
 	var operatingHours: String? {
 		guard let entries = park.schedule else { return nil }
 
@@ -48,7 +50,8 @@ struct ParkBannerView: View {
 						.clipped() /// prevent blur overflow
 						.mask(blurGradient) /// mask the blurred image using the gradient's alpha values
 
-					colorGradient(color.0).saturation(color.1) /// also add the gradient as an overlay (this time, the purple will show up)
+					colorGradient(colorData.color)
+						.saturation(colorData.saturation) /// also add the gradient as an overlay (this time, the purple will show up)
 
 					HStack {
 						VStack(alignment: .leading) {

@@ -11,7 +11,7 @@ import SwiftUI
 struct ParkPlanApp: App {
 	var body: some Scene {
 		WindowGroup {
-			DestinationsView()
+			ParksView()
 		}
 	}
 }

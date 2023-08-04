@@ -1,5 +1,5 @@
 //
-//  DestinationsView.swift
+//  ParksView.swift
 //  ParkPlan
 //
 //  Created by Hunter Dobbelmann on 1/30/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct DestinationsView: View {
-	let disneyWorld = Bundle.main.decode("ParkData.json", as: Resort.self)
-	@EnvironmentObject var data: DisneyDataService
+struct ParksView: View {
+//	let disneyWorld = Bundle.main.decode("ParkData.json", as: Resort.self)
+	@EnvironmentObject var disneyDataService: DisneyDataService
 
 	var body: some View {
 		NavigationStack {
 			ScrollView {
-				ForEach(data.disneyWorld.parks) { park in
+				ForEach(disneyDataService.parks) { park in
 					NavigationLink {
 						#if os(iOS)
 						EntitiesListView(park: park)
@@ -30,12 +30,12 @@ struct DestinationsView: View {
 					}
 				}
 			}
-			.navigationTitle(disneyWorld.name)
+			.navigationTitle(disneyDataService.resort.name)
 		}
 	}
 }
 
 #Preview {
-	DestinationsView()
+	ParksView()
 		.environmentObject(DisneyDataService())
 }

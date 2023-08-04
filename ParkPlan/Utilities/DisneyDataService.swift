@@ -19,12 +19,12 @@ import Foundation
 
 @MainActor
 class DisneyDataService: ObservableObject {
-	@Published var disneyWorld = Bundle.main.decode("ParkData.json", as: Resort.self)
+	@Published var resort = Bundle.main.decode("ParkData.json", as: Resort.self)
+
+	var parks: [Park] { resort.parks }
 
 	init() {
-		Task {
-			await fetchScheduleData()
-		}
+		Task { await fetchScheduleData() }
 	}
 
 	func fetchScheduleData() async {
@@ -46,15 +46,14 @@ class DisneyDataService: ObservableObject {
 				type: EntityScheduleResponse.self
 			)
 
-			let (mkIndex, epIndex, hsIndex, akIndex) = (0, 1, 2, 3)
-			disneyWorld.parks[mkIndex].schedule = try await mkData.schedule
-			disneyWorld.parks[epIndex].schedule = try await epData.schedule
-			disneyWorld.parks[hsIndex].schedule = try await hsData.schedule
-			disneyWorld.parks[akIndex].schedule = try await akData.schedule
+			let (magic, epcot, holly, animal) = (0, 1, 2, 3)
+			resort.parks[magic].schedule 	= try await mkData.schedule
+			resort.parks[epcot].schedule 	= try await epData.schedule
+			resort.parks[holly].schedule 	= try await hsData.schedule
+			resort.parks[animal].schedule 	= try await akData.schedule
 		} catch {
 			print(error)
 		}
-
 	}
 
 	func getOperatingHours(for entries: [ScheduleEntry]?) -> String? {
