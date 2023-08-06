@@ -21,7 +21,11 @@ struct Resort: Decodable, Identifiable {
 	}
 }
 
-struct Park: Decodable, Identifiable {
+struct Park: Decodable, Identifiable, Hashable {
+	static func == (lhs: Park, rhs: Park) -> Bool {
+		lhs.id == rhs.id
+	}
+	
 	let id: String
 	let name: ParkNames
 	let location: Location
@@ -29,6 +33,14 @@ struct Park: Decodable, Identifiable {
 	let bannerImageName: String
 
 	var parkName: String { name.rawValue }
+
+//	static func == (lhs: Park, rhs: Park) -> Bool {
+//		lhs.id == rhs.id
+//	}
+//
+	func hash(into hasher: inout Hasher) {
+		hasher.combine(id)
+	}
 }
 
 enum ParkNames: String, Decodable {

@@ -13,28 +13,38 @@ struct TeView: View {
 		NavigationStack {
 			NavigationLink("Next") {
 				TestShowNavBarWhenScrolling()
-					.toolbarRole(.editor) /// Removes "Back" text on next screen
+//					.toolbarRole(.editor) /// Removes "Back" text on next screen, but causes animation problems
 			}
+			.navigationTitle("Test")
 		}
 	}
 }
 
 struct TestShowNavBarWhenScrolling: View {
 	@State private var barHidden = true
+	@State private var headerHeight = CGFloat.zero
 
 	var body: some View {
 		ScrollView {
 			VStack {
 				VStack(alignment: .leading) {
-						Text("Space Mountain: Long Title Test")
-							.opacity(barHidden ? 1 : 0)
-							.frame(maxWidth: .infinity, alignment: .leading)
-							.font(.system(.largeTitle, design: .rounded, weight: .heavy))
+					Text("Space Mountain: Long Title Test")
+						.opacity(barHidden ? 1 : 0)
+						.frame(maxWidth: .infinity, alignment: .leading)
+						.font(.system(.largeTitle, design: .rounded, weight: .heavy))
+						.coordinateSpace(name: "header")
+						.background {
+							GeometryReader {
+								Color.clear.preference(
+									key: ViewHeightKey.self,
+									value: $0.frame(in: .named("header")).height
+								)
+							}
+						}
 
-						Text("Tomorrowland • Magic Kingdom")
-							.transition(.move(edge: .top))
-							.font(.body)
-							.foregroundStyle(.secondary)
+					Text("Tomorrowland • Magic Kingdom")
+						.font(.body)
+						.foregroundStyle(.secondary)
 				}
 				.padding(.horizontal)
 
@@ -42,7 +52,7 @@ struct TestShowNavBarWhenScrolling: View {
 					Image(systemName: "rectangle.fill")
 						.resizable()
 						.aspectRatio(contentMode: .fill)
-						.padding()
+						.padding(.horizontal)
 				}
 			}
 			.background {
@@ -54,11 +64,14 @@ struct TestShowNavBarWhenScrolling: View {
 				}
 			}
 			.onPreferenceChange(ViewOffsetKey.self) {
-				if !barHidden && $0 < 50 {
+				if !barHidden && $0 < (headerHeight / 1.5) {
 					barHidden = true
-				} else if barHidden && $0 > 50 {
+				} else if barHidden && $0 > (headerHeight / 1.5) {
 					barHidden = false
 				}
+			}
+			.onPreferenceChange(ViewHeightKey.self) {
+				headerHeight = $0
 			}
 		}
 		.coordinateSpace(name: "scroll")
@@ -70,7 +83,7 @@ struct TestShowNavBarWhenScrolling: View {
 					.font(.system(.headline, design: .rounded, weight: .bold))
 			}
 		}
-		.animation(.default, value: barHidden)
+		.animation(.easeInOut(duration: 0.3), value: barHidden)
 	}
 }
 
@@ -81,6 +94,14 @@ struct TestShowNavBarWhenScrolling_Previews: PreviewProvider {
 }
 
 struct ViewOffsetKey: PreferenceKey {
+	typealias Value = CGFloat
+	static var defaultValue = CGFloat.zero
+	static func reduce(value: inout Value, nextValue: () -> Value) {
+		value += nextValue()
+	}
+}
+
+struct ViewHeightKey: PreferenceKey {
 	typealias Value = CGFloat
 	static var defaultValue = CGFloat.zero
 	static func reduce(value: inout Value, nextValue: () -> Value) {

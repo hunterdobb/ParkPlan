@@ -12,7 +12,7 @@ struct ParkBannerView: View {
 
 	@EnvironmentObject var disneyDataService: DisneyDataService
 
-	/// Tuple value representing color and saturation amount
+	/// Tuple value representing color and saturation amount for banner gradient.
 	var colorData: (color: Color, saturation: Double) {
 		switch park.name {
 		case .magicKingdom: (Color.blue, 0.5)
@@ -21,8 +21,6 @@ struct ParkBannerView: View {
 		case .animalKingdom: (Color.green, 0.5)
 		}
 	}
-
-	
 
 	var body: some View {
 		Image(park.bannerImageName)

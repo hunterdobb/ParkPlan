@@ -39,6 +39,7 @@
 		B554481429969AFB003966F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481329969AFB003966F3 /* Assets.xcassets */; };
 		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
 		B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B55487B92A7DBEB8000E22C2 /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* ParksView.swift */; };
 		B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
 		B595C04329903CC900F80A68 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
 		B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */; };
@@ -57,7 +58,6 @@
 		B5A513BD2A79A8EF00CAEC1B /* ParkBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A513BB2A79A8EF00CAEC1B /* ParkBannerView.swift */; };
 		B5A513C62A7ADB6600CAEC1B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5A513C52A7ADB6600CAEC1B /* Algorithms */; };
 		B5A513C92A7AFF9800CAEC1B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B5A513C82A7AFF9800CAEC1B /* Algorithms */; };
-		B5B92C5B299729A6009582BA /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* ParksView.swift */; };
 		B5B92C60299729E1009582BA /* ParksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F24E21298AA0A9003FE227 /* ParksList.swift */; };
 		B5B92C61299729FA009582BA /* StaticJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF2922986A85E003AE5F1 /* StaticJSONMapper.swift */; };
 		B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
@@ -694,7 +694,7 @@
 				B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */,
 				B5F3E08F2998441300E67EF3 /* TagData.swift in Sources */,
 				B5A513BD2A79A8EF00CAEC1B /* ParkBannerView.swift in Sources */,
-				B5B92C5B299729A6009582BA /* ParksView.swift in Sources */,
+				B55487B92A7DBEB8000E22C2 /* ParksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
