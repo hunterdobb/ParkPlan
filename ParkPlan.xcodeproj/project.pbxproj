@@ -14,7 +14,6 @@
 		B50156AF2A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B02A65EA1C00FAFCA9 /* Attraction1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156AE2A65EA1C00FAFCA9 /* Attraction1LiveData.json */; };
 		B50156B22A65EBB200FAFCA9 /* Show1LiveData.json in Resources */ = {isa = PBXBuildFile; fileRef = B50156B12A65EBB200FAFCA9 /* Show1LiveData.json */; };
-		B51555782A7C7B1C0006828E /* EntityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C9E982A7C3A7300E23BC4 /* EntityDetailView.swift */; };
 		B51641472A6ADB1C00401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
 		B51641482A6ADF5600401BB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51641462A6ADB1C00401BB2 /* Logger.swift */; };
 		B52F14632A6D8BEC00E6EF8E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F14622A6D8BEC00E6EF8E /* PreviewData.swift */; };
@@ -40,6 +39,7 @@
 		B554481729969AFB003966F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B554481629969AFB003966F3 /* Preview Assets.xcassets */; };
 		B554481A29969AFB003966F3 /* ParkPlanWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B554480D29969AFA003966F3 /* ParkPlanWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B55487B92A7DBEB8000E22C2 /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFF29C2987F527003AE5F1 /* ParksView.swift */; };
+		B55487BA2A80351A000E22C2 /* EntityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C9E982A7C3A7300E23BC4 /* EntityDetailView.swift */; };
 		B595C03E298FEFDF00F80A68 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C03D298FEFDF00F80A68 /* Endpoint.swift */; };
 		B595C04329903CC900F80A68 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04229903CC900F80A68 /* ParkDetailView.swift */; };
 		B595C04529903D0E00F80A68 /* ParkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B595C04429903D0E00F80A68 /* ParkDetailViewModel.swift */; };
@@ -672,7 +672,6 @@
 				B5F3E07929983B0F00E67EF3 /* DestinationsResponse.swift in Sources */,
 				B5F3E07629983AD500E67EF3 /* EntityScheduleResponse.swift in Sources */,
 				B5F3E08329983BE500E67EF3 /* EntityType.swift in Sources */,
-				B51555782A7C7B1C0006828E /* EntityDetailView.swift in Sources */,
 				B5F3E0892998403A00E67EF3 /* LiveQueue.swift in Sources */,
 				B51641482A6ADF5600401BB2 /* Logger.swift in Sources */,
 				B5F3E07C29983B4900E67EF3 /* EntityLiveDataResponse.swift in Sources */,
@@ -690,6 +689,7 @@
 				B5B92C6229972AED009582BA /* ParkDetailView.swift in Sources */,
 				B52F14812A6DAEA100E6EF8E /* ParkRowView.swift in Sources */,
 				B5F3E07F29983B8E00E67EF3 /* EntityChildrenResponse.swift in Sources */,
+				B55487BA2A80351A000E22C2 /* EntityDetailView.swift in Sources */,
 				B59C9E962A7C398700E23BC4 /* EntitiesListView.swift in Sources */,
 				B5B92C6329972B06009582BA /* ParkDetailViewModel.swift in Sources */,
 				B5F3E08F2998441300E67EF3 /* TagData.swift in Sources */,

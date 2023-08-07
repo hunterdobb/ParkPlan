@@ -86,12 +86,28 @@ class DisneyDataService: ObservableObject {
 		}
 	}
 
-	func getStandbyWait(for entity: Entity) -> Int? {
+	private func getLiveData(for entity: Entity) -> EntityLiveData? {
 		if let liveData = resort.liveData,
 		   let entityLiveData = liveData.first(where: { entity.id == $0.id }) {
-			return entityLiveData.queue?.standby?.waitTime
+			return entityLiveData
 		} else {
 			return nil
 		}
+	}
+
+	func getStandbyValue(for entity: Entity) -> Int? {
+		guard let entityLiveData = getLiveData(for: entity) else { return nil }
+		return entityLiveData.queue?.standby?.waitTime
+	}
+
+	func getStandbyString(for entity: Entity) -> String? {
+		guard let entityLiveData = getLiveData(for: entity) else { return nil }
+		guard let standby = entityLiveData.queue?.standby?.waitTime else { return nil }
+		return "\(standby) min"
+	}
+
+	func getUpdateTime(for entity: Entity) -> Date? {
+		guard let entityLiveData = getLiveData(for: entity) else { return nil }
+		return entityLiveData.lastUpdated
 	}
 }

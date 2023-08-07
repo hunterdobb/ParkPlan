@@ -21,6 +21,7 @@ struct ParksView: View {
 							.padding(.horizontal)
 					}
 					.buttonStyle(.animated)
+
 				}
 			}
 			.navigationTitle(disneyDataService.resort.name)
@@ -73,8 +74,8 @@ struct AnimatedButton: ButtonStyle {
 	func makeBody(configuration: Configuration) -> some View {
 		configuration.label
 			.scaleEffect(configuration.isPressed ? 0.95 : 1)
-			.saturation(configuration.isPressed ? 1.4 : 1)
-			.animation(.easeOut(duration: 0.2), value: configuration.isPressed)
+//			.saturation(configuration.isPressed ? 1.4 : 1)
+			.animation(.interactiveSpring(duration: 0.15, extraBounce: 0.35, blendDuration: 0.25), value: configuration.isPressed)
 	}
 }
 

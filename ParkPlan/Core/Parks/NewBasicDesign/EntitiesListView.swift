@@ -39,8 +39,8 @@ struct EntitiesListView: View {
 								HStack(spacing: 0) {
 									Text("\(entity.entityType.rawValue.capitalized)")
 
-									if let standby = disneyDataService.getStandbyWait(for: entity) {
-										Text(" • \(standby) min")
+									if let standbyString = disneyDataService.getStandbyString(for: entity) {
+										Text(" • \(standbyString)")
 									}
 
 

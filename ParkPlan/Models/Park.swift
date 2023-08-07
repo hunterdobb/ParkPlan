@@ -62,7 +62,20 @@ struct Entity: Decodable, Identifiable, Hashable {
 	let longitude: Double
 	let description: String
 
-	static var magicKingdomEntities: [Entity] = Bundle.main.decode("MagicKingdomData.json")
+	static var example = Entity(
+		id: "e516f303-e82d-4fd3-8fbf-8e6ab624cf89",
+		name: "Rock 'n' Roller Coaster Starring Aerosmith",
+		shortName: "Rock 'n' Roller Coaster",
+		land: LandType.sunsetBoulevard,
+		entityType: EntityType.attraction,
+		slug: "rocknrollercoasterstarringaerosmith",
+		externalId: "80010182;entityType=Attraction",
+		latitude: 28.359712,
+		longitude: -81.56059,
+		description: "Buckle up for an adrenaline-pumping rock 'n' roll journey with Aerosmith. This high-speed indoor coaster launches you into the music world, featuring loops, corkscrews, and a rocking soundtrack. Feel the rush as you ride through the neon-lit Hollywood backdrop, making this attraction a must-do for thrill-seekers and music enthusiasts alike."
+	)
+
+//	static var magicKingdomEntities: [Entity] = Bundle.main.decode("MagicKingdomData.json")
 
 //	static func == (lhs: Entity, rhs: Entity) -> Bool {
 //		lhs.id == rhs.id

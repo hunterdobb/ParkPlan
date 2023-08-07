@@ -93,18 +93,18 @@ struct TestShowNavBarWhenScrolling_Previews: PreviewProvider {
 	}
 }
 
-struct ViewOffsetKey: PreferenceKey {
-	typealias Value = CGFloat
-	static var defaultValue = CGFloat.zero
-	static func reduce(value: inout Value, nextValue: () -> Value) {
-		value += nextValue()
-	}
-}
-
-struct ViewHeightKey: PreferenceKey {
-	typealias Value = CGFloat
-	static var defaultValue = CGFloat.zero
-	static func reduce(value: inout Value, nextValue: () -> Value) {
-		value += nextValue()
-	}
-}
+//struct ViewOffsetKey: PreferenceKey {
+//	typealias Value = CGFloat
+//	static var defaultValue = CGFloat.zero
+//	static func reduce(value: inout Value, nextValue: () -> Value) {
+//		value += nextValue()
+//	}
+//}
+//
+//struct ViewHeightKey: PreferenceKey {
+//	typealias Value = CGFloat
+//	static var defaultValue = CGFloat.zero
+//	static func reduce(value: inout Value, nextValue: () -> Value) {
+//		value += nextValue()
+//	}
+//}
